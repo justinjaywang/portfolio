@@ -1,0 +1,52 @@
+
+  Justin Wang
+  Product Designer
+
+  justinjaywang.com
+  hello@justinjaywang.com
+  Berkeley CA, USA
+
+  Education
+  ---------
+  UC Berkeley, BS/MS Mechanical Engineering
+  - 2008 to present
+  - Focus in Human-Centered Design
+  - Courses in New Product Development, UI Design, 
+    Web-Based Product Design, Mobile UX
+
+  Experience
+  ----------
+  Duncan/Channon, Maker Intern
+  - 2012
+  - Microcontroller-based project that explores
+    human interaction with smart, social objects
+  - Arduino IDE code
+  - Physical design and fabrication
+  - Website design and development
+
+  Startup V8, Graphic & Usability Designer
+  - 2011
+  - Website wireframes, mockups, usability, and
+    logo design for various clients
+
+  Student Groups
+  --------------
+  Berkeley Innovation, Designer
+  - 2010 to present
+  - Human-centered design projects each semester
+
+  BARE Magazine, Layout Designer
+  - 2011 to present
+  - Layout spreads for each publication
+  - Rebranding
+
+  Skills
+  ------
+  Adobe Creative Suite, HTML, CSS, JavaScript, 
+  Python, Arduino, SolidWorks, AutoCAD, MATLAB
+
+  Interests
+  ---------
+  Sports, guitar, drums, indie music, lo-fi
+  photography, and Haruki Murakami novels
+
