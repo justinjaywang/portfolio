@@ -16,9 +16,6 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
   margin: 0;
   background: #fff;
   color: #777;
@@ -189,6 +186,9 @@ a:hover {
   font: 600 20px/20px 'helvetica';
   color: #f66;
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 .project-title-meta {
   margin: 6px 0 0;
