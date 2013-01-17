@@ -9,25 +9,26 @@
   Education
   ---------
   UC Berkeley, BS/MS Mechanical Engineering
-  - 2008 to present
+  - 2008 to 2012
   - Focus in Human-Centered Design
   - Courses in New Product Development, UI Design, 
     Web-Based Product Design, Mobile UX
 
   Experience
   ----------
+  Vertigo Software, Creative Developer
+  - 2012 to present
+
   Duncan/Channon, Maker Intern
   - 2012
-  - Microcontroller-based project that explores
-    human interaction with smart, social objects
-  - Arduino IDE code
   - Physical design and fabrication
+  - Microcontroller code
   - Website design and development
 
   Startup V8, Graphic & Usability Designer
   - 2011
-  - Website wireframes, mockups, usability, and
-    logo design for various clients
+  - Website wireframes and mockups, usability 
+    improvements, and logo design
 
   Student Groups
   --------------
