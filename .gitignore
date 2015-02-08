@@ -1,13 +1,3 @@
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
-*~
 .DS_Store
 Thumbs.db
 db.json
@@ -15,5 +5,4 @@ node_modules/
 debug.log
 public/
 .deploy/
-archive/
-meta/
+_meta/
