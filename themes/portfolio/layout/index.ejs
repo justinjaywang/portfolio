@@ -1,0 +1,5 @@
+<main class="page-main">
+<% page.posts.each(function(post){ %>
+  <%- partial('_partials/post-preview', {post: post}) %>
+<% }) %>
+</main>
