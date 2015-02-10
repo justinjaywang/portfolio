@@ -1,5 +1,6 @@
 title: {{ title }}
-date: {{ date }}
+date:
+ongoing:
 thumbnail:
 description:
 color:

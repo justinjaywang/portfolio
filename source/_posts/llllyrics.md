@@ -1,14 +1,12 @@
 title: llllyrics
-date: 2015-02-10 13:49:16
+date: 2014
+ongoing:
 thumbnail:
 description:
 color:
 case_study: true
 categories:
-- public
 tags:
-- personal
-- web
 ---
 
 This is the body of the llllyrics page.

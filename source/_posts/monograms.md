@@ -1,6 +1,6 @@
-title: {{ title }}
-date:
-ongoing:
+title: Monograms
+date: 2011
+ongoing: true
 thumbnail:
 description:
 color:

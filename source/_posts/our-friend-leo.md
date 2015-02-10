@@ -1,10 +1,10 @@
-title: 90s Ipsum
-date: 2013
+title: Our Friend Leo
+date: 2011
 ongoing:
 thumbnail:
 description:
 color:
-case_study: false
+case_study:
 categories:
 tags:
 ---
