@@ -15,7 +15,7 @@ language: en-US
 url: http://justinjaywang.com
 root: /
 permalink: :title/
-tag_dir: tagged
+tag_dir: tag
 archive_dir: archive
 category_dir: category
 code_dir: downloads/code
