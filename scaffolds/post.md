@@ -1,7 +1,9 @@
 title: {{ title }}
 date: {{ date }}
-subtitle:
 thumbnail:
+description:
 color:
+case_study:
+categories:
 tags:
 ---
