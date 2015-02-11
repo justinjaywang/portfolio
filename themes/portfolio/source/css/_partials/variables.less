@@ -126,20 +126,19 @@
 // : font-style applications
 @font-style--pre-em: italic;
 // : line-height-variables
-@line-height-tightest: 1.1;
 @line-height-tighter:  1.2248;
-@line-height-tight:    1.3;
+@line-height-tight:    1.286;
 @line-height-base:     1.429;
 @line-height-loose:    1.531;
-@line-height-looser:   1.6;
 // : line-height-applications
-@line-height--body:      @line-height-base;
-@line-height--h1:        @line-height-tighter;
-@line-height--h2:        @line-height-tight;
-@line-height--h3:        @line-height-tight;
-@line-height--code:      @line-height-base;
-@line-height--underline: @line-height-tighter;
-@line-height--p-lead:    @line-height-loose;
+@line-height--body:                @line-height-base;
+@line-height--h1:                  @line-height-tighter;
+@line-height--h2:                  @line-height-tight;
+@line-height--h3:                  @line-height-tight;
+@line-height--code:                @line-height-base;
+@line-height--underline:           @line-height-tighter;
+@line-height--post-figure-caption: @line-height-tight;
+@line-height--p-lead:              @line-height-loose;
 // : letter-spacing-variables
 @letter-spacing-tighter: -0.03em;
 @letter-spacing-tight:   -0.02em;
@@ -165,6 +164,7 @@
 @margin-bottom--post-header:            0; // TEMP
 @margin-bottom--post-content-text:      @line-height;
 @margin-top--post-figure-caption:       @size-rem-nano;
+@padding-left--post-figure-caption:     @container-gutter;
 @margin-top--post-content-h1:           0; // TO DO: edit
 @margin-top--post-content-h2:           (@line-height * 2);
 @margin-top--post-content-h3:           (@line-height * 2);

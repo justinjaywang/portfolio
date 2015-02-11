@@ -218,24 +218,32 @@ strong {
   .img-responsive();
 }
 .post-figure-caption {
-  color: @color--post-figure-caption;
   font-size: @font-size--post-figure-caption;
+  line-height: @line-height--post-figure-caption;
   font-weight: @font-weight--post-figure-caption;
   text-align: center;
+  color: @color--post-figure-caption;
   margin-top: @margin-top--post-figure-caption;
+  padding: 0 @padding-left--post-figure-caption;
 }
 .post-figure--left .post-figure-caption {
   text-align: left;
 }
 
 // responsiveness
-// : medium screens
+// : small screens and larger
+@media (min-width: @width-screen-sm-min) {
+  .post-figure--left .post-figure-caption {
+    padding-left: 0
+  }
+}
+// : medium screens and smaller
 @media (max-width: @width-screen-md-max) {
   .container--wide {
     max-width: 100%;
   }
 }
-// : small screens
+// : small screens and smaller
 @media (max-width: @width-screen-sm-max) {
   // body {
   //   font-size: @font-size--body-sm;
