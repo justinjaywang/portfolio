@@ -19,11 +19,15 @@ Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctu
 Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
 
 ![This is the image caption.](https://raw.githubusercontent.com/justinjaywang/images/master/screenshots--llllyrics/album-v2.png)
-![This is a wide image.](https://dl.dropbox.com/u/4291520/journal-images/philippines-1.jpg)
+<img class="wide" src="https://dl.dropbox.com/u/4291520/journal-images/philippines-1.jpg" alt="This is a wide image." />
 
-![Left-floated image.](https://d262ilb51hltx0.cloudfront.net/fit/c/800/800/1*oRK4kmFXYzkrlFkum8Jwgw.png)
+<img class="full" src="https://dl.dropbox.com/u/4291520/journal-images/aliso-and-wood-canyons-3.jpg" alt="This is a full image." />
+
+<img class="left" src="https://d262ilb51hltx0.cloudfront.net/fit/c/800/800/1*oRK4kmFXYzkrlFkum8Jwgw.png" alt="Left-floated image." />
 
 Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur  massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur  massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
 
