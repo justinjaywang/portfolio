@@ -28,7 +28,8 @@
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 680px;
-@width-screen-lg-min: 1104px;
+@width-screen-lg-min: 1020px;
+@width-screen-xs-max: (@width-screen-sm-min - 1);
 @width-screen-sm-max: (@width-screen-md-min - 1);
 @width-screen-md-max: (@width-screen-lg-min - 1);
 
@@ -133,7 +134,7 @@
 @margin-bottom--post-content-h1:        0.2em; // TO DO: edit
 @margin-bottom--post-content-h2:        0.2em; // TO DO: edit
 @margin-bottom--post-content-h3:        0.2em; // TO DO: edit
-@padding-left--list:                    2.4em; // TO DO: variable-ize
+@padding-left--list:                    (36px + @container-gutter); // TO DO: variable-ize
 @padding-left--code:                    0.3333em; // TO DO: variable-ize
 @padding-top--code:                     0.1667em; // TO DO: variable-ize
 @padding-left--pre:                     1em; // TO DO: variable-ize
@@ -143,8 +144,8 @@
 @margin-right--post-content-list-item:  -@width--post-content-list-item;
 @padding-right--post-content-list-item: 0.6em; // TO DO: edit
 @left--blockquote:                      @padding-left--list;
-@padding-left--blockquote:              1.4em;
-@margin-left--blockquote:               (@padding-left--list - @padding-left--blockquote);
+@padding-left--blockquote:              @container-gutter;
+@margin-left--blockquote:               (@padding-left--list - @container-gutter - @padding-left--blockquote);
 
 // miscellaneous
 @width--hr:              5em; // TO DO: edit

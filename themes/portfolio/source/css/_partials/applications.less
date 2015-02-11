@@ -32,12 +32,17 @@ body {
   .margin-center();
 }
 .container--narrow {
+  &:extend(.container);
   max-width: @max-width--container--narrow;
   padding-left: @container-gutter;
   padding-right: @container-gutter;
 }
 .container--wide {
+  &:extend(.container);
   max-width: @max-width--container--wide;
+}
+.container--full {
+  &:extend(.container);
 }
 
 // typography
@@ -99,15 +104,10 @@ pre {
   padding: @padding-top--pre @padding-left--pre;
 }
 hr {
-  width: @width--hr;
+  width: @width--hr !important; // TO DO: see if this can be eliminated
   margin: @margin-top--hr auto @margin-bottom--hr;
   border: 0;
   border-top: @border-top--hr;
-}
-blockquote {
-  padding-left: @padding-left--blockquote;
-  margin-left: @margin-left--blockquote;
-  box-shadow: @box-shadow--blockquote;
 }
 
 // posts
@@ -121,10 +121,15 @@ blockquote {
 .post-content > p,
 .post-content > ol,
 .post-content > ul,
-.post-content > blockquote,
-.post-content > figure {
+.post-content > blockquote {
   font-family: @font-family--post-content-text;
   margin-bottom: @margin-bottom--post-content-text;
+}
+.post-content > blockquote > p {
+  padding-left: @padding-left--blockquote;
+  margin-left: @margin-left--blockquote;
+  box-shadow: @box-shadow--blockquote;
+  clear: both;
 }
 .post-content > h1 {
   margin-bottom: @margin-bottom--post-content-h1;
@@ -137,9 +142,12 @@ blockquote {
 }
 .post-content > ol,
 .post-content > ul {
-  padding-left: @padding-left--list;
+  padding-left: @padding-left--list !important;
   list-style-type: none;
   counter-reset: decimal-counter;
+}
+.post-content > *:not(.post-figure) {
+  &:extend(.container--narrow);
 }
 .post-content > ol li:before,
 .post-content > ul li:before {
@@ -154,6 +162,52 @@ blockquote {
   padding-right: @padding-right--post-content-list-item;
   color: @color--post-content-list-item;
 }
-.post-content img {
+.post-figure {
+
+}
+.post-figure--default {
+  &:extend(.container--narrow);
+}
+.post-figure--wide {
+  &:extend(.container--wide);
+}
+.post-figure--full {
+  &:extend(.container--full);
+}
+.post-figure--left {
+  float: left;
+  width: 50%;
+  margin-right: @container-gutter;
+}
+.post-figure img {
   .img-responsive();
+}
+.post-figure-caption {
+  text-align: center;
+}
+.post-figure--left .post-figure-caption {
+  text-align: left;
+}
+
+// responsiveness
+// : medium screens
+@media (max-width: @width-screen-md-max) {
+  .container--wide {
+    max-width: 100%;
+  }
+}
+// : small screens
+@media (max-width: @width-screen-sm-max) {
+  // body {
+  //   font-size: @font-size--body-sm;
+  // }
+}
+// : extra small screens
+@media (max-width: @width-screen-xs-max) {
+  .post-figure--left {
+    width: 100%;
+  }
+  .post-figure--left .post-figure-caption {
+    text-align: center;
+  }
 }
