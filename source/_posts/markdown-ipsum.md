@@ -1,4 +1,4 @@
-title: Markdown Ipsum
+title: Our Friend Leo
 date: 2015-02-10 14:50:36
 ongoing:
 thumbnail:
@@ -9,10 +9,7 @@ categories:
 tags:
 ---
 
-Markdown Ipsum Presents
-=======================
-
-**Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. _Aenean ultricies mi vitae est_. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, `commodo vitae`, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum  rutrum orci, sagittis tempus lacus enim ac dui. [Donec non enim](#) in turpis pulvinar facilisis. Ut felis.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. _Aenean ultricies mi vitae est_. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, `commodo vitae`, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum  rutrum orci, sagittis tempus lacus enim ac dui. [Donec non enim](#) in **turpis pulvinar facilisis**. Ut felis.
 
 Header Level 2
 --------------
@@ -21,9 +18,12 @@ Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctu
 
 Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+![This is the image caption.](https://raw.githubusercontent.com/justinjaywang/images/master/screenshots--llllyrics/album-v2.png)
+![This is a wide image.](https://dl.dropbox.com/u/4291520/journal-images/philippines-1.jpg)
 
+![Left-floated image.](https://d262ilb51hltx0.cloudfront.net/fit/c/800/800/1*oRK4kmFXYzkrlFkum8Jwgw.png)
+
+Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur  massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
 
