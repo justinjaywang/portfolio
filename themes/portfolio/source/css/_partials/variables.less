@@ -9,15 +9,17 @@
 @color-gray-lightest: rgba(0,0,0,0.04);
 @color-white:         rgb(255,255,255);
 // : applications
-@background-color--body: @color-white;
-@color--body:            @color-gray-darker;
-@color--a:               inherit;
-@background-color--code: @color-gray-lightest;
-@color--pre-subdued:     @color-gray-light;
-@color--pre-normal:      @color-gray-darkest;
-@color--pre-alt:         @color-gray;
-@color--pre-em:          @color-gray-darkest;
-@color--pre-strong:      @color-gray-darkest;
+@background-color--body:        @color-white;
+@color--body:                   @color-gray-darker;
+@color--a:                      inherit;
+@background-color--code:        @color-gray-lightest;
+@color--pre-subdued:            @color-gray-light;
+@color--pre-normal:             @color-gray-darkest;
+@color--pre-alt:                @color-gray;
+@color--pre-em:                 @color-gray-darkest;
+@color--pre-strong:             @color-gray-darkest;
+@color--post-content-list-item: @color-gray-light;
+@color--border-top--hr:         @color-gray-lighter;
 
 // typography
 // : font-size-variables
@@ -66,7 +68,7 @@
 @font-weight-normal:    400;
 @font-weight-semilight: 300;
 // : font-weight-applications
-@font-weight--headings:    @font-weight-bold;
+@font-weight--headings:    @font-weight-normal;
 @font-weight--pre-subdued: @font-weight-normal;
 @font-weight--pre-normal:  @font-weight-normal;
 @font-weight--pre-alt:     @font-weight-normal;
@@ -98,4 +100,23 @@
 @letter-spacing--headings: @letter-spacing-base;
 
 // spacing
-@margin-bottom--page-main: 0;
+@margin-bottom--page-main:              0;
+@margin-bottom--post-content-text:      unit(@line-height-tight, em);
+@margin-bottom--post-content-h1:        0.25em; // TO DO: edit
+@margin-bottom--post-content-h2:        0.25em; // TO DO: edit
+@margin-bottom--post-content-h3:        0.25em; // TO DO: edit
+@padding-left--list:                    3em; // TO DO: variable-ize
+@padding-left--code:                    0.3333em; // TO DO: variable-ize
+@padding-top--code:                     0.1667em; // TO DO: variable-ize
+@padding-left--pre:                     1em; // TO DO: variable-ize
+@padding-top--pre:                      1em; // TO DO: variable-ize
+@width--post-content-list-item:         2.4em; // TO DO: edit
+@left--post-content-list-item:          -@width--post-content-list-item;
+@margin-right--post-content-list-item:  -@width--post-content-list-item;
+@padding-right--post-content-list-item: 0.6em; // TO DO: edit
+
+// miscellaneous
+@width--hr:              5em; // TO DO: edit
+@margin-top--hr:         2.6em; // TO DO: edit
+@margin-bottom--hr:      2.6em; // TO DO: edit
+@border-top--hr:         1px solid @color--border-top--hr; // TO DO: edit

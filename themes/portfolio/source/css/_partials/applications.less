@@ -74,3 +74,52 @@ samp {
   overflow: auto;
   white-space: pre-wrap;
 }
+code {
+  padding: @padding-top--code @padding-left--code;
+}
+pre {
+  padding: @padding-top--pre @padding-left--pre;
+}
+hr {
+  width: @width--hr;
+  margin: @margin-top--hr auto @margin-bottom--hr;
+  border: 0;
+  border-top: @border-top--hr;
+}
+
+// posts
+.post-content > p,
+.post-content > ol,
+.post-content > ul,
+.post-content > blockquote,
+.post-content > figure {
+  margin-bottom: @margin-bottom--post-content-text;
+}
+.post-content > h1 {
+  margin-bottom: @margin-bottom--post-content-h1;
+}
+.post-content > h2 {
+  margin-bottom: @margin-bottom--post-content-h2;
+}
+.post-content > h3 {
+  margin-bottom: @margin-bottom--post-content-h3;
+}
+.post-content > ol,
+.post-content > ul {
+  padding-left: @padding-left--list;
+  list-style-type: none;
+  counter-reset: decimal-counter;
+}
+.post-content > ol li:before,
+.post-content > ul li:before {
+  content: counter(decimal-counter);
+  counter-increment: decimal-counter;
+  position: relative;
+  text-align: right;
+  display: inline-block;
+  width: @width--post-content-list-item;
+  left: @left--post-content-list-item;
+  margin-right: @margin-right--post-content-list-item;
+  padding-right: @padding-right--post-content-list-item;
+  color: @color--post-content-list-item;
+}

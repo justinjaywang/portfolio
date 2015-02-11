@@ -2,7 +2,7 @@
   <header class="post-header">
     <a href="<%- url_for(post.path) %>">
       <%- partial('post-date', {date_format: config.date_format}) %>
-      <h1 class="post-title"><%= post.title %></h1>
+      <h4 class="post-title"><%= post.title %></h4>
     </a>
   </header>
   <section class="post-content">
