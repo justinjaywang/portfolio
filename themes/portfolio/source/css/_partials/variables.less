@@ -12,6 +12,9 @@
 @background-color--body:        @color-white;
 @color--body:                   @color-gray-darker;
 @color--a:                      inherit;
+@color--h1:                     inherit;
+@color--h2:                     inherit;
+@color--h3:                     @color-gray-light;
 @background-color--code:        @color-gray-lightest;
 @color--pre-subdued:            @color-gray-light;
 @color--pre-normal:             @color-gray-darkest;
@@ -20,22 +23,37 @@
 @color--pre-strong:             @color-gray-darkest;
 @color--post-content-list-item: @color-gray-light;
 @color--border-top--hr:         @color-gray-lighter;
+@color--box-shadow--blockquote: @color-gray-lighter;
+@color--underline:              fade(@color--body, 20%);
+// screen widths
+@width-screen-sm-min: 480px;
+@width-screen-md-min: 680px;
+@width-screen-lg-min: 1104px;
+@width-screen-sm-max: (@width-screen-md-min - 1);
+@width-screen-md-max: (@width-screen-lg-min - 1);
+
+// layout
+@container-gutter:             20px;
+@max-width--container--narrow: @width-screen-md-min;
+@max-width--container--wide:   (@width-screen-lg-min - @container-gutter * 2);
+
+// sizing
+@size-tera:     3;
+@size-giga:     2;
+@size-mega:     1.75;
+@size-largest:  1.5;
+@size-larger:   1.3333;
+@size-large:    1.1667;
+@size-base:     1;
+@size-small:    0.9167;
+@size-smaller:  0.8333;
+@size-smallest: 0.75;
+@size-micro:    0.6667;
 
 // typography
 // : font-size-variables
 @font-size-px-base:      17.5px;
 @font-size-px-base-sm:   16px;
-@font-size-rem-tera:     3rem;
-@font-size-rem-giga:     2rem;
-@font-size-rem-mega:     1.75rem;
-@font-size-rem-largest:  1.5rem;
-@font-size-rem-larger:   1.3333rem;
-@font-size-rem-large:    1.1667rem;
-@font-size-rem-base:     1rem;
-@font-size-rem-small:    0.9167rem;
-@font-size-rem-smaller:  0.8333rem;
-@font-size-rem-smallest: 0.75rem;
-@font-size-rem-micro:    0.6667rem;
 @font-size-em-tera:      3em;
 @font-size-em-giga:      2em;
 @font-size-em-mega:      1.75em;
@@ -50,25 +68,33 @@
 // : font-size-applications
 @font-size--html: @font-size-px-base;
 @font-size--body: @font-size-em-base;
-@font-size--h1:   @font-size-em-mega;
-@font-size--h2:   @font-size-em-largest;
-@font-size--h3:   @font-size-em-larger;
+@font-size--h1:   @font-size-em-giga;
+@font-size--h2:   @font-size-em-mega;
+@font-size--h3:   @font-size-em-mega;
 @font-size--p:    @font-size-em-base;
 @font-size--code: @font-size-em-smaller;
 // : font-family-variables
-@font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif: "Franklin Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      Georgia, "Times New Roman", Times, serif;
+// @font-family-sans-serif: "PT Sans";
+@font-family-serif: "PT Serif"; // TEMP
 @font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
+@font-family-serif-alt: "PT Serif Caption"; // TEMP
 // : font-family-applications
-@font-family--body:     @font-family-serif;
-@font-family--headings: @font-family-sans-serif;
-@font-family--code:     @font-family-monospace;
+@font-family--body:              @font-family-sans-serif;
+@font-family--headings:          @font-family-sans-serif;
+@font-family--code:              @font-family-monospace;
+@font-family--post-content-text: @font-family-serif;
+@font-family--alt:               @font-family-serif-alt;
 // : font-weight-variables
 @font-weight-bold:      700;
 @font-weight-normal:    400;
 @font-weight-semilight: 300;
 // : font-weight-applications
-@font-weight--headings:    @font-weight-normal;
+@font-weight--headings:    @font-weight-bold;
+@font-weight--h1:          @font-weight-bold;
+@font-weight--h2:          @font-weight-bold;
+@font-weight--h3:          @font-weight-semilight;
 @font-weight--pre-subdued: @font-weight-normal;
 @font-weight--pre-normal:  @font-weight-normal;
 @font-weight--pre-alt:     @font-weight-normal;
@@ -84,11 +110,12 @@
 @line-height-loose:    1.5;
 @line-height-looser:   1.6;
 // : line-height-applications
-@line-height--body: @line-height-base;
-@line-height--h1:   @line-height-tighter;
-@line-height--h2:   @line-height-tight;
-@line-height--h3:   @line-height-tight;
-@line-height--code: @line-height-base;
+@line-height--body:      @line-height-base;
+@line-height--h1:        @line-height-tighter;
+@line-height--h2:        @line-height-tight;
+@line-height--h3:        @line-height-tight;
+@line-height--code:      @line-height-base;
+@line-height--underline: @line-height-tighter;
 // : letter-spacing-variables
 @letter-spacing-tighter: -0.04em;
 @letter-spacing-tight:   -0.02em;
@@ -101,11 +128,12 @@
 
 // spacing
 @margin-bottom--page-main:              0;
+@margin-bottom--post-header:            0.4em; // TEMP
 @margin-bottom--post-content-text:      unit(@line-height-tight, em);
-@margin-bottom--post-content-h1:        0.25em; // TO DO: edit
-@margin-bottom--post-content-h2:        0.25em; // TO DO: edit
-@margin-bottom--post-content-h3:        0.25em; // TO DO: edit
-@padding-left--list:                    3em; // TO DO: variable-ize
+@margin-bottom--post-content-h1:        0.2em; // TO DO: edit
+@margin-bottom--post-content-h2:        0.2em; // TO DO: edit
+@margin-bottom--post-content-h3:        0.2em; // TO DO: edit
+@padding-left--list:                    2.4em; // TO DO: variable-ize
 @padding-left--code:                    0.3333em; // TO DO: variable-ize
 @padding-top--code:                     0.1667em; // TO DO: variable-ize
 @padding-left--pre:                     1em; // TO DO: variable-ize
@@ -114,9 +142,15 @@
 @left--post-content-list-item:          -@width--post-content-list-item;
 @margin-right--post-content-list-item:  -@width--post-content-list-item;
 @padding-right--post-content-list-item: 0.6em; // TO DO: edit
+@left--blockquote:                      @padding-left--list;
+@padding-left--blockquote:              1.4em;
+@margin-left--blockquote:               (@padding-left--list - @padding-left--blockquote);
 
 // miscellaneous
 @width--hr:              5em; // TO DO: edit
 @margin-top--hr:         2.6em; // TO DO: edit
 @margin-bottom--hr:      2.6em; // TO DO: edit
 @border-top--hr:         1px solid @color--border-top--hr; // TO DO: edit
+@box-shadow--blockquote: inset 3px 0 @color--box-shadow--blockquote;
+@y--underline:           (@font-size--p * @line-height--underline);
+
