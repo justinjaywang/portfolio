@@ -6,7 +6,7 @@
 @color-gray:          rgba(0,0,0,0.4);
 @color-gray-light:    rgba(0,0,0,0.25);
 @color-gray-lighter:  rgba(0,0,0,0.125);
-@color-gray-lightest: rgba(0,0,0,0.04);
+@color-gray-lightest: rgba(0,0,0,0.06);
 @color-white:         rgb(255,255,255);
 // : applications
 @background-color--body:        @color-white;
@@ -15,7 +15,7 @@
 @color--h1:                     inherit;
 @color--h2:                     inherit;
 @color--h3:                     @color-gray-light;
-@color--post-figure-caption:    @color-gray;
+@color--post-figure-caption:    @color-gray-light;
 @background-color--code:        @color-gray-lightest;
 @color--pre-subdued:            @color-gray-light;
 @color--pre-normal:             @color-gray-darkest;
@@ -40,42 +40,60 @@
 @max-width--container--wide:   (@width-screen-lg-min - @container-gutter * 2);
 
 // sizing
-@size-tera:     3;
-@size-giga:     2;
-@size-mega:     1.75;
-@size-largest:  1.5;
-@size-larger:   1.3333;
-@size-large:    1.1667;
-@size-base:     1;
-@size-small:    0.9167;
-@size-smaller:  0.8333;
-@size-smallest: 0.75;
-@size-micro:    0.6667;
+@size-tera:         3;
+@size-giga:         2;
+@size-mega:         1.75;
+@size-largest:      1.5;
+@size-larger:       1.3333;
+@size-large:        1.1667;
+@size-base:         1;
+@size-small:        0.9167;
+@size-smaller:      0.8333;
+@size-smallest:     0.75;
+@size-micro:        0.6667;
+@size-nano:         0.5;
+@size-pico:         0.3333;
+@size-em-tera:      unit(@size-tera, em);
+@size-em-giga:      unit(@size-giga, em);
+@size-em-mega:      unit(@size-mega, em);
+@size-em-largest:   unit(@size-largest, em);
+@size-em-larger:    unit(@size-larger, em);
+@size-em-large:     unit(@size-large, em);
+@size-em-base:      unit(@size-base, em);
+@size-em-small:     unit(@size-small, em);
+@size-em-smaller:   unit(@size-smaller, em);
+@size-em-smallest:  unit(@size-smallest, em);
+@size-em-micro:     unit(@size-micro, em);
+@size-em-nano:      unit(@size-nano, em);
+@size-em-pico:      unit(@size-pico, em);
+@size-rem-tera:     unit(@size-tera, rem);
+@size-rem-giga:     unit(@size-giga, rem);
+@size-rem-mega:     unit(@size-mega, rem);
+@size-rem-largest:  unit(@size-largest, rem);
+@size-rem-larger:   unit(@size-larger, rem);
+@size-rem-large:    unit(@size-large, rem);
+@size-rem-base:     unit(@size-base, rem);
+@size-rem-small:    unit(@size-small, rem);
+@size-rem-smaller:  unit(@size-smaller, rem);
+@size-rem-smallest: unit(@size-smallest, rem);
+@size-rem-micro:    unit(@size-micro, rem);
+@size-rem-nano:     unit(@size-nano, rem);
+@size-rem-pico:     unit(@size-pico, rem);
 
 // typography
 // : font-size-variables
-@font-size-px-base:      17.5px;
-@font-size-px-base-sm:   16px;
-@font-size-em-tera:      3em;
-@font-size-em-giga:      2em;
-@font-size-em-mega:      1.75em;
-@font-size-em-largest:   1.5em;
-@font-size-em-larger:    1.3333em;
-@font-size-em-large:     1.1667em;
-@font-size-em-base:      1em;
-@font-size-em-small:     0.9167em;
-@font-size-em-smaller:   0.8333em;
-@font-size-em-smallest:  0.75em;
-@font-size-em-micro:     0.6667em;
+@font-size-px-base:    17.5px;
+@font-size-px-base-sm: 16px;
 // : font-size-applications
 @font-size--html:                @font-size-px-base;
-@font-size--body:                @font-size-em-base;
-@font-size--h1:                  @font-size-em-giga;
-@font-size--h2:                  @font-size-em-mega;
-@font-size--h3:                  @font-size-em-mega;
-@font-size--p:                   @font-size-em-base;
-@font-size--code:                @font-size-em-smaller;
-@font-size--post-figure-caption: @font-size-em-small;
+@font-size--body:                @size-em-base;
+@font-size--h1:                  @size-em-mega;
+@font-size--h2:                  @size-em-mega;
+@font-size--h3:                  @size-em-mega;
+@font-size--p:                   @size-em-base;
+@font-size--p-lead:              @size-em-large;
+@font-size--code:                @size-em-smaller;
+@font-size--post-figure-caption: @size-em-smaller;
 // : font-family-variables
 @font-family-sans-serif: "Franklin Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      Georgia, "Times New Roman", Times, serif;
@@ -94,24 +112,25 @@
 @font-weight-normal:    400;
 @font-weight-semilight: 300;
 // : font-weight-applications
-@font-weight--headings:    @font-weight-bold;
-@font-weight--h1:          @font-weight-bold;
-@font-weight--h2:          @font-weight-normal;
-@font-weight--h3:          @font-weight-normal;
-@font-weight--pre-subdued: @font-weight-normal;
-@font-weight--pre-normal:  @font-weight-normal;
-@font-weight--pre-alt:     @font-weight-normal;
-@font-weight--pre-em:      @font-weight-normal;
-@font-weight--pre-strong:  @font-weight-bold;
-@font-weight--first-line:  @font-weight-bold;
+@font-weight--headings:            @font-weight-bold;
+@font-weight--h1:                  @font-weight-bold;
+@font-weight--h2:                  @font-weight-normal;
+@font-weight--h3:                  @font-weight-normal;
+@font-weight--pre-subdued:         @font-weight-normal;
+@font-weight--pre-normal:          @font-weight-normal;
+@font-weight--pre-alt:             @font-weight-normal;
+@font-weight--pre-em:              @font-weight-normal;
+@font-weight--pre-strong:          @font-weight-bold;
+@font-weight--first-line:          @font-weight-bold;
+@font-weight--post-figure-caption: @font-weight-bold;
 // : font-style applications
 @font-style--pre-em: italic;
 // : line-height-variables
 @line-height-tightest: 1.1;
-@line-height-tighter:  1.2;
+@line-height-tighter:  1.2248;
 @line-height-tight:    1.3;
-@line-height-base:     1.4;
-@line-height-loose:    1.5;
+@line-height-base:     1.429;
+@line-height-loose:    1.531;
 @line-height-looser:   1.6;
 // : line-height-applications
 @line-height--body:      @line-height-base;
@@ -120,6 +139,7 @@
 @line-height--h3:        @line-height-tight;
 @line-height--code:      @line-height-base;
 @line-height--underline: @line-height-tighter;
+@line-height--p-lead:    @line-height-loose;
 // : letter-spacing-variables
 @letter-spacing-tighter: -0.03em;
 @letter-spacing-tight:   -0.02em;
@@ -134,15 +154,23 @@
 @letter-spacing--h3:       @letter-spacing-tight;
 
 // spacing
+// : utility
+@computed-line-height--body: unit((unit(@font-size--body) * @line-height--body), rem);
+@computed-line-height--h1:   unit((unit(@font-size--h1) * @line-height--h1), rem);
+@computed-line-height--h2:   unit((unit(@font-size--h2) * @line-height--h2), rem);
+@computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
+@line-height:                @computed-line-height--body;
+// : applications
 @margin-bottom--page-main:              0;
-@margin-bottom--post-header:            0em; // TEMP
-@margin-bottom--post-content-text:      unit(@line-height-tight, em);
-@margin-top--post-content-h1:           1em; // TO DO: edit
-@margin-top--post-content-h2:           1em; // TO DO: edit
-@margin-top--post-content-h3:           1em; // TO DO: edit
-@margin-bottom--post-content-h1:        0em; // TO DO: edit
-@margin-bottom--post-content-h2:        0em; // TO DO: edit
-@margin-bottom--post-content-h3:        0em; // TO DO: edit
+@margin-bottom--post-header:            0; // TEMP
+@margin-bottom--post-content-text:      @line-height;
+@margin-top--post-figure-caption:       @size-rem-nano;
+@margin-top--post-content-h1:           0; // TO DO: edit
+@margin-top--post-content-h2:           (@line-height * 2);
+@margin-top--post-content-h3:           (@line-height * 2);
+@margin-bottom--post-content-h1:        ((@line-height * 2) - @computed-line-height--h1);
+@margin-bottom--post-content-h2:        ((@line-height * 2) - @computed-line-height--h2);
+@margin-bottom--post-content-h3:        ((@line-height * 2) - @computed-line-height--h3);
 @padding-left--list:                    (36px + @container-gutter); // TO DO: variable-ize
 @padding-left--code:                    0.3333em; // TO DO: variable-ize
 @padding-top--code:                     0.1667em; // TO DO: variable-ize
@@ -158,8 +186,7 @@
 
 // miscellaneous
 @width--hr:              5em; // TO DO: edit
-@margin-top--hr:         2.6em; // TO DO: edit
-@margin-bottom--hr:      2.6em; // TO DO: edit
+@margin-top--hr:         (@line-height * 2);
 @border-top--hr:         1px solid @color--border-top--hr; // TO DO: edit
 @box-shadow--blockquote: inset 3px 0 @color--box-shadow--blockquote;
 @y--underline:           (@font-size--p * @line-height--underline);
