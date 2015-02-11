@@ -3,9 +3,9 @@
 @color-gray-darkest:  rgba(0,0,0,0.8);
 @color-gray-darker:   rgba(0,0,0,0.72);
 @color-gray-dark:     rgba(0,0,0,0.6);
-@color-gray:          rgba(0,0,0,0.44);
-@color-gray-light:    rgba(0,0,0,0.28);
-@color-gray-lighter:  rgba(0,0,0,0.15);
+@color-gray:          rgba(0,0,0,0.4);
+@color-gray-light:    rgba(0,0,0,0.25);
+@color-gray-lighter:  rgba(0,0,0,0.125);
 @color-gray-lightest: rgba(0,0,0,0.04);
 @color-white:         rgb(255,255,255);
 // : applications
@@ -15,6 +15,7 @@
 @color--h1:                     inherit;
 @color--h2:                     inherit;
 @color--h3:                     @color-gray-light;
+@color--post-figure-caption:    @color-gray;
 @background-color--code:        @color-gray-lightest;
 @color--pre-subdued:            @color-gray-light;
 @color--pre-normal:             @color-gray-darkest;
@@ -67,26 +68,27 @@
 @font-size-em-smallest:  0.75em;
 @font-size-em-micro:     0.6667em;
 // : font-size-applications
-@font-size--html: @font-size-px-base;
-@font-size--body: @font-size-em-base;
-@font-size--h1:   @font-size-em-giga;
-@font-size--h2:   @font-size-em-mega;
-@font-size--h3:   @font-size-em-mega;
-@font-size--p:    @font-size-em-base;
-@font-size--code: @font-size-em-smaller;
+@font-size--html:                @font-size-px-base;
+@font-size--body:                @font-size-em-base;
+@font-size--h1:                  @font-size-em-giga;
+@font-size--h2:                  @font-size-em-mega;
+@font-size--h3:                  @font-size-em-mega;
+@font-size--p:                   @font-size-em-base;
+@font-size--code:                @font-size-em-smaller;
+@font-size--post-figure-caption: @font-size-em-small;
 // : font-family-variables
 @font-family-sans-serif: "Franklin Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      Georgia, "Times New Roman", Times, serif;
-// @font-family-sans-serif: "PT Sans";
+@font-family-sans-serif: "PT Sans"; // TEMP
 @font-family-serif: "PT Serif"; // TEMP
 @font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
-@font-family-serif-alt: "PT Serif Caption"; // TEMP
 // : font-family-applications
 @font-family--body:              @font-family-sans-serif;
 @font-family--headings:          @font-family-sans-serif;
 @font-family--code:              @font-family-monospace;
 @font-family--post-content-text: @font-family-serif;
-@font-family--alt:               @font-family-serif-alt;
+@font-family--strong:            @font-family-sans-serif;
+@font-family--first-line:        @font-family-sans-serif;
 // : font-weight-variables
 @font-weight-bold:      700;
 @font-weight-normal:    400;
@@ -94,13 +96,14 @@
 // : font-weight-applications
 @font-weight--headings:    @font-weight-bold;
 @font-weight--h1:          @font-weight-bold;
-@font-weight--h2:          @font-weight-bold;
-@font-weight--h3:          @font-weight-semilight;
+@font-weight--h2:          @font-weight-normal;
+@font-weight--h3:          @font-weight-normal;
 @font-weight--pre-subdued: @font-weight-normal;
 @font-weight--pre-normal:  @font-weight-normal;
 @font-weight--pre-alt:     @font-weight-normal;
 @font-weight--pre-em:      @font-weight-normal;
 @font-weight--pre-strong:  @font-weight-bold;
+@font-weight--first-line:  @font-weight-bold;
 // : font-style applications
 @font-style--pre-em: italic;
 // : line-height-variables
@@ -118,7 +121,7 @@
 @line-height--code:      @line-height-base;
 @line-height--underline: @line-height-tighter;
 // : letter-spacing-variables
-@letter-spacing-tighter: -0.04em;
+@letter-spacing-tighter: -0.03em;
 @letter-spacing-tight:   -0.02em;
 @letter-spacing-base:    0;
 @letter-spacing-loose:   0.02em;
@@ -126,14 +129,20 @@
 // : letter-spacing-applications
 @letter-spacing--body:     @letter-spacing-base;
 @letter-spacing--headings: @letter-spacing-base;
+@letter-spacing--h1:       @letter-spacing-base;
+@letter-spacing--h2:       @letter-spacing-tight;
+@letter-spacing--h3:       @letter-spacing-tight;
 
 // spacing
 @margin-bottom--page-main:              0;
-@margin-bottom--post-header:            0.4em; // TEMP
+@margin-bottom--post-header:            0em; // TEMP
 @margin-bottom--post-content-text:      unit(@line-height-tight, em);
-@margin-bottom--post-content-h1:        0.2em; // TO DO: edit
-@margin-bottom--post-content-h2:        0.2em; // TO DO: edit
-@margin-bottom--post-content-h3:        0.2em; // TO DO: edit
+@margin-top--post-content-h1:           1em; // TO DO: edit
+@margin-top--post-content-h2:           1em; // TO DO: edit
+@margin-top--post-content-h3:           1em; // TO DO: edit
+@margin-bottom--post-content-h1:        0em; // TO DO: edit
+@margin-bottom--post-content-h2:        0em; // TO DO: edit
+@margin-bottom--post-content-h3:        0em; // TO DO: edit
 @padding-left--list:                    (36px + @container-gutter); // TO DO: variable-ize
 @padding-left--code:                    0.3333em; // TO DO: variable-ize
 @padding-top--code:                     0.1667em; // TO DO: variable-ize

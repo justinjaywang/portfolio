@@ -64,18 +64,21 @@ h1 {
   font-size: @font-size--h1;
   line-height: @line-height--h1;
   font-weight: @font-weight--h1;
+  letter-spacing: @letter-spacing--h1;
 }
 h2 {
   color: @color--h2;
   font-size: @font-size--h2;
   line-height: @line-height--h2;
   font-weight: @font-weight--h2;
+  letter-spacing: @letter-spacing--h2;
 }
 h3 {
   color: @color--h3;
   font-size: @font-size--h3;
   line-height: @line-height--h3;
   font-weight: @font-weight--h3;
+  letter-spacing: @letter-spacing--h3;
 }
 h4,
 h5,
@@ -109,6 +112,9 @@ hr {
   border: 0;
   border-top: @border-top--hr;
 }
+strong {
+  font-family: @font-family--strong;
+}
 
 // posts
 .post-header {
@@ -125,20 +131,31 @@ hr {
   font-family: @font-family--post-content-text;
   margin-bottom: @margin-bottom--post-content-text;
 }
+.post-content > h1 {
+  margin-top: @margin-top--post-content-h1;
+  margin-bottom: @margin-bottom--post-content-h1;
+}
+.post-content > h2 {
+  margin-top: @margin-top--post-content-h2;
+  margin-bottom: @margin-bottom--post-content-h2;
+}
+.post-content > h3 {
+  margin-top: @margin-top--post-content-h3;
+  margin-bottom: @margin-bottom--post-content-h3;
+}
+.post-content > hr + p:first-line {
+  font-family: @font-family--first-line;
+  font-weight: @font-weight--first-line;
+}
 .post-content > blockquote > p {
   padding-left: @padding-left--blockquote;
   margin-left: @margin-left--blockquote;
   box-shadow: @box-shadow--blockquote;
   clear: both;
+  font-style: italic;
 }
-.post-content > h1 {
-  margin-bottom: @margin-bottom--post-content-h1;
-}
-.post-content > h2 {
-  margin-bottom: @margin-bottom--post-content-h2;
-}
-.post-content > h3 {
-  margin-bottom: @margin-bottom--post-content-h3;
+.post-content > blockquote > p em {
+  font-style: normal;
 }
 .post-content > ol,
 .post-content > ul {
@@ -183,6 +200,8 @@ hr {
   .img-responsive();
 }
 .post-figure-caption {
+  color: @color--post-figure-caption;
+  font-size: @font-size--post-figure-caption;
   text-align: center;
 }
 .post-figure--left .post-figure-caption {
