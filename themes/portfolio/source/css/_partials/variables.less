@@ -1,35 +1,32 @@
 // colors
 // : variables
-@color-gray-darkest:  rgba(0,0,0,0.8);
-@color-gray-darker:   rgba(0,0,0,0.72);
-@color-gray-dark:     rgba(0,0,0,0.6);
-@color-gray:          rgba(0,0,0,0.4);
-@color-gray-light:    rgba(0,0,0,0.25);
-@color-gray-lighter:  rgba(0,0,0,0.125);
-@color-gray-lightest: rgba(0,0,0,0.06);
+@color-gray-dark:     rgba(0,0,0,0.72);
+@color-gray:          rgba(0,0,0,0.36);
+@color-gray-light:    rgba(0,0,0,0.12);
+@color-gray-lighter:  rgba(0,0,0,0.06);
 @color-white:         rgb(255,255,255);
 // : applications
 @background-color--body:        @color-white;
-@color--body:                   @color-gray-darker;
+@color--body:                   @color-gray-dark;
 @color--a:                      inherit;
 @color--h1:                     inherit;
 @color--h2:                     inherit;
-@color--h3:                     @color-gray-light;
-@color--post-figure-caption:    @color-gray-light;
-@background-color--code:        @color-gray-lightest;
-@color--pre-subdued:            @color-gray-light;
-@color--pre-normal:             @color-gray-darkest;
+@color--h3:                     @color-gray;
+@color--post-figure-caption:    @color-gray;
+@background-color--code:        @color-gray-lighter;
+@color--pre-subdued:            @color-gray;
+@color--pre-normal:             @color-gray-dark;
 @color--pre-alt:                @color-gray;
-@color--pre-em:                 @color-gray-darkest;
-@color--pre-strong:             @color-gray-darkest;
-@color--post-content-list-item: @color-gray-light;
-@color--border-top--hr:         @color-gray-lighter;
-@color--box-shadow--blockquote: @color-gray-lighter;
+@color--pre-em:                 @color-gray-dark;
+@color--pre-strong:             @color-gray-dark;
+@color--post-content-list-item: @color-gray;
+@color--border-top--hr:         @color-gray-light;
+@color--box-shadow--blockquote: @color-gray-light;
 @color--underline:              fade(@color--body, 20%);
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 680px;
-@width-screen-lg-min: 1020px;
+@width-screen-lg-min: 1080px;
 @width-screen-xs-max: (@width-screen-sm-min - 1);
 @width-screen-sm-max: (@width-screen-md-min - 1);
 @width-screen-md-max: (@width-screen-lg-min - 1);
@@ -87,7 +84,7 @@
 // : font-size-applications
 @font-size--html:                @font-size-px-base;
 @font-size--body:                @size-em-base;
-@font-size--h1:                  @size-em-mega;
+@font-size--h1:                  @size-em-giga;
 @font-size--h2:                  @size-em-mega;
 @font-size--h3:                  @size-em-mega;
 @font-size--p:                   @size-em-base;
@@ -165,7 +162,7 @@
 @margin-bottom--post-content-text:      @line-height;
 @margin-top--post-figure-caption:       @size-rem-nano;
 @padding-left--post-figure-caption:     @container-gutter;
-@margin-top--post-content-h1:           0; // TO DO: edit
+@margin-top--post-content-h1:           (@line-height * 2);
 @margin-top--post-content-h2:           (@line-height * 2);
 @margin-top--post-content-h3:           (@line-height * 2);
 @margin-bottom--post-content-h1:        ((@line-height * 2) - @computed-line-height--h1);
