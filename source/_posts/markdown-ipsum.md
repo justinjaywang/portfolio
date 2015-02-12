@@ -1,10 +1,10 @@
-title: Our Friend Leo
+title: Ipsum
 date: 2015-02-10 14:50:36
 ongoing:
-thumbnail:
-description:
-color: rgb(0,24,245)
-case_study:
+thumbnail: http://placehold.it/1200x900
+description: This is just ipsum stuff.
+color: rgb(255,0,0)
+case_study: false
 categories:
 tags:
 ---
@@ -49,12 +49,11 @@ Trippin’ slap bracelet aol ford explorer jurassic park environmentalism toni b
 
 Air jordans converse atlanta summer olympics the matrix leopard print, trainers hi-top fade sugar ray george foreman grill. Hey arnold nafta jeans denim jackets business casual. Flannel game boy color lorem once you pop you can’t stop, saved by the bell fanny packs cheetos paws sublime internet unforgiven. Nike carlton dance kicks doc martens chuck taylor all-stars boy bands. Catsuit princess diana when you’re lost out there and you’re all alone pearl jam.
 
-> Velcro sneakers cassette tape denzel washington tupac shakur air jordans, neon colors honda accord royal stewart tartan bill clinton animorphs nelson mandela. Silence of the lambs mad props mario lemieux clinton administration. Barbie sup michael jordan cut-off jean shorts crib. George foreman grill street fighter ii slap bracelet teenage mutant ninja turtles stone roses, butterfly clips jurassic park new kids on the block tommy hilfiger. Big lebowski mia hamm clueless ace ventura ebonics. Nirvana atlanta braves armageddon rugrats aviators. Fluorescent pogs rush hour headbands gangsta’s paradise desert storm.
-
-
 ### Header Level 3
 
 Gangsta’s paradise columbine northridge earthquake royal stewart tartan, jumanji vanilla ice discman playa michael jordan home alone business casual. Cory matthews overalls pagers skifree denzel washington. Flip flops zack morris internet aerosmith. Britney spears real world good will hunting t-shirts. Jonathan taylor thomas full house slacker air jordans boo ya george clooney tom hanks, jonbenet ramsay once you pop you can’t stop environmentalism home skillet gulf war jurassic park silence of the lambs. Ring pop lunchables scrolling text george foreman grill pixie cut dope seattle supersonics.
+
+> Velcro sneakers cassette tape denzel washington tupac shakur air jordans, neon colors honda accord royal stewart tartan bill clinton animorphs nelson mandela. Silence of the lambs mad props mario lemieux clinton administration. Barbie sup michael jordan cut-off jean shorts crib. George foreman grill street fighter ii slap bracelet teenage mutant ninja turtles stone roses, butterfly clips jurassic park new kids on the block tommy hilfiger. Big lebowski mia hamm clueless ace ventura ebonics. Nirvana atlanta braves armageddon rugrats aviators. Fluorescent pogs rush hour headbands gangsta’s paradise desert storm.
 
 Clinton administration lisa frank chat rooms home alone zebra stripes, animated gifs giga pets shania twain fly playa discman gotta have my pops. Mia hamm speed kosovo war oklahoma city bombings chillax, dolly the sheep braveheart blur space jam. Harrison ford lion king ebonics tgif lineup baby got back. Meg ryan vanilla coke armageddon baseball jacket catsuit big lebowski tootsie roll pop.
 Atlanta summer olympics doc martens vanilla coke jonathan taylor thomas christina aguilera rachel haircut. The matrix green day simpsons ford explorer members only jackets keepin’ it real, oklahoma city bombings ain’t no thang world wide web internet blur crew cut as if. Acid wash playa real world aaahh real monsters trl, moby da bomb dolly the sheep leggings vanilla ice rugrats. Tom hanks clueless razor scooter oversized sweaters. Ipsum dinosaurs gotta have my pops boy meets world smells like teen spirit bop it boris yeltsin. Sit home improvement flannel kurt cobain carlton dance.
@@ -62,7 +61,6 @@ Atlanta summer olympics doc martens vanilla coke jonathan taylor thomas christin
 * Buddy list highlights star wars the phantom menace as if
 * Savage garden chillax cable modem big lebowski.
 * Minesweeper zebra stripes home alone oversized sweaters yo-yos
-
 
 ```
 #header h1 a {

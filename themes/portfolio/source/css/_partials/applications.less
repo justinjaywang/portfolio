@@ -31,9 +31,13 @@ body {
   width: 100%;
   .margin-center();
 }
+.container--padded {
+  padding-left: @container-gutter;
+  padding-right: @container-gutter;
+}
 .container--narrow {
   &:extend(.container);
-  &:extend(.container-padded);
+  &:extend(.container--padded);
   max-width: @max-width--container--narrow;
 }
 .container--wide {
@@ -42,10 +46,6 @@ body {
 }
 .container--full {
   &:extend(.container);
-}
-.container--padded {
-  padding-left: @container-gutter;
-  padding-right: @container-gutter;
 }
 
 // typography
@@ -118,6 +118,9 @@ hr {
 strong {
   font-family: @font-family--strong;
 }
+img {
+  .img-responsive();
+}
 
 // nav
 .nav {
@@ -139,17 +142,32 @@ strong {
 }
 .nav-link--title {
   color: @color--nav-link--title;
-  font-weight: inherit; // TEMP
 }
 .nav-item:first-child {
   position: absolute;
   left: 0;
-  font-weight: normal; // TEMP
 }
 .nav-item:last-child {
   position: absolute;
   right: 0;
-  font-weight: normal; // TEMP
+}
+
+// post previews
+.post-thumbnail {
+}
+.post-text {
+}
+.post--preview--compact .post-thumbnail {
+  float: left;
+  width: 50%;
+  margin-right: (@container-gutter / 2);
+}
+.post--preview--compact .post-text {
+  .clearfix();
+}
+// TEMP
+.post--preview {
+  border-bottom: 3px solid rgba(255,0,0,0.3);
 }
 
 // posts
@@ -219,11 +237,11 @@ strong {
   position: relative;
   text-align: right;
   display: inline-block;
+  color: @color--post-content-list-item;
   width: @width--post-content-list-item;
   left: @left--post-content-list-item;
   margin-right: @margin-right--post-content-list-item;
   padding-right: @padding-right--post-content-list-item;
-  color: @color--post-content-list-item;
 }
 .post-figure--default {
   &:extend(.container--narrow);
@@ -245,9 +263,9 @@ strong {
   margin-right: @container-gutter;
   margin-bottom: (@line-height * 1);
 }
-.post-figure img {
-  .img-responsive();
-}
+// .post-figure img {
+//   .img-responsive();
+// }
 .post-figure-caption {
   color: @color--post-figure-caption;
   font-size: @font-size--post-figure-caption;
