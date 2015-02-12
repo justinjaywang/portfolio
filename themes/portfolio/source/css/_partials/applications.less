@@ -33,9 +33,8 @@ body {
 }
 .container--narrow {
   &:extend(.container);
+  &:extend(.container-padded);
   max-width: @max-width--container--narrow;
-  padding-left: @container-gutter;
-  padding-right: @container-gutter;
 }
 .container--wide {
   &:extend(.container);
@@ -43,6 +42,10 @@ body {
 }
 .container--full {
   &:extend(.container);
+}
+.container--padded {
+  padding-left: @container-gutter;
+  padding-right: @container-gutter;
 }
 
 // typography
@@ -94,9 +97,9 @@ code,
 kbd,
 pre,
 samp {
+  background-color: @background-color--code;
   font-family: @font-family--code;
   font-size: @font-size--code;
-  background-color: @background-color--code;
   overflow: auto;
   white-space: pre-wrap;
 }
@@ -114,6 +117,39 @@ hr {
 }
 strong {
   font-family: @font-family--strong;
+}
+
+// nav
+.nav {
+  color: @color--nav;
+  font-size: @font-size--nav;
+  font-weight: @font-weight--nav;
+  text-align: center;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-link {
+  color: @color--nav-link;
+  padding: @padding-top--nav @padding-left--nav;
+  display: inline-block;
+}
+.nav-link--title {
+  color: @color--nav-link--title;
+  font-weight: inherit; // TEMP
+}
+.nav-item:first-child {
+  position: absolute;
+  left: 0;
+  font-weight: normal; // TEMP
+}
+.nav-item:last-child {
+  position: absolute;
+  right: 0;
+  font-weight: normal; // TEMP
 }
 
 // posts
@@ -189,11 +225,6 @@ strong {
   padding-right: @padding-right--post-content-list-item;
   color: @color--post-content-list-item;
 }
-.post-content > *:not(.post-figure) + .post-figure {
-  // margin-top: 
-}
-.post-figure {
-}
 .post-figure--default {
   &:extend(.container--narrow);
   margin-bottom: (@line-height * 1.5);
@@ -218,11 +249,11 @@ strong {
   .img-responsive();
 }
 .post-figure-caption {
+  color: @color--post-figure-caption;
   font-size: @font-size--post-figure-caption;
   line-height: @line-height--post-figure-caption;
   font-weight: @font-weight--post-figure-caption;
   text-align: center;
-  color: @color--post-figure-caption;
   margin-top: @margin-top--post-figure-caption;
   padding: 0 @padding-left--post-figure-caption;
 }
@@ -258,4 +289,9 @@ strong {
   .post-figure--left .post-figure-caption {
     text-align: center;
   }
+}
+
+// miscellaneous
+#postColor {
+  display: none;
 }

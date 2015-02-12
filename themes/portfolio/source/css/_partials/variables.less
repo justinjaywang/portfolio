@@ -2,9 +2,11 @@
 // : variables
 @color-gray-dark:     rgba(0,0,0,0.72);
 @color-gray:          rgba(0,0,0,0.36);
-@color-gray-light:    rgba(0,0,0,0.12);
-@color-gray-lighter:  rgba(0,0,0,0.06);
+@color-gray-light:    rgba(0,0,0,0.24);
+@color-gray-lighter:  rgba(0,0,0,0.12);
+@color-gray-lightest: rgba(0,0,0,0.06);
 @color-white:         rgb(255,255,255);
+@color-temp: rgb(127,149,255);
 // : applications
 @background-color--body:        @color-white;
 @color--body:                   @color-gray-dark;
@@ -12,17 +14,21 @@
 @color--h1:                     inherit;
 @color--h2:                     inherit;
 @color--h3:                     @color-gray;
-@color--post-figure-caption:    @color-gray;
-@background-color--code:        @color-gray-lighter;
+@background-color--code:        @color-gray-lightest;
 @color--pre-subdued:            @color-gray;
 @color--pre-normal:             @color-gray-dark;
 @color--pre-alt:                @color-gray;
 @color--pre-em:                 @color-gray-dark;
 @color--pre-strong:             @color-gray-dark;
 @color--post-content-list-item: @color-gray;
-@color--border-top--hr:         @color-gray-light;
-@color--box-shadow--blockquote: @color-gray-light;
+@color--border-top--hr:         @color-gray-lighter;
+@color--box-shadow--blockquote: @color-gray-lighter;
 @color--underline:              fade(@color--body, 20%);
+@color--post-figure-caption:    @color-gray;
+@color--nav:                    @color-gray-light;
+// @color--nav:                    @color-temp; // TEMP
+@color--nav-link:               inherit;
+@color--nav-link--title:        @color-gray;
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 680px;
@@ -91,6 +97,7 @@
 @font-size--p-lead:              @size-em-large;
 @font-size--code:                @size-em-smaller;
 @font-size--post-figure-caption: @size-em-smaller;
+@font-size--nav:                 @size-em-base;
 // : font-family-variables
 @font-family-sans-serif: "Franklin Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      Georgia, "Times New Roman", Times, serif;
@@ -120,6 +127,7 @@
 @font-weight--pre-strong:          @font-weight-bold;
 @font-weight--first-line:          @font-weight-bold;
 @font-weight--post-figure-caption: @font-weight-bold;
+@font-weight--nav:                 @font-weight-bold;
 // : font-style applications
 @font-style--pre-em: italic;
 // : line-height-variables
@@ -180,6 +188,8 @@
 @left--blockquote:                      @padding-left--list;
 @padding-left--blockquote:              @container-gutter;
 @margin-left--blockquote:               (@padding-left--list - @container-gutter - @padding-left--blockquote);
+@padding-top--nav:  (@container-gutter * @size-smallest);
+@padding-left--nav: @container-gutter;
 
 // miscellaneous
 @width--hr:              5em; // TO DO: edit

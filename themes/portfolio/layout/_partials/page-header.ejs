@@ -1,4 +1,15 @@
 <header class="page-header">
-  <a href="<%= config.root %>"><%= __('Title') %></a>
-  <!-- <a href="<%= config.root + config.archive_dir %>" class="nav-link"><%= __('Archive') %></a> -->
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="<%= config.root %>" class="nav-link colorize"><%= __('Home') %></a>
+      </li>
+      <li class="nav-item">
+        <a href="<%= config.root %>" class="nav-link nav-link--title colorize"><%= __('Title') %></a>
+      </li>
+      <li class="nav-item">
+        <a href="<%= config.root + 'about' %>" class="nav-link colorize"><%= __('About') %></a>
+      </li>
+    </ul>
+  </nav>
 </header>

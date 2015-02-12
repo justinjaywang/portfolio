@@ -3,7 +3,7 @@ date: 2014
 ongoing:
 thumbnail:
 description:
-color:
+color: rgb(127,149,255)
 case_study: true
 categories:
 tags:

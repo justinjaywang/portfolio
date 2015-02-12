@@ -32,5 +32,15 @@
       }
     });
   });
+  
+  $(window).on('load pageshow', function() {
+    // // colorize per post
+    // var color = $(document.getElementById('postColor')).html();
+    // if (color) {
+    //   $('.page-header').find('.colorize').each(function () {
+    //     $(this).css('color', color);
+    //   });
+    // }
+  });
 
 }(jQuery);
