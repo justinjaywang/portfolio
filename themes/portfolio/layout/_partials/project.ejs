@@ -1,0 +1,15 @@
+<article class="project" data-project-id="<%= project._id %>">
+  <header class="project-header container--narrow">
+    <a href="<%- url_for(project.path) %>">
+      <%- partial('project-date', {date_format: config.date_format}) %>
+      <h4 class="project-title"><%= project.title %></h4>
+    </a>
+  </header>
+  <section class="project-content">
+    <%- project.content %>
+  </section>
+  <footer class="project-footer">
+    <%- partial('project-tag') %>
+  </footer>
+  <span id="projectColor"><% if (project.color) { %><%= project.color %><% } else { %>inherit<% } %></span>
+</article>

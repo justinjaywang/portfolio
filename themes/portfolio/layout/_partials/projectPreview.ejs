@@ -1,0 +1,17 @@
+<article class="projectPreview<% if (!project.case_study) { %> projectPreview--compact<% } %>" data-project-id="<%= project._id %>">
+  <a href="<%- url_for(project.path) %>">
+    <img class="projectPreview-thumbnail" src="<%= project.thumbnail %>">
+    <section class="projectPreview-text">
+        <!--<%- partial('project-date', {date_format: config.date_format}) %>-->
+        <!--
+        <% if (project.case_study) { %>
+        <h2 class="projectPreview-title"><%= project.title %></h2>
+        <% } else { %>
+        <h4 class="projectPreview-title"><%= project.title %></h4>
+        <% } %>
+        -->
+        <h4 class="projectPreview-title"><%= project.title %></h4>
+        <p class="projectPreview-description"><%= project.description %></p>
+    </section>
+  </a>
+</article>

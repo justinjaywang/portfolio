@@ -1,33 +1,34 @@
 // colors
 // : variables
-@color-gray-dark:     rgba(0,0,0,0.72);
+@color-gray-darker:   rgba(0,0,0,0.72);
+@color-gray-dark:     rgba(0,0,0,0.48);
 @color-gray:          rgba(0,0,0,0.36);
 @color-gray-light:    rgba(0,0,0,0.24);
 @color-gray-lighter:  rgba(0,0,0,0.12);
 @color-gray-lightest: rgba(0,0,0,0.06);
 @color-white:         rgb(255,255,255);
-@color-temp: rgb(127,149,255); // TEMP
+@color-temp:          rgb(127,149,255); // TEMP
 // : applications
-@background-color--body:        @color-white;
-@color--body:                   @color-gray-dark;
-@color--a:                      inherit;
-@color--h1:                     inherit;
-@color--h2:                     inherit;
-@color--h3:                     @color-gray;
-@background-color--code:        @color-gray-lightest;
-@color--pre-subdued:            @color-gray;
-@color--pre-normal:             @color-gray-dark;
-@color--pre-alt:                @color-gray;
-@color--pre-em:                 @color-gray-dark;
-@color--pre-strong:             @color-gray-dark;
-@color--post-content-list-item: @color-gray;
-@color--border-top--hr:         @color-gray-lighter;
-@color--box-shadow--blockquote: @color-gray-lighter;
-@color--underline:              fade(@color--body, 20%);
-@color--post-figure-caption:    @color-gray;
-@color--nav:                    @color-gray-light;
-@color--nav-link:               inherit;
-@color--nav-link--title:        @color-gray;
+@background-color--body:           @color-white;
+@color--body:                      @color-gray-darker;
+@color--a:                         inherit;
+@color--h1:                        inherit;
+@color--h2:                        inherit;
+@color--h3:                        @color-gray;
+@background-color--code:           @color-gray-lightest;
+@color--pre-subdued:               @color-gray;
+@color--pre-normal:                @color-gray-darker;
+@color--pre-alt:                   @color-gray;
+@color--pre-em:                    @color-gray-darker;
+@color--pre-strong:                @color-gray-darker;
+@color--project-content-list-item: @color-gray;
+@color--border-top--hr:            @color-gray-lighter;
+@color--box-shadow--blockquote:    @color-gray-lighter;
+@color--underline:                 fade(@color--body, 36%);
+@color--project-figure-caption:    @color-gray;
+@color--nav:                       @color-gray;
+@color--nav-link:                  inherit;
+@color--nav-link--title:           @color-gray-dark;
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 680px;
@@ -84,47 +85,48 @@
 
 // typography
 // : font-size-variables
-@font-size-px-base:    17.5px;
+@font-size-px-base:    18.5px;
 @font-size-px-base-sm: 16px;
 // : font-size-applications
-@font-size--html:                @font-size-px-base;
-@font-size--body:                @size-em-base;
-@font-size--h1:                  @size-em-giga;
-@font-size--h2:                  @size-em-mega;
-@font-size--h3:                  @size-em-mega;
-@font-size--p:                   @size-em-base;
-@font-size--p-lead:              @size-em-large;
-@font-size--code:                @size-em-smaller;
-@font-size--post-figure-caption: @size-em-smaller;
-@font-size--nav:                 @size-em-base;
+@font-size--html:                   @font-size-px-base;
+@font-size--body:                   @size-em-base;
+@font-size--h1:                     @size-em-giga;
+@font-size--h2:                     @size-em-mega;
+@font-size--h3:                     @size-em-mega;
+@font-size--p:                      @size-em-base;
+@font-size--p-lead:                 @size-em-large;
+@font-size--code:                   @size-em-smaller;
+@font-size--project-figure-caption: @size-em-smaller;
+@font-size--nav:                    @size-em-base;
 // : font-family-variables
 @font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      "PT Serif", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
 // : font-family-applications
-@font-family--body:              @font-family-sans-serif;
-@font-family--headings:          @font-family-sans-serif;
-@font-family--code:              @font-family-monospace;
-@font-family--post-content-text: @font-family-serif;
-@font-family--strong:            @font-family-sans-serif;
-@font-family--first-line:        @font-family-sans-serif;
+@font-family--body:                 @font-family-sans-serif;
+@font-family--headings:             @font-family-sans-serif;
+@font-family--code:                 @font-family-monospace;
+@font-family--project-content-text: @font-family-serif;
+@font-family--strong:               @font-family-sans-serif;
+@font-family--first-line:           @font-family-sans-serif;
+@font-family--p-lead:               @font-family-serif;
 // : font-weight-variables
 @font-weight-bold:      700;
 @font-weight-normal:    400;
 @font-weight-semilight: 300;
 // : font-weight-applications
-@font-weight--headings:            @font-weight-bold;
-@font-weight--h1:                  @font-weight-bold;
-@font-weight--h2:                  @font-weight-normal;
-@font-weight--h3:                  @font-weight-normal;
-@font-weight--pre-subdued:         @font-weight-normal;
-@font-weight--pre-normal:          @font-weight-normal;
-@font-weight--pre-alt:             @font-weight-normal;
-@font-weight--pre-em:              @font-weight-normal;
-@font-weight--pre-strong:          @font-weight-bold;
-@font-weight--first-line:          @font-weight-bold;
-@font-weight--post-figure-caption: @font-weight-bold;
-@font-weight--nav:                 @font-weight-bold;
+@font-weight--headings:               @font-weight-bold;
+@font-weight--h1:                     @font-weight-bold;
+@font-weight--h2:                     @font-weight-normal;
+@font-weight--h3:                     @font-weight-normal;
+@font-weight--pre-subdued:            @font-weight-normal;
+@font-weight--pre-normal:             @font-weight-normal;
+@font-weight--pre-alt:                @font-weight-normal;
+@font-weight--pre-em:                 @font-weight-normal;
+@font-weight--pre-strong:             @font-weight-bold;
+@font-weight--first-line:             @font-weight-bold;
+@font-weight--project-figure-caption: @font-weight-bold;
+@font-weight--nav:                    @font-weight-bold;
 // : font-style applications
 @font-style--pre-em: italic;
 // : line-height-variables
@@ -133,14 +135,14 @@
 @line-height-base:     1.429;
 @line-height-loose:    1.531;
 // : line-height-applications
-@line-height--body:                @line-height-base;
-@line-height--h1:                  @line-height-tighter;
-@line-height--h2:                  @line-height-tight;
-@line-height--h3:                  @line-height-tight;
-@line-height--code:                @line-height-base;
-@line-height--underline:           @line-height-tighter;
-@line-height--post-figure-caption: @line-height-tight;
-@line-height--p-lead:              @line-height-loose;
+@line-height--body:                   @line-height-base;
+@line-height--h1:                     @line-height-tighter;
+@line-height--h2:                     @line-height-tight;
+@line-height--h3:                     @line-height-tight;
+@line-height--code:                   @line-height-base;
+@line-height--underline:              @line-height-tighter;
+@line-height--project-figure-caption: @line-height-tight;
+@line-height--p-lead:                 @line-height-loose;
 // : letter-spacing-variables
 @letter-spacing-tighter: -0.03em;
 @letter-spacing-tight:   -0.02em;
@@ -162,31 +164,31 @@
 @computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
 @line-height:                @computed-line-height--body;
 // : applications
-@margin-bottom--page-main:              0;
-@margin-bottom--post-header:            0; // TEMP
-@margin-bottom--post-content-text:      @line-height;
-@margin-top--post-figure-caption:       @size-rem-nano;
-@padding-left--post-figure-caption:     @container-gutter;
-@margin-top--post-content-h1:           (@line-height * 2);
-@margin-top--post-content-h2:           (@line-height * 2);
-@margin-top--post-content-h3:           (@line-height * 2);
-@margin-bottom--post-content-h1:        ((@line-height * 2) - @computed-line-height--h1);
-@margin-bottom--post-content-h2:        ((@line-height * 2) - @computed-line-height--h2);
-@margin-bottom--post-content-h3:        ((@line-height * 2) - @computed-line-height--h3);
-@padding-left--list:                    (36px + @container-gutter); // TO DO: variable-ize
-@padding-left--code:                    @size-em-pico;
-@padding-top--code:                     (@size-em-pico / 2);
-@padding-left--pre:                     @size-em-base;
-@padding-top--pre:                      @size-em-base;
-@width--post-content-list-item:         2.4em;
-@left--post-content-list-item:          -@width--post-content-list-item;
-@margin-right--post-content-list-item:  -@width--post-content-list-item;
-@padding-right--post-content-list-item: (@width--post-content-list-item / 4);
-@left--blockquote:                      @padding-left--list;
-@padding-left--blockquote:              @container-gutter;
-@margin-left--blockquote:               (@padding-left--list - @container-gutter - @padding-left--blockquote);
-@padding-top--nav:                      (@container-gutter * @size-smallest);
-@padding-left--nav:                     @container-gutter;
+@margin-bottom--page-main:                 0;
+@margin-bottom--project-header:            0; // TEMP
+@margin-bottom--project-content-text:      @line-height;
+@margin-top--project-figure-caption:       @size-rem-nano;
+@padding-left--project-figure-caption:     @container-gutter;
+@margin-top--project-content-h1:           (@line-height * 2);
+@margin-top--project-content-h2:           (@line-height * 2);
+@margin-top--project-content-h3:           (@line-height * 2);
+@margin-bottom--project-content-h1:        ((@line-height * 2) - @computed-line-height--h1);
+@margin-bottom--project-content-h2:        ((@line-height * 2) - @computed-line-height--h2);
+@margin-bottom--project-content-h3:        ((@line-height * 2) - @computed-line-height--h3);
+@padding-left--list:                       (36px + @container-gutter); // TO DO: variable-ize
+@padding-left--code:                       @size-em-pico;
+@padding-top--code:                        (@size-em-pico / 2);
+@padding-left--pre:                        @size-em-base;
+@padding-top--pre:                         @size-em-base;
+@width--project-content-list-item:         2.4em;
+@left--project-content-list-item:          -@width--project-content-list-item;
+@margin-right--project-content-list-item:  -@width--project-content-list-item;
+@padding-right--project-content-list-item: (@width--project-content-list-item / 4);
+@left--blockquote:                         @padding-left--list;
+@padding-left--blockquote:                 @container-gutter;
+@margin-left--blockquote:                  (@padding-left--list - @container-gutter - @padding-left--blockquote);
+@padding-top--nav:                         (@container-gutter * @size-smallest);
+@padding-left--nav:                        @container-gutter;
 
 // miscellaneous
 @width--hr:              5em;

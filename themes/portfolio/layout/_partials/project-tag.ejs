@@ -1,0 +1,7 @@
+<% if (project.tags && project.tags.length){ %>
+<%- list_tags(project.tags, {
+  orderby: 'count',
+  show_count: false,
+  class: 'project-tag'
+}) %>
+<% } %>
