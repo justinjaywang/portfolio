@@ -37,11 +37,6 @@
 @width-screen-sm-max: (@width-screen-md-min - 1);
 @width-screen-md-max: (@width-screen-lg-min - 1);
 
-// layout
-@container-gutter:             20px;
-@max-width--container--narrow: @width-screen-md-min;
-@max-width--container--wide:   (@width-screen-lg-min - @container-gutter * 2);
-
 // sizing
 @size-tera:         3;
 @size-giga:         2;
@@ -156,6 +151,12 @@
 @letter-spacing--h2:       @letter-spacing-tight;
 @letter-spacing--h3:       @letter-spacing-tight;
 
+// layout
+@container-gutter:             1rem;
+@container-gutter-px:          (unit(@container-gutter) * @font-size-px-base);
+@max-width--container--narrow: @width-screen-md-min;
+@max-width--container--wide:   (@width-screen-lg-min - @container-gutter-px * 2);
+
 // spacing
 // : utility
 @computed-line-height--body: unit((unit(@font-size--body) * @line-height--body), rem);
@@ -175,12 +176,12 @@
 @margin-bottom--project-content-h1:        ((@line-height * 2) - @computed-line-height--h1);
 @margin-bottom--project-content-h2:        ((@line-height * 2) - @computed-line-height--h2);
 @margin-bottom--project-content-h3:        ((@line-height * 2) - @computed-line-height--h3);
-@padding-left--list:                       (36px + @container-gutter); // TO DO: variable-ize
+@padding-left--list:                       (2rem + @container-gutter); // TO DO: variable-ize
 @padding-left--code:                       @size-em-pico;
 @padding-top--code:                        (@size-em-pico / 2);
 @padding-left--pre:                        @size-em-base;
 @padding-top--pre:                         @size-em-base;
-@width--project-content-list-item:         2.4em;
+@width--project-content-list-item:         2.4rem;
 @left--project-content-list-item:          -@width--project-content-list-item;
 @margin-right--project-content-list-item:  -@width--project-content-list-item;
 @padding-right--project-content-list-item: (@width--project-content-list-item / 4);

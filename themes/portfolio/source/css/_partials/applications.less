@@ -122,6 +122,12 @@ img {
   .img-responsive();
 }
 
+// page
+.page-main {
+  // margin-top: 3em; // TEMP
+  // margin-bottom: 3em; // TEMP
+}
+
 // nav
 .nav {
   color: @color--nav;
@@ -153,24 +159,34 @@ img {
 }
 
 // project previews
+.projectPreview {
+  margin-bottom: (@container-gutter * 6); // TEMP
+}
 .projectPreview-thumbnail {
+}
+.projectPreview--horizontal .projectPreview-thumbnail {
+  float: left;
+  width: calc(~"50%" - @container-gutter / 2);
+  margin-right: @container-gutter; // TEMP
 }
 .projectPreview-text {
 }
-.projectPreview-description {
-  font-family: @font-family-serif; // TEMP
-  color: @color-gray-dark;
-}
-.projectPreview--compact .projectPreview-thumbnail {
-  float: left;
-  width: 50%;
-  margin-right: (@container-gutter / 2); // TEMP
-}
-.projectPreview--compact .projectPreview-text {
+.projectPreview--horizontal .projectPreview-text {
   .clearfix();
 }
-.projectPreview {
-  border-bottom: 3px solid rgba(255,0,0,0.3); // TEMP
+.projectPreview--vertical .projectPreview-text {
+  margin-top: @container-gutter; // TEMP
+  width: calc(~"50%" - @container-gutter / 2);
+}
+.projectPreview-description {
+  font-family: @font-family-serif; // TEMP
+  color: @color-gray;
+}
+.projectPreview-link {
+  font-size: @size-em-small; // TEMP
+  color: @color-gray-dark; // default color
+  margin-top: 1em;
+  display: block;
 }
 
 // projects
