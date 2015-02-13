@@ -5,6 +5,8 @@ thumbnail: http://placehold.it/1200x900
 description: This is just ipsum stuff.
 color:
 vertical_layout:
+reading_time: 6
+featured:
 categories:
 tags:
 ---

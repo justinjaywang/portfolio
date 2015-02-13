@@ -4,6 +4,8 @@ thumbnail: http://placehold.it/1200x900
 description: Website UX design and front-end development.
 color:
 vertical_layout:
+reading_time: 5
+featured:
 categories:
 tags:
 ---

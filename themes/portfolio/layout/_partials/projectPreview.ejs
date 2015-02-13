@@ -1,22 +1,33 @@
 <article class="projectPreview <% if (project.vertical_layout) { %>projectPreview--vertical<% } else { %>projectPreview--horizontal<% } %>" data-project-id="<%= project._id %>">
-  <% if (project.thumbnail) { %>
-  <img class="projectPreview-thumbnail" src="<%= project.thumbnail %>">
-  <% } %>
-  <section class="projectPreview-text">
-    <!--<%- partial('project-date', {date_format: config.date_format}) %>-->
-    <!--
-    <% if (project.vertical_layout) { %>
-    <h2 class="projectPreview-title"><%= project.title %></h2>
-    <% } else { %>
-    <h4 class="projectPreview-title"><%= project.title %></h4>
+  <a class="projectPreview-link" href="<%- url_for(project.path) %>">
+    <% if (project.thumbnail) { %>
+    <img class="projectPreview-thumbnail" src="<%= project.thumbnail %>">
     <% } %>
-    -->
-    <% if (project.title) { %>
-    <h2 class="projectPreview-title"><%= project.title %></h2>
-    <% } %>
-    <% if (project.description) { %>
-    <p class="projectPreview-description"><%= project.description %></p>
-    <% } %>
-    <a class="projectPreview-link" href="<%- url_for(project.path) %>">2 min read</a>
-  </section>
+    <section class="projectPreview-text">
+      <!--<%- partial('project-date', {date_format: config.date_format}) %>-->
+      <!--
+      <% if (project.vertical_layout) { %>
+      <h2 class="projectPreview-title"><%= project.title %></h2>
+      <% } else { %>
+      <h4 class="projectPreview-title"><%= project.title %></h4>
+      <% } %>
+      -->
+      <% if (project.title) { %>
+      <h2 class="projectPreview-title"><%= project.title %></h2>
+      <% } %>
+      <% if (project.description) { %>
+      <p class="projectPreview-description"><%= project.description %></p>
+      <% } %>
+      <ul class="projectPreview-meta">
+        <% if (project.date) { %>
+        <li class="projectPreview-date">
+          <%- partial('project-date', {date_format: config.date_format}) %>
+        </li>
+        <% } %>
+        <% if (project.reading_time) { %>
+        <li class="projectPreview-readingTime"><%= project.reading_time %></li>
+        <% } %>
+      </ul>
+    </section>
+  </a>
 </article>

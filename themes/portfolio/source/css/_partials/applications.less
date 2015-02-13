@@ -126,6 +126,8 @@ img {
 .page-main {
   // margin-top: 3em; // TEMP
   // margin-bottom: 3em; // TEMP
+  margin-top: (@container-gutter * 4); // TEMP
+  margin-bottom: (@container-gutter * 8); // TEMP
 }
 
 // nav
@@ -159,8 +161,8 @@ img {
 }
 
 // project previews
-.projectPreview {
-  margin-bottom: (@container-gutter * 6); // TEMP
+.projectPreview:not(:last-child) {
+  margin-bottom: (@container-gutter * 8); // TEMP
 }
 .projectPreview-thumbnail {
 }
@@ -182,11 +184,34 @@ img {
   font-family: @font-family-serif; // TEMP
   color: @color-gray;
 }
-.projectPreview-link {
-  font-size: @size-em-small; // TEMP
-  color: @color-gray-dark; // default color
+.projectPreview-meta {
   margin-top: 1em;
-  display: block;
+  font-size: @size-em-small; // TEMP
+  // text-transform: uppercase;
+  font-weight: 400;
+  color: @color-gray-dark; // default color
+  list-style: none;
+}
+.projectPreview-meta > * {
+  display: inline-block;
+  margin-right: 0.3em;
+}
+.projectPreview-meta > *:last-child {
+  margin-right: 0;
+}
+.projectPreview-date {
+  font-weight: 700; // TEMP
+  // color: @color-gray;
+  // margin-right: 0.3333em;
+}
+.projectPreview-date,
+.projectPreview-readingTime {
+}
+.projectPreview-readingTime {
+  &:after {
+    content: ' min read';
+  }
+  // color: @color-gray;
 }
 
 // projects

@@ -4,6 +4,8 @@ thumbnail: http://placehold.it/1200x900
 description: The guitar who loves you back.
 color: rgb(213,136,0)
 vertical_layout:
+reading_time:
+featured:
 categories:
 tags:
 ---

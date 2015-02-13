@@ -4,6 +4,8 @@ thumbnail: http://placehold.it/1200x900
 description: A collaboratively edited lyrics website.
 color: rgb(127,149,255)
 vertical_layout: 1
+reading_time: 10
+featured:
 categories:
 tags:
 ---
