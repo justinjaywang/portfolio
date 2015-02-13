@@ -3,8 +3,8 @@ date: 2015-02-10 14:50:36
 ongoing:
 thumbnail: http://placehold.it/1200x900
 description: This is just ipsum stuff.
-color: rgb(255,0,0)
-case_study: false
+color:
+vertical_layout:
 categories:
 tags:
 ---

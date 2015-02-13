@@ -1,10 +1,10 @@
 title: {{ title }}
 date:
-ongoing:
 thumbnail:
 description:
 color:
-case_study:
+vertical_layout:
+featured:
 categories:
 tags:
 ---

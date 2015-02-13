@@ -1,10 +1,9 @@
 title: BPM
-date: 2013
-ongoing:
+date: 2013-07-14
 thumbnail: http://placehold.it/1200x900
 description: A metronome app for iPhone.
 color: rgb(0,191,184)
-case_study: true
+vertical_layout: 1
 categories:
 tags:
 ---
