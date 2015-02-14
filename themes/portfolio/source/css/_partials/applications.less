@@ -268,9 +268,10 @@ img {
   font-family: @font-family--first-line;
   font-weight: @font-weight--first-line;
 }
-.project-content > *:last-child {
+.project-content > p:last-of-type:not(:first-of-type) {
   &:after {
-    content: '•';
+    content: @content--tombstone;
+    margin-left: @margin-left--tombstone;
   }
 }
 .project-content > blockquote > p {
