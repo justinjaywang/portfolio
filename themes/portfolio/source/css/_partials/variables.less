@@ -9,26 +9,28 @@
 @color-white:         rgb(255,255,255);
 @color-temp:          rgb(127,149,255); // TEMP
 // : applications
-@background-color--body:           @color-white;
-@color--body:                      @color-gray-darker;
-@color--a:                         inherit;
-@color--h1:                        inherit;
-@color--h2:                        inherit;
-@color--h3:                        @color-gray;
-@background-color--code:           @color-gray-lightest;
-@color--pre-subdued:               @color-gray;
-@color--pre-normal:                @color-gray-darker;
-@color--pre-alt:                   @color-gray;
-@color--pre-em:                    @color-gray-darker;
-@color--pre-strong:                @color-gray-darker;
-@color--project-content-list-item: @color-gray;
-@color--border-top--hr:            @color-gray-lighter;
-@color--box-shadow--blockquote:    @color-gray-lighter;
-@color--underline:                 fade(@color--body, 24%);
-@color--project-figure-caption:    @color-gray;
-@color--nav:                       @color-gray-light;
-@color--nav-link:                  inherit;
-@color--nav-link--title:           @color-gray-dark;
+@background-color--body:            @color-white;
+@color--body:                       @color-gray-darker;
+@color--a:                          inherit;
+@color--h1:                         inherit;
+@color--h2:                         inherit;
+@color--h3:                         @color-gray;
+@background-color--code:            @color-gray-lightest;
+@color--pre-subdued:                @color-gray;
+@color--pre-normal:                 @color-gray-darker;
+@color--pre-alt:                    @color-gray;
+@color--pre-em:                     @color-gray-darker;
+@color--pre-strong:                 @color-gray-darker;
+@color--project-content-list-item:  @color-gray;
+@color--border-top--hr:             @color-gray-lighter;
+@color--box-shadow--blockquote:     @color-gray-lighter;
+@color--underline:                  fade(@color--body, 24%);
+@color--project-figure-caption:     @color-gray;
+@color--nav:                        @color-gray-light;
+@color--nav-link:                   inherit;
+@color--nav-link--title:            @color-gray-dark;
+@color--projectPreview-description: @color-gray;
+@color--projectPreview-meta:        @color-gray-dark;
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 680px;
@@ -39,7 +41,7 @@
 
 // sizing
 @size-tera:         3;
-@size-giga:         2;
+@size-giga:         2.25;
 @size-mega:         1.75;
 @size-largest:      1.5;
 @size-larger:       1.3333;
@@ -90,32 +92,28 @@
 @font-size--h2:                     @size-em-mega;
 @font-size--h3:                     @size-em-mega;
 @font-size--p:                      @size-em-base;
-@font-size--p-lead:                 @size-em-large;
 @font-size--code:                   @size-em-smaller;
 @font-size--project-figure-caption: @size-em-smaller;
 @font-size--nav:                    @size-em-base;
+@font-size--projectPreview-meta:    @size-em-small;
+@font-size--drop-cap:               @size-em-tera;
 // : font-family-variables
 @font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-sans-serif-alt: "Helvetica Neue", Helvetica, Arial, sans-serif;
-// @font-family-sans-serif-alt: "Franklin Gothic";
-// @font-family-sans-serif-alt: "PT Sans";
-@font-family-sans-serif-alt: "PT Sans Caption";
-// @font-family-sans-serif-alt: "PT Sans";
+@font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      "PT Serif", Georgia, "Times New Roman", Times, serif;
-// @font-family-serif-alt:  "PT Serif Caption";
 @font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
 // : font-family-applications
-@font-family--body:                 @font-family-sans-serif;
-@font-family--headings:             @font-family-sans-serif;
-@font-family--code:                 @font-family-monospace;
-@font-family--project-content-text: @font-family-serif;
-@font-family--strong:               @font-family-sans-serif;
-@font-family--first-line:           @font-family-sans-serif;
-@font-family--p-lead:               @font-family-serif;
+@font-family--body:                       @font-family-sans-serif;
+@font-family--headings:                   @font-family-sans-serif;
+@font-family--code:                       @font-family-monospace;
+@font-family--project-content-text:       @font-family-serif;
+@font-family--strong:                     @font-family-sans-serif;
+@font-family--first-line:                 @font-family-sans-serif;
+@font-family--projectPreview-description: @font-family-serif;
+@font-family--drop-cap:                   @font-family-sans-serif-alt;
 // : font-weight-variables
 @font-weight-bold:      700;
 @font-weight-normal:    400;
-@font-weight-semilight: 300;
 // : font-weight-applications
 @font-weight--headings:               @font-weight-bold;
 @font-weight--h1:                     @font-weight-bold;
@@ -129,22 +127,25 @@
 @font-weight--first-line:             @font-weight-bold;
 @font-weight--project-figure-caption: @font-weight-bold;
 @font-weight--nav:                    @font-weight-bold;
+@font-weight--projectPreview-date:    @font-weight-bold;
+@font-weight--drop-cap:               @font-weight-bold;
 // : font-style applications
 @font-style--pre-em: italic;
 // : line-height-variables
+@line-height-tightest: 1.2;
 @line-height-tighter:  1.2248;
 @line-height-tight:    1.286;
 @line-height-base:     1.429;
 @line-height-loose:    1.531;
 // : line-height-applications
 @line-height--body:                   @line-height-base;
-@line-height--h1:                     @line-height-tight;
-@line-height--h2:                     @line-height-tight;
-@line-height--h3:                     @line-height-tight;
+@line-height--h1:                     @line-height-tightest;
+@line-height--h2:                     @line-height-tightest;
+@line-height--h3:                     @line-height-tightest;
 @line-height--code:                   @line-height-base;
 @line-height--underline:              @line-height-tighter;
 @line-height--project-figure-caption: @line-height-tight;
-@line-height--p-lead:                 @line-height-loose;
+@line-height--drop-cap:               1.08;
 // : letter-spacing-variables
 @letter-spacing-tighter: -0.024em;
 @letter-spacing-tight:   -0.008em;
@@ -152,11 +153,12 @@
 @letter-spacing-loose:   0.02em;
 @letter-spacing-looser:  0.04em;
 // : letter-spacing-applications
-@letter-spacing--body:     @letter-spacing-base;
-@letter-spacing--headings: @letter-spacing-base;
-@letter-spacing--h1:       @letter-spacing-tight;
-@letter-spacing--h2:       @letter-spacing-tighter;
-@letter-spacing--h3:       @letter-spacing-tighter;
+@letter-spacing--body:                       @letter-spacing-base;
+@letter-spacing--headings:                   @letter-spacing-base;
+@letter-spacing--h1:                         @letter-spacing-tight;
+@letter-spacing--h2:                         @letter-spacing-tighter;
+@letter-spacing--h3:                         @letter-spacing-tighter;
+@letter-spacing--projectPreview-readingTime: @letter-spacing-tighter;
 
 // layout
 @container-gutter:             1rem;
@@ -172,31 +174,41 @@
 @computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
 @line-height:                @computed-line-height--body;
 // : applications
-@margin-bottom--page-main:                 0;
-@margin-bottom--project-header:            0; // TEMP
-@margin-bottom--project-content-text:      @line-height;
-@margin-top--project-figure-caption:       @size-rem-nano;
-@padding-left--project-figure-caption:     @container-gutter;
-@margin-top--project-content-h1:           (@line-height * 2);
-@margin-top--project-content-h2:           (@line-height * 2);
-@margin-top--project-content-h3:           (@line-height * 2);
-@margin-bottom--project-content-h1:        ((@line-height * 2) - @computed-line-height--h1);
-@margin-bottom--project-content-h2:        ((@line-height * 2) - @computed-line-height--h2);
-@margin-bottom--project-content-h3:        ((@line-height * 2) - @computed-line-height--h3);
-@padding-left--list:                       (2rem + @container-gutter); // TO DO: variable-ize
-@padding-left--code:                       @size-em-pico;
-@padding-top--code:                        (@size-em-pico / 2);
-@padding-left--pre:                        @size-em-base;
-@padding-top--pre:                         @size-em-base;
-@width--project-content-list-item:         2.4rem;
-@left--project-content-list-item:          -@width--project-content-list-item;
-@margin-right--project-content-list-item:  -@width--project-content-list-item;
-@padding-right--project-content-list-item: (@width--project-content-list-item / 4);
-@left--blockquote:                         @padding-left--list;
-@padding-left--blockquote:                 @container-gutter;
-@margin-left--blockquote:                  (@padding-left--list - @container-gutter - @padding-left--blockquote);
-@padding-top--nav:                         (@container-gutter * @size-micro);
-@padding-left--nav:                        @container-gutter;
+@padding-top--nav:                            (@container-gutter * @size-smallest);
+@padding-left--nav:                           @container-gutter;
+@computed-header-height:                      ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2));
+@margin-top--page-main:                       ((@line-height * 5) - @computed-header-height);
+@margin-top--page-main--index:                ((@line-height * 6) - @computed-header-height);
+@margin-bottom--page-main:                    (@line-height * 6);
+@margin-bottom--projectPreview:               (@line-height * 6);
+@margin-top--projectPreview-text:             @container-gutter;
+@margin-top--projectPreview-meta:             (@line-height * 0.5);
+@margin-right--projectPreview-meta-item:      @size-em-pico;
+@margin-bottom--project-header:               0; // TEMP
+@margin-bottom--project-content-text:         @line-height;
+@margin-top--project-figure-caption:          @size-rem-nano;
+@padding-left--project-figure-caption:        @container-gutter;
+@margin-top--project-content-h1:              (@line-height * 2);
+@margin-top--project-content-h2:              (@line-height * 2);
+@margin-top--project-content-h3:              (@line-height * 2);
+@margin-bottom--project-content-h1:           ((@line-height * 2) - @computed-line-height--h1);
+@margin-bottom--project-content-h2:           ((@line-height * 2) - @computed-line-height--h2);
+@margin-bottom--project-content-h3:           ((@line-height * 2) - @computed-line-height--h3);
+@margin-top--project-content-p-first-of-type: (@line-height * 2);
+@padding-left--list:                          (2rem + @container-gutter);
+@padding-left--code:                          @size-em-pico;
+@padding-top--code:                           (@size-em-pico / 2);
+@padding-left--pre:                           @size-em-base;
+@padding-top--pre:                            @size-em-base;
+@width--project-content-list-item:            2.4rem;
+@left--project-content-list-item:             -@width--project-content-list-item;
+@margin-right--project-content-list-item:     -@width--project-content-list-item;
+@padding-right--project-content-list-item:    (@width--project-content-list-item / 4);
+@left--blockquote:                            @padding-left--list;
+@padding-left--blockquote:                    @container-gutter;
+@margin-left--blockquote:                     (@padding-left--list - @container-gutter - @padding-left--blockquote);
+@padding-right--drop-cap:                     0.1em;
+@margin-bottom--drop-cap:                     -0.5em;
 
 // miscellaneous
 @width--hr:              5em;
