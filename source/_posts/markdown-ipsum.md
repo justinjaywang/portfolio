@@ -3,7 +3,7 @@ date: 2015-02-10 14:50:36
 ongoing:
 thumbnail: http://placehold.it/1200x900
 description: This is just ipsum stuff.
-color:
+color: rgb(213,136,0)
 vertical_layout:
 reading_time: 6
 featured:
@@ -11,12 +11,11 @@ categories:
 tags:
 ---
 
-# Header Level 1
+# Our Friend Leo
 
-<p class="lead">Slacker portable cd players scrolling text miss cleo, snapback hats kyoto protocol silence of the lambs yo-yos.</p>
+### Our possessions blah blah blah. We made a guitar that tweets blah blah.
 
-Header Level 2
---------------
+<!-- <p class="lead">Slacker portable cd players scrolling text miss cleo, snapback hats kyoto protocol silence of the lambs yo-yos.</p> -->
 
 Braveheart gangsta rap minesweeper cutoff jeans zebra stripes, fresh move it football head home alone dinosaurs wayne gretzky kenan & kel. Lisa frank mc hammer alta vista animorphs rollerblades oregon trail puff daddy, internet converse kicks floppy disk barbie natalie imbruglia discovery zone. Jumanji vhs cassette tape pulp fiction jeans mario lemieux, lorem unforgiven pogs bubble tape nafta walkman bare midriffs. Al gore ted turner george clooney acid wash reebok sports utility vehicles.
 

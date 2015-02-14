@@ -93,10 +93,16 @@
 @font-size--p-lead:                 @size-em-large;
 @font-size--code:                   @size-em-smaller;
 @font-size--project-figure-caption: @size-em-smaller;
-@font-size--nav:                    @size-em-base;
+@font-size--nav:                    @size-em-small;
 // : font-family-variables
 @font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif-alt: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// @font-family-sans-serif-alt: "Franklin Gothic";
+// @font-family-sans-serif-alt: "PT Sans";
+@font-family-sans-serif-alt: "PT Sans Caption";
+// @font-family-sans-serif-alt: "PT Sans";
 @font-family-serif:      "PT Serif", Georgia, "Times New Roman", Times, serif;
+// @font-family-serif-alt:  "PT Serif Caption";
 @font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
 // : font-family-applications
 @font-family--body:                 @font-family-sans-serif;
@@ -132,7 +138,7 @@
 @line-height-loose:    1.531;
 // : line-height-applications
 @line-height--body:                   @line-height-base;
-@line-height--h1:                     @line-height-tighter;
+@line-height--h1:                     @line-height-tight;
 @line-height--h2:                     @line-height-tight;
 @line-height--h3:                     @line-height-tight;
 @line-height--code:                   @line-height-base;
@@ -140,17 +146,17 @@
 @line-height--project-figure-caption: @line-height-tight;
 @line-height--p-lead:                 @line-height-loose;
 // : letter-spacing-variables
-@letter-spacing-tighter: -0.03em;
-@letter-spacing-tight:   -0.02em;
+@letter-spacing-tighter: -0.02em;
+@letter-spacing-tight:   -0.01em;
 @letter-spacing-base:    0;
 @letter-spacing-loose:   0.02em;
 @letter-spacing-looser:  0.04em;
 // : letter-spacing-applications
 @letter-spacing--body:     @letter-spacing-base;
 @letter-spacing--headings: @letter-spacing-base;
-@letter-spacing--h1:       @letter-spacing-base;
-@letter-spacing--h2:       @letter-spacing-tight;
-@letter-spacing--h3:       @letter-spacing-tight;
+@letter-spacing--h1:       @letter-spacing-tight;
+@letter-spacing--h2:       @letter-spacing-tighter;
+@letter-spacing--h3:       @letter-spacing-tighter;
 
 // layout
 @container-gutter:             1rem;
