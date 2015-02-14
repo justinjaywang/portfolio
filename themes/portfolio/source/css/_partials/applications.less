@@ -268,7 +268,7 @@ img {
   font-family: @font-family--first-line;
   font-weight: @font-weight--first-line;
 }
-.project-content > p:last-of-type:not(:first-of-type) {
+.project-content > p:last-of-type:not(:nth-of-type(-n+2)) {
   &:after {
     content: @content--tombstone;
     margin-left: @margin-left--tombstone;
