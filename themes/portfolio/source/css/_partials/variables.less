@@ -26,7 +26,7 @@
 @color--box-shadow--blockquote:    @color-gray-lighter;
 @color--underline:                 fade(@color--body, 36%);
 @color--project-figure-caption:    @color-gray;
-@color--nav:                       @color-gray;
+@color--nav:                       @color-gray-light;
 @color--nav-link:                  inherit;
 @color--nav-link--title:           @color-gray-dark;
 // screen widths
@@ -81,9 +81,10 @@
 // typography
 // : font-size-variables
 @font-size-px-base:    18.5px;
-@font-size-px-base-sm: 16px;
+@font-size-px-base-sm: 16.5px;
 // : font-size-applications
 @font-size--html:                   @font-size-px-base;
+@font-size--html-sm:                @font-size-px-base-sm;
 @font-size--body:                   @size-em-base;
 @font-size--h1:                     @size-em-giga;
 @font-size--h2:                     @size-em-mega;
@@ -188,7 +189,7 @@
 @left--blockquote:                         @padding-left--list;
 @padding-left--blockquote:                 @container-gutter;
 @margin-left--blockquote:                  (@padding-left--list - @container-gutter - @padding-left--blockquote);
-@padding-top--nav:                         (@container-gutter * @size-smallest);
+@padding-top--nav:                         (@container-gutter * @size-micro);
 @padding-left--nav:                        @container-gutter;
 
 // miscellaneous

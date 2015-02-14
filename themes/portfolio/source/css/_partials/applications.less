@@ -126,7 +126,7 @@ img {
 .page-main {
   // margin-top: 3em; // TEMP
   // margin-bottom: 3em; // TEMP
-  margin-top: (@container-gutter * 4); // TEMP
+  margin-top: ((@container-gutter * 8) - (@padding-top--nav * 2 + @font-size--nav * @line-height--body)); // TEMP (8 - header height)
   margin-bottom: (@container-gutter * 8); // TEMP
 }
 
@@ -201,6 +201,7 @@ img {
 }
 .projectPreview-date {
   font-weight: 700; // TEMP
+  // letter-spacing: -0.01em;
   // color: @color-gray;
   // margin-right: 0.3333em;
 }
@@ -208,9 +209,11 @@ img {
 .projectPreview-readingTime {
 }
 .projectPreview-readingTime {
-  &:after {
-    content: ' min read';
-  }
+  // word-spacing: -0.1em;
+  // letter-spacing: -0.01em;
+  // &:after {
+  //   content: ' min read';
+  // }
   // color: @color-gray;
 }
 
@@ -347,6 +350,9 @@ img {
   // body {
   //   font-size: @font-size--body-sm;
   // }
+  html {
+    font-size: @font-size--html-sm;
+  }
 }
 // : extra small screens
 @media (max-width: @width-screen-xs-max) {
