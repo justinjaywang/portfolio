@@ -1,8 +1,12 @@
 title: About
 ---
 
-I'm a product designer in California. My favorite thing in the world is to create things—products, experiences, visual identities—that are useful and delightful. Edit this content later.
+My name is Justin Wang. I'm a designer living in California. My favorite thing in the world is to create things—products, experiences, visual identities—that are elegant and delightful. Other favorite things include music, taking [photos](http://ihardlyknowher.com/justinjaywang), hikes in nature, playing sports, and cooking.
 
-This is my [Twitter](http://twitter.com/justinjaywang) blah blah. This is my [Tumblr](http://justinjaywang.tumblr.com).
+#### Contact
 
-<!-- TO DO: edit this -->
+- <a href="mailto:hello@justinjaywang.com">Email</a>
+- [Twitter](http://twitter.com/justinjaywang)
+- [GitHub](https://github.com/justinjaywang)
+- [Facebook](https://www.facebook.com/justinjaywang)
+- [LinkedIn](http://www.linkedin.com/in/justinjaywang)
