@@ -311,21 +311,32 @@ img {
 }
 .project-figure--default {
   &:extend(.container--narrow);
-  margin-bottom: (@line-height * 1.5);
 }
 .project-figure--default > img {
   .margin-center();
 }
 .project-figure--wide {
   &:extend(.container--wide);
-  margin-top: (@line-height * 3);
-  margin-bottom: (@line-height * 1.5);
 }
 .project-figure--full {
   &:extend(.container--full);
-  margin-top: (@line-height * 3);
-  margin-bottom: (@line-height * 1.5);
 }
+.project-content > *:not(.project-figure) + .project-figure--default {
+  margin-top: (@line-height * 2);
+}
+.project-content > *:not(.project-figure) + .project-figure--wide,
+.project-content > *:not(.project-figure) + .project-figure--full {
+  margin-top: (@line-height * 3);
+}
+.project-figure--default,
+.project-figure--wide,
+.project-figure--full {
+  margin-bottom: (@line-height * 2);
+}
+.project-content > .project-figure--wide + *:not(.project-figure),
+.project-content > .project-figure--full + *:not(.project-figure) {
+  margin-top: (@line-height * 3);
+} 
 .project-figure--left {
   float: left;
   width: 50%;
