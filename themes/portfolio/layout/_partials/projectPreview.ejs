@@ -1,17 +1,6 @@
 <article class="projectPreview <% if (project.vertical_layout) { %>projectPreview--vertical<% } else { %>projectPreview--horizontal<% } %>" data-project-id="<%= project._id %>">
   <a class="projectPreview-link" href="<%- url_for(project.path) %>">
-    <% if (project.thumbnail) { %>
-    <img class="projectPreview-thumbnail" src="<%= config.root + project.thumbnail %>">
-    <% } %>
-    <section class="projectPreview-text">
-      <!--<%- partial('project-date', {date_format: config.date_format}) %>-->
-      <!--
-      <% if (project.vertical_layout) { %>
-      <h2 class="projectPreview-title"><%= project.title %></h2>
-      <% } else { %>
-      <h4 class="projectPreview-title"><%= project.title %></h4>
-      <% } %>
-      -->
+    <% if (project.thumbnail) { %><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure><% } %><section class="projectPreview-text">
       <% if (project.title) { %>
       <h2 class="projectPreview-title"><%= project.title %></h2>
       <% } %>
@@ -21,7 +10,7 @@
       <ul class="projectPreview-meta">
         <% if (project.date) { %>
         <li class="projectPreview-date">
-          <%- partial('project-date', {date_format: config.date_format}) %>
+          <%- partial('project-date', {date_format: config.date_format, project: project}) %>
         </li>
         <% } %>
         <% if (project.reading_time) { %>

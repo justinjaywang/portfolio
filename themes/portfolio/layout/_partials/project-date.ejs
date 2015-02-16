@@ -1,1 +1,1 @@
-<time class="project-date" datetime="<%= date_xml(project.date) %>"><%= date(project.date, date_format) %></time>
+<time datetime="<%= date_xml(project.date) %>"><%= date(project.date, date_format) %><% if (project.ongoing) { %>—Present<% } %></time>

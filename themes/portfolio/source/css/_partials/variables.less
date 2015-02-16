@@ -96,6 +96,7 @@
 @font-size--project-figure-caption: @size-em-smaller;
 @font-size--nav:                    @size-em-base;
 @font-size--projectPreview-meta:    @size-em-small;
+@font-size--projectPreview-date:    @size-rem-smaller;
 @font-size--drop-cap:               @size-em-tera;
 // : font-family-variables
 @font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -157,6 +158,7 @@
 @letter-spacing--h2:                         @letter-spacing-tighter;
 @letter-spacing--h3:                         @letter-spacing-tighter;
 @letter-spacing--projectPreview-readingTime: @letter-spacing-tighter;
+@letter-spacing--projectPreview-date:        @letter-spacing-loose;
 
 // layout
 @container-gutter:             1rem;
@@ -176,10 +178,11 @@
 @padding-left--nav:                           @container-gutter;
 @computed-header-height:                      ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2));
 @margin-top--page-main:                       ((@line-height * 5) - @computed-header-height);
-@margin-top--page-main--index:                ((@line-height * 6) - @computed-header-height);
-@margin-bottom--page-main:                    (@line-height * 6);
-@margin-bottom--projectPreview:               (@line-height * 6);
-@margin-top--projectPreview-text:             @container-gutter;
+@margin-top--page-main--index:                ((@line-height * 8) - @computed-header-height);
+@margin-bottom--page-main:                    (@line-height * 8);
+@projectPreview-gutter:                       (@container-gutter * 2);
+@margin-bottom--projectPreview:               (@line-height * 8);
+@margin-top--projectPreview-text:             (@line-height * 1);
 @margin-bottom--projectPreview-title:         ((@line-height * @line-height-loose) - @computed-line-height--h2);
 @margin-top--projectPreview-meta:             (@line-height * 0.5);
 @margin-right--projectPreview-meta-item:      @size-em-pico;
