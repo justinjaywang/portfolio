@@ -1,7 +1,7 @@
 title: Ipsum
-date: 2015-02-10 14:50:36
+date: 2008-02-10 14:50:36
 ongoing:
-thumbnail: http://placehold.it/1200x900
+thumbnail:
 description: This is just ipsum stuff.
 color: rgb(213,136,0)
 vertical_layout:
