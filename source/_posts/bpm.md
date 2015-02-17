@@ -1,6 +1,6 @@
 title: BPM
 date: 2013-07-14
-thumbnail: themes.png
+thumbnail: themes-2.png
 description: A metronome app for iPhone.
 color: rgb(0,191,184)
 vertical_layout: 1

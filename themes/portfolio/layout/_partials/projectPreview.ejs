@@ -1,6 +1,6 @@
 <article class="projectPreview <% if (project.vertical_layout) { %>projectPreview--vertical<% } else { %>projectPreview--horizontal<% } %>" data-project-id="<%= project._id %>">
-  <a class="projectPreview-link" href="<%- url_for(project.path) %>">
-    <% if (project.thumbnail) { %><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure><% } %><section class="projectPreview-text">
+  <!-- <a class="projectPreview-link" href="<%- url_for(project.path) %>"> -->
+    <% if (project.thumbnail) { %><img class="projectPreview-thumbnail" src="<%- url_for(project.path) + project.thumbnail %>"><% } %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><section class="projectPreview-text">
       <% if (project.title) { %>
       <h2 class="projectPreview-title"><%= project.title %></h2>
       <% } %>
@@ -17,6 +17,5 @@
         <li class="projectPreview-readingTime"><%= project.reading_time %> min read</li>
         <% } %>
       </ul>
-    </section>
-  </a>
+    </section></a>
 </article>
