@@ -1,2 +1,15 @@
 <footer class="page-footer">
+  <nav class="nav">
+    <ul class="nav-list">
+      <% if (isIndex) { %>
+      <li class="nav-item">
+        <a href="<%= config.root + 'about' %>" class="nav-link"><%= __('About') %></a>
+      </li>
+      <% } else { %>
+      <li class="nav-item">
+        <a href="<%= config.root %>" class="nav-link"><%= __('Home') %></a>
+      </li>
+      <% } %>
+    </ul>
+  </nav>
 </footer>

@@ -1,3 +1,4 @@
 <main class="page-main">
   <%- partial('_partials/project', {project: page}) %>
 </main>
+<%- partial('_partials/page-footer', {isIndex: false}, {cache: !config.relative_link}) %>

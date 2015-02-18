@@ -26,7 +26,7 @@
 @color--box-shadow--blockquote:     @color-gray-lighter;
 @color--underline:                  fade(@color--body, 24%);
 @color--project-figure-caption:     @color-gray;
-@color--nav:                        @color-gray-light;
+@color--nav:                        @color-gray-dark;
 @color--nav-link:                   inherit;
 @color--nav-link--title:            @color-gray-dark;
 @color--projectPreview-description: @color-gray;
@@ -99,10 +99,10 @@
 @font-size--projectPreview-date:    @size-rem-smaller;
 @font-size--drop-cap:               @size-em-tera;
 // : font-family-variables
-@font-family-sans-serif: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:     "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:      "PT Serif", Georgia, "Times New Roman", Times, serif;
-@font-family-monospace:  Consolas, Monaco, "Andale Mono", monospace;
+@font-family-serif:          "PT Serif", Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:      Consolas, Monaco, "Andale Mono", monospace;
 // : font-family-applications
 @font-family--body:                       @font-family-sans-serif;
 @font-family--headings:                   @font-family-sans-serif;
@@ -174,7 +174,7 @@
 @computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
 @line-height:                @computed-line-height--body;
 // : applications
-@padding-top--nav:                            (@container-gutter * @size-smallest);
+@padding-top--nav:                            (@container-gutter * @size-small);
 @padding-left--nav:                           @container-gutter;
 @computed-header-height:                      ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2));
 @margin-top--page-main:                       ((@line-height * 5) - @computed-header-height);

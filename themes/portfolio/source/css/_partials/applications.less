@@ -36,8 +36,8 @@ body {
   .margin-center();
 }
 .container--padded {
-  padding-left: @container-gutter;
-  padding-right: @container-gutter;
+  // padding-left: @container-gutter;
+  // padding-right: @container-gutter;
 }
 .container--narrow {
   &:extend(.container);
@@ -148,25 +148,31 @@ img {
 .nav-link--title {
   color: @color--nav-link--title;
 }
-.nav-item:first-child {
-  position: absolute;
-  left: 0;
-}
-.nav-item:last-child {
-  position: absolute;
-  right: 0;
-}
+// .nav-item:first-child {
+//   position: absolute;
+//   left: 0;
+// }
+// .nav-item:last-child {
+//   position: absolute;
+//   right: 0;
+// }
 
 // project previews
 .projectPreview:not(:last-child) {
   margin-bottom: @margin-bottom--projectPreview;
+}
+.projectPreview-thumbnail,
+.projectPreview-text {
+  margin-left: @container-gutter;
+  margin-right: @container-gutter;
 }
 .projectPreview-link {
   // display: block;
 }
 .projectPreview--horizontal .projectPreview-thumbnail,
 .projectPreview-text {
-  width: calc(~"50%" - (@projectPreview-gutter / 2));
+  // width: calc(~"50%" - (@projectPreview-gutter / 2));
+  width: calc(~"50%" - (@container-gutter * 2)); // TEMP
 }
 .projectPreview--horizontal .projectPreview-thumbnail,
 .projectPreview--horizontal .projectPreview-text {
@@ -402,14 +408,46 @@ img {
   }
 }
 
+.img-rounded() {
+  border-radius: 2px;
+}
+.img-shadowed() {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); // TEMP
+  .img-rounded();
+}
+.img-bordered() {
+  border: 1px solid rgba(0,0,0,0.08);
+  .img-rounded();
+}
 // project-specific
 // .projectPreview[data-project-id="rdhmizkqdjuph9wg"] .projectPreview-thumbnail img {
 //   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); // TEMP
 //   border-radius: 2px;
 // }
-.projectPreview[data-project-id="d1jdavs531yncfpt"] img {
+.projectPreview[data-project-title="Monograms"] img {
   .opacity(0.8);
+  width: 100%;
 }
+
+.projectPreview[data-project-title="NBC Sports Live Extra"] img {
+  // .opacity(0.92);
+}
+
+.projectPreview[data-project-title="Screambox"] img {
+  .img-shadowed();
+  .opacity(0.92);
+}
+
+.projectPreview[data-project-title="llllyrics"] img {
+  // .img-shadowed();
+  // .img-bordered();
+}
+
+// .projectPreview[data-project-id="Collistive"] img {
+//   .img-bordered();
+//   .img-shadowed();
+// }
+
 // .projectPreview-thumbnail {
 //   border-radius: 2px;
 //   border: 1px solid rgba(0,0,0,0.08);

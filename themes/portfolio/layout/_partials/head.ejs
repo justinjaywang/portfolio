@@ -3,12 +3,7 @@
   <%
   var title = page.title;
   if (is_archive()){
-    title = 'Archive';
-    if (is_month()){
-      title += ' ' + page.year + '/' + page.month;
-    } else if (is_year()){
-      title += ' ' + page.year;
-    }
+    title = 'All Projects';
   } else if (is_category()){
     title = page.category;
   } else if (is_tag()){
