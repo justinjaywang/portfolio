@@ -1,11 +1,5 @@
 <main class="page-main page-main--index container--wide container--padded">
-<% var posts = get_posts({
-  orderby: 'date',
-  order: -1,
-  count: 0,
-  query: {featured: 1}
-}); %>
-<% posts.each(function(post){ %>
+<% page.posts.each(function(post){ %>
   <%- partial('_partials/projectPreview', {project: post}) %>
 <% }) %>
 </main>

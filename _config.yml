@@ -16,7 +16,7 @@ url: http://justinjaywang.com
 root: /
 permalink: :title/
 tag_dir: tag
-archive_dir: archive
+archive_dir: all
 category_dir: category
 code_dir: downloads/code
 permalink_defaults:
@@ -48,7 +48,7 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 0
+archive: 1
 category: 0
 tag: 0
 
