@@ -36,8 +36,8 @@ body {
   .margin-center();
 }
 .container--padded {
-  // padding-left: @container-gutter;
-  // padding-right: @container-gutter;
+  padding-left: @container-gutter;
+  padding-right: @container-gutter;
 }
 .container--narrow {
   &:extend(.container);
@@ -145,48 +145,28 @@ img {
   padding: @padding-top--nav @padding-left--nav;
   display: inline-block;
 }
-.nav-link--title {
-  color: @color--nav-link--title;
-}
-// .nav-item:first-child {
-//   position: absolute;
-//   left: 0;
-// }
-// .nav-item:last-child {
-//   position: absolute;
-//   right: 0;
-// }
 
 // project previews
 .projectPreview:not(:last-child) {
   margin-bottom: @margin-bottom--projectPreview;
 }
-.projectPreview-thumbnail,
-.projectPreview-text {
-  margin-left: @container-gutter;
-  margin-right: @container-gutter;
+.projectPreview-thumbnail--wide {
+  &:extend(.container--wide);
+  margin-bottom: @margin-bottom--projectPreview-thumbnail--wide;
 }
-.projectPreview-link {
-  // display: block;
+.projectPreview-container {
+  &:extend(.container--narrow);
 }
-.projectPreview--horizontal .projectPreview-thumbnail,
-.projectPreview-text {
-  // width: calc(~"50%" - (@projectPreview-gutter / 2));
-  width: calc(~"50%" - (@container-gutter * 2)); // TEMP
-}
-.projectPreview--horizontal .projectPreview-thumbnail,
-.projectPreview--horizontal .projectPreview-text {
+.projectPreview-container > * {
+  width: calc(~"50%" - (@projectPreview-gutter / 2));
   display: inline-block;
   vertical-align: middle;
 }
-.projectPreview--horizontal .projectPreview-thumbnail {
-  margin-right: @projectPreview-gutter;
+.projectPreview-container > *:nth-child(1) {
+  margin-right: (@projectPreview-gutter / 2);
 }
-.projectPreview--horizontal .projectPreview-text {
-  .clearfix();
-}
-.projectPreview--vertical .projectPreview-text {
-  margin-top: @margin-top--projectPreview-text;
+.projectPreview-container > *:nth-child(2) {
+  margin-left: (@projectPreview-gutter / 2);
 }
 .projectPreview-title {
   margin-bottom: @margin-bottom--projectPreview-title;
@@ -326,9 +306,6 @@ img {
   margin-right: @margin-right--project-content-list-item;
   padding-right: @padding-right--project-content-list-item;
 }
-// .project-figure > img {
-//   .margin-center();
-// }
 .project-figure--default {
   &:extend(.container--narrow);
 }
@@ -385,12 +362,13 @@ img {
   .container--wide {
     max-width: 100%;
   }
+  .projectPreview-thumbnail--wide {
+    padding-left: @container-gutter;
+    padding-right: @container-gutter;
+  }
 }
 // : small screens and smaller
 @media (max-width: @width-screen-sm-max) {
-  // body {
-  //   font-size: @font-size--body-sm;
-  // }
   html {
     font-size: @font-size--html-sm;
   }
@@ -400,7 +378,7 @@ img {
   .project-figure--left {
     float: none;
     max-width: 100%;
-    // .margin-center();
+    .margin-center();
     margin-bottom: (@line-height * 1.5);
   }
   .project-figure--left .project-figure-caption {
@@ -408,6 +386,7 @@ img {
   }
 }
 
+// TEMP image helpers
 .img-rounded() {
   border-radius: 2px;
 }
@@ -419,45 +398,16 @@ img {
   border: 1px solid rgba(0,0,0,0.06);
   .img-rounded();
 }
+
 // project-specific
-// .projectPreview[data-project-id="rdhmizkqdjuph9wg"] .projectPreview-thumbnail img {
-//   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); // TEMP
-//   border-radius: 2px;
-// }
 .projectPreview[data-project-title="Monograms"] img,
 .projectPreview[data-project-title="BARE"] img {
   .opacity(0.8);
   width: 100%;
 }
-
-.projectPreview[data-project-title="NBC Sports Live Extra"] img {
-  // .opacity(0.92);
-}
-
 .projectPreview[data-project-title="Screambox"] img {
   .img-shadowed();
-  // .opacity(0.92);
 }
-
-.projectPreview[data-project-title="llllyrics"] img {
-  // .img-shadowed();
-  // .img-bordered();
-}
-
-// .projectPreview[data-project-id="Collistive"] img {
-//   .img-bordered();
-//   .img-shadowed();
-// }
-
-// .projectPreview-thumbnail {
-//   border-radius: 2px;
-//   border: 1px solid rgba(0,0,0,0.08);
-// }
-// .projectPreview[data-project-id="ythzmwsyxybgm2o9"] img,
-// .projectPreview[data-project-id="rdhmizkqdjuph9wg"] img{
-//   border-radius: 2px;
-//   border: 1px solid rgba(0,0,0,0.08);
-// }
 
 // miscellaneous
 #projectColor {

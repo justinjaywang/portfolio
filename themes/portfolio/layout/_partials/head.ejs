@@ -2,13 +2,6 @@
   <meta charset="utf-8">
   <%
   var title = page.title;
-  if (is_archive()){
-    // title = 'All';
-  } else if (is_category()){
-    title = page.category;
-  } else if (is_tag()){
-    title = 'Tagged ' + page.tag;
-  }
   %>
   <title><% if (title){ %><%= title %> — <% } %><%= config.title %></title>
   <meta name="description" content="<%= config.description %>">
