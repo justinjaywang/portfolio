@@ -416,7 +416,7 @@ img {
   .img-rounded();
 }
 .img-bordered() {
-  border: 1px solid rgba(0,0,0,0.08);
+  border: 1px solid rgba(0,0,0,0.06);
   .img-rounded();
 }
 // project-specific
@@ -424,7 +424,8 @@ img {
 //   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); // TEMP
 //   border-radius: 2px;
 // }
-.projectPreview[data-project-title="Monograms"] img {
+.projectPreview[data-project-title="Monograms"] img,
+.projectPreview[data-project-title="BARE"] img {
   .opacity(0.8);
   width: 100%;
 }
@@ -435,7 +436,7 @@ img {
 
 .projectPreview[data-project-title="Screambox"] img {
   .img-shadowed();
-  .opacity(0.92);
+  // .opacity(0.92);
 }
 
 .projectPreview[data-project-title="llllyrics"] img {
