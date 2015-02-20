@@ -198,9 +198,6 @@ img {
 }
 
 // projects
-.project-header {
-  // margin-bottom: @margin-bottom--project-header; // TEMP
-}
 .project-content a {
   .underline(@y--underline);
   .underline-color(@color--underline);
@@ -392,25 +389,28 @@ img {
 
 // TEMP image helpers
 .img-rounded() {
-  border-radius: 2px;
+  border-radius: @border-radius--img-rounded;
 }
 .img-shadowed() {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15); // TEMP
+  box-shadow: 0 2px 8px @color--img-shadow;
   .img-rounded();
 }
 .img-bordered() {
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1px solid @color--img-border;
   .img-rounded();
 }
 
 // project-specific
+.projectPreview[data-project-title="llllyrics"] img {
+  // .img-bordered();
+}
+.projectPreview[data-project-title="Screambox"] img {
+  .img-shadowed();
+}
 .projectPreview[data-project-title="Monograms"] img,
 .projectPreview[data-project-title="BARE"] img {
   .opacity(0.8);
   width: 100%;
-}
-.projectPreview[data-project-title="Screambox"] img {
-  .img-shadowed();
 }
 
 // miscellaneous

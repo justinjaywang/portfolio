@@ -30,6 +30,8 @@
 @color--nav-link:                   inherit;
 @color--projectPreview-description: @color-gray;
 @color--projectPreview-meta:        @color-gray-dark;
+@color--img-shadow:                 rgba(0,0,0,0.15);
+@color--img-border:                 @color-gray-lightest;
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 680px;
@@ -179,7 +181,7 @@
 @padding-top--nav:                              (@container-gutter * @size-small);
 @padding-left--nav:                             @container-gutter;
 @computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2));
-@margin-top--page-main:                         ((@line-height * 6) - @computed-header-height);
+@margin-top--page-main:                         ((@line-height * 4) - @computed-header-height);
 @margin-top--page-main--index:                  ((@line-height * 6) - @computed-header-height);
 @margin-bottom--page-main:                      (@line-height * 6);
 @projectPreview-gutter:                         (@container-gutter * 1.5);
@@ -188,7 +190,6 @@
 @margin-bottom--projectPreview-title:           ((@line-height * @line-height-loose) - @computed-line-height--h2);
 @margin-top--projectPreview-meta:               (@line-height * 0.5);
 @margin-right--projectPreview-meta-item:        @size-em-pico;
-@margin-bottom--project-header:                 0; // TEMP
 @margin-bottom--project-content-text:           @line-height;
 @margin-top--project-figure-caption:            @size-rem-nano;
 @padding-left--project-figure-caption:          @container-gutter;
@@ -217,9 +218,11 @@
 @margin-left--tombstone:                        0.25em;
 
 // miscellaneous
-@width--hr:              5em;
-@margin-top--hr:         (@line-height * 2);
-@border-top--hr:         1px solid @color--border-top--hr;
-@box-shadow--blockquote: inset 3px 0 @color--box-shadow--blockquote;
-@y--underline:           (@font-size--p * @line-height--underline);
-@content--tombstone:     '◼';
+@width--hr:                  5em;
+@margin-top--hr:             (@line-height * 2);
+@border-top--hr:             1px solid @color--border-top--hr;
+@box-shadow--blockquote:     inset 3px 0 @color--box-shadow--blockquote;
+@y--underline:               (@font-size--p * @line-height--underline);
+@content--tombstone:         '◼';
+@border-radius--img-rounded: 2px;
+
