@@ -1,5 +1,6 @@
 title: BARE
 date: 2012-10
+published:
 thumbnail: logo.svg
 description: New logo for a fashion magazine.
 color:

@@ -1,5 +1,7 @@
 title: {{ title }}
 date:
+ongoing:
+published:
 thumbnail:
 description:
 color:

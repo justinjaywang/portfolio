@@ -1,6 +1,7 @@
 title: Monograms
 date: 2011
 ongoing: 1
+published:
 thumbnail: 2011--2.svg
 description: A bunch of JJW logos.
 color: rgba(0,0,0,0.8)

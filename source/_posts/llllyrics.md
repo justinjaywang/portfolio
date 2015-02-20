@@ -1,5 +1,6 @@
 title: llllyrics
 date: 2014-11
+published:
 thumbnail: edit.gif
 description: Collaboratively edited lyrics.
 color: rgb(127,149,255)

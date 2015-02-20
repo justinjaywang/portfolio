@@ -1,5 +1,6 @@
 title: Collistive
 date: 2012-04
+published:
 thumbnail: list.png
 description: Crowdsourced lists.
 color: '#08c'

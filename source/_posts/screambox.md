@@ -1,5 +1,6 @@
 title: Screambox
 date: 2014-04
+published:
 thumbnail: home.png
 description: A home for horror movies.
 color:
