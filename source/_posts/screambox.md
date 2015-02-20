@@ -1,11 +1,14 @@
 title: Screambox
 date: 2014-04
-thumbnail:
-description: Online horror films.
+thumbnail: home.png
+description: A home for horror movies.
 color:
 vertical_layout:
-reading_time: 5
+reading_time: 1
 featured:
 categories:
 tags:
+- professional
 ---
+
+Visit [website](https://www.screambox.com/)

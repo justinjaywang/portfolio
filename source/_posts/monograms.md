@@ -9,11 +9,11 @@ reading_time: 2
 featured: 1
 categories:
 tags:
+- personal
 ---
 
 # Monograms
 
-### Exploration of logos using the letters, JJW.
 <!-- <img class="default" src="2014--2.svg" alt="" /> -->
 
 Ever since I was little, I've loved sketching out logos. Especially ones with the letters of my initials. Ones I could use for my personal brand. I kid you not, I used to sign some of my artwork with it. Clever logos, with hidden symbols in the whitespace. It's like fitting pieces of a puzzle together.
@@ -30,5 +30,3 @@ Illustrator proficiency has gone up exponentially, especially using keyboard sho
 <!-- ![](2015--2.svg) -->
 
 View all the monograms [here](http://monograms.justinjaywang.com).
-
-

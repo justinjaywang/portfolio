@@ -13,7 +13,7 @@ tags:
 
 # Our Friend Leo
 
-### Our possessions blah blah blah. We made a guitar that tweets blah blah.
+<!-- ### The guitar who loves you back. -->
 
 <!-- <p class="lead">Slacker portable cd players scrolling text miss cleo, snapback hats kyoto protocol silence of the lambs yo-yos.</p> -->
 
