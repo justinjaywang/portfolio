@@ -99,12 +99,10 @@
 @font-size--projectPreview-meta:    @size-em-small;
 @font-size--projectPreview-date:    @size-rem-smaller;
 @font-size--drop-cap:               @size-em-tera;
+@font-size--tombstone:              @size-em-small;
 // : font-family-variables
 @font-family-sans-serif:     "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-// @font-family-sans-serif:     "Roboto Sans", "Franklin Gothic";
-// @font-family-sans-serif-alt: "Roboto Sans", "Franklin Gothic";
-
 @font-family-serif:          "PT Serif", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:      Consolas, Monaco, "Andale Mono", monospace;
 // : font-family-applications
@@ -216,13 +214,16 @@
 @margin-bottom--drop-cap:                       -0.5em;
 @padding-right--drop-cap:                       0.1em;
 @margin-left--tombstone:                        0.25em;
+@margin-top--project-footer:                    (@line-height * 2);
 
 // miscellaneous
-@width--hr:                  5em;
-@margin-top--hr:             (@line-height * 2);
-@border-top--hr:             1px solid @color--border-top--hr;
-@box-shadow--blockquote:     inset 3px 0 @color--box-shadow--blockquote;
-@y--underline:               (@font-size--p * @line-height--underline);
-@content--tombstone:         '◼';
-@border-radius--img-rounded: 2px;
-
+@text-align--project-content-h1: center;
+@text-align--project-footer:     left;
+@width--hr:                      5em;
+@margin-top--hr:                 (@line-height * 2);
+@border-top--hr:                 1px solid @color--border-top--hr;
+@box-shadow--blockquote:         inset 3px 0 @color--box-shadow--blockquote;
+@y--underline:                   (@font-size--p * @line-height--underline);
+@content--tombstone:             '◼';
+@top--tombstone:                 0.04em;
+@border-radius--img-rounded:     2px;

@@ -94,6 +94,16 @@
 //           user-select: @select;
 // }
 
+// hyphens
+.hyphenate() {
+   -ms-word-break: break-all;
+       word-break: break-all;
+       word-break: break-word; // Non standard for webkit
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+}
+
 // anchor markups
 .underline(@y) {
   background-repeat: repeat-x;
@@ -105,4 +115,21 @@
   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%,  @color 50%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%,  @color 50%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%,  @color 50%);
+}
+
+// image helpers
+.img-rounded() {
+  border-radius: @border-radius--img-rounded;
+}
+.img-shadowed() {
+  box-shadow: 0 1px 8px @color--img-shadow;
+}
+.img-bordered-top-bottom() {
+  border-top: 1px solid @color--img-border;
+  border-bottom: 1px solid @color--img-border;
+  padding-top: (@container-gutter / 2);
+  padding-bottom: (@container-gutter / 2);
+}
+.img-bordered() {
+  border: 1px solid @color--img-border;
 }
