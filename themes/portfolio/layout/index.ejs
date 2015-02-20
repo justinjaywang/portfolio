@@ -1,10 +1,9 @@
-<!-- <main class="page-main page-main--index container--wide container--padded"> -->
 <main class="page-main page-main--index">
 <% var posts = get_posts({
+  // query: {featured: 1}, // TEMP
   orderby: 'date',
   order: -1,
-  count: 0,
-  query: {featured: 1}
+  count: 0
 }); %>
 <% posts.each(function(post){ %>
   <%- partial('_partials/projectPreview', {project: post}) %>

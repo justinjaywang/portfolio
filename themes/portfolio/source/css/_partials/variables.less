@@ -26,7 +26,7 @@
 @color--box-shadow--blockquote:     @color-gray-lighter;
 @color--underline:                  fade(@color--body, 24%);
 @color--project-figure-caption:     @color-gray;
-@color--nav:                        @color-gray-dark;
+@color--nav:                        @color-gray;
 @color--nav-link:                   inherit;
 @color--projectPreview-description: @color-gray;
 @color--projectPreview-meta:        @color-gray-dark;
@@ -100,6 +100,9 @@
 // : font-family-variables
 @font-family-sans-serif:     "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// @font-family-sans-serif:     "Roboto Sans", "Franklin Gothic";
+// @font-family-sans-serif-alt: "Roboto Sans", "Franklin Gothic";
+
 @font-family-serif:          "PT Serif", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:      Consolas, Monaco, "Andale Mono", monospace;
 // : font-family-applications
@@ -128,7 +131,7 @@
 @font-weight--project-figure-caption: @font-weight-bold;
 @font-weight--nav:                    @font-weight-bold;
 @font-weight--projectPreview-date:    @font-weight-bold;
-@font-weight--drop-cap:               @font-weight-bold;
+@font-weight--drop-cap:               @font-weight-normal;
 // : font-style applications
 @font-style--pre-em: italic;
 // : line-height-variables
@@ -145,8 +148,8 @@
 @line-height--project-figure-caption: @line-height-tight;
 @line-height--drop-cap:               1.08;
 // : letter-spacing-variables
-@letter-spacing-tighter: -0.024em;
-@letter-spacing-tight:   -0.012em;
+@letter-spacing-tighter: -0.028em;
+@letter-spacing-tight:   -0.014em;
 @letter-spacing-base:    0;
 @letter-spacing-loose:   0.02em;
 @letter-spacing-looser:  0.04em;
@@ -176,7 +179,7 @@
 @padding-top--nav:                              (@container-gutter * @size-small);
 @padding-left--nav:                             @container-gutter;
 @computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2));
-@margin-top--page-main:                         ((@line-height * 5) - @computed-header-height);
+@margin-top--page-main:                         ((@line-height * 6) - @computed-header-height);
 @margin-top--page-main--index:                  ((@line-height * 6) - @computed-header-height);
 @margin-bottom--page-main:                      (@line-height * 6);
 @projectPreview-gutter:                         (@container-gutter * 1.5);
@@ -208,8 +211,9 @@
 @left--blockquote:                              @padding-left--list;
 @padding-left--blockquote:                      @container-gutter;
 @margin-left--blockquote:                       (@padding-left--list - @container-gutter - @padding-left--blockquote);
-@padding-right--drop-cap:                       0.1em;
+@margin-left--drop-cap:                         -0.06em;
 @margin-bottom--drop-cap:                       -0.5em;
+@padding-right--drop-cap:                       0.1em;
 @margin-left--tombstone:                        0.25em;
 
 // miscellaneous

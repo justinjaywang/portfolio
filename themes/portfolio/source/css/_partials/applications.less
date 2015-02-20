@@ -254,20 +254,24 @@ img {
 .project-content > h3 + p:first-of-type {
   margin-top: @margin-top--project-content-p-first-of-type + @margin-bottom--project-content-h3;
 }
-
-.project-content > p:first-of-type::first-letter {
+.project-content > h1 {
+  text-align: center;
+}
+.project-content > p:first-of-type::first-letter,
+.project-content > hr + p::first-letter {
   font-family: @font-family--drop-cap;
   font-size: @font-size--drop-cap;
   font-weight: @font-weight--drop-cap;
   line-height: @line-height--drop-cap;
   float: left;
-  padding-right: @padding-right--drop-cap;
+  margin-left: @margin-left--drop-cap;
   margin-bottom: @margin-bottom--drop-cap;
+  padding-right: @padding-right--drop-cap;
 }
-.project-content > hr + p:first-line {
-  font-family: @font-family--first-line;
-  font-weight: @font-weight--first-line;
-}
+// .project-content > hr + p:first-line {
+//   font-family: @font-family--first-line;
+//   font-weight: @font-weight--first-line;
+// }
 .project-content > p:last-of-type:not(:nth-of-type(-n+2)) {
   &:after {
     content: @content--tombstone;
