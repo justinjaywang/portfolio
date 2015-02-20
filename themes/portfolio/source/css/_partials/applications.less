@@ -151,8 +151,10 @@ img {
   margin-bottom: @margin-bottom--projectPreview;
 }
 .projectPreview-thumbnail--wide {
-  &:extend(.container--wide);
   margin-bottom: @margin-bottom--projectPreview-thumbnail--wide;
+}
+.projectPreview-container--wide {
+  &:extend(.container--wide);
 }
 .projectPreview-container {
   &:extend(.container--narrow);
@@ -393,19 +395,28 @@ img {
 }
 .img-shadowed() {
   box-shadow: 0 2px 8px @color--img-shadow;
-  .img-rounded();
+}
+.img-bordered-top-bottom() {
+  border-top: 1px solid @color--img-border;
+  border-bottom: 1px solid @color--img-border;
+  padding-top: (@container-gutter / 2);
+  padding-bottom: (@container-gutter / 2);
 }
 .img-bordered() {
   border: 1px solid @color--img-border;
-  .img-rounded();
 }
 
 // project-specific
 .projectPreview[data-project-title="llllyrics"] img {
   // .img-bordered();
 }
+.projectPreview[data-project-title="llllyrics"] figure,
+.projectPreview[data-project-title="Collistive"] figure {
+  .img-bordered-top-bottom();
+}
 .projectPreview[data-project-title="Screambox"] img {
   .img-shadowed();
+  .img-rounded();
 }
 .projectPreview[data-project-title="Monograms"] img,
 .projectPreview[data-project-title="BARE"] img {

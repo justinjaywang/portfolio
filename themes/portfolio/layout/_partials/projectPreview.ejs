@@ -1,9 +1,13 @@
 <article class="projectPreview" data-project-title="<%= project.title %>">
   <% if (project.thumbnail && project.vertical_layout) { %>
-  <figure class="projectPreview-thumbnail projectPreview-thumbnail--wide"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure>
+  <figure class="projectPreview-thumbnail projectPreview-thumbnail--wide">
+    <div class="projectPreview-container--wide">
+      <img src="<%- url_for(project.path) + project.thumbnail %>">
+    </div>
+  </figure>
   <% } %>
   <div class="projectPreview-container">
-    <% if (project.thumbnail && !project.vertical_layout) { %><figure class="projectPreview-thumbnail projectPreview-thumbnail--default"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure><% } %><% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %><section class="projectPreview-text">
+    <% if (project.thumbnail && !project.vertical_layout) { %><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure><% } %><% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %><section class="projectPreview-text">
       <% if (project.title) { %>
       <h2 class="projectPreview-title"><%= project.title %></h2>
       <% } %>
