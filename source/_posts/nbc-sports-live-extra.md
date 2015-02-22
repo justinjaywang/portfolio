@@ -1,6 +1,6 @@
 title: NBC Sports Live Extra
 date: 2013-12
-published:
+updated: 2013-12
 thumbnail: tablet.png
 description: Video on demand for Windows and Windows Phone 8.
 color:

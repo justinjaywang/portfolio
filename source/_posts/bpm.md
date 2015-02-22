@@ -1,6 +1,6 @@
 title: BPM
 date: 2013-07-14
-published:
+updated: 2013-07-14
 thumbnail: themes.png
 description: A metronome for iPhone.
 color: rgb(0,191,184)
@@ -16,7 +16,7 @@ tags:
 
 The apps I love are both functional and beautiful. *Functional* in that they are useful in performing a task. *Beautiful* in terms of aesthetics and elegance in user experience. When designed right, these digital tools can truly be a joy to use.
 
-I'd been searching for years for a metronome app that provided this kind of experience, with no luck. I craved something simpler, aesthetically and functionally, than what was out there. So I set out to create my own, with a couple of goals in mind.
+I'd been searching for years for a metronome app that provided this kind of experience, with no luck. I craved something simpler, aesthetically and functionally, than what was out there. So I set out to create my own, with a couple of goals in mind:
 
 1. *Make performing the primary functions as thoughtless as possible*. For a metronome, these functions are selecting a tempo, playing, and stopping. Even a split second of locating a button to tap on the screen makes a huge difference.
 2. *Avoid using skeuomorphs*. We're no longer bound by the same physical controls (pendulums, dials, buttons) that limited metronomes in the past, so why insist on putting those same controls into digital form, as so many other apps do? I'd rather innovate.

@@ -1,6 +1,6 @@
 title: llllyrics
 date: 2014-11
-published:
+updated: 2014-12
 thumbnail: v2-edit-autocomplete.png
 description: Collaboratively edited lyrics.
 color: rgb(127,149,255)
@@ -69,6 +69,6 @@ A year went by, and I had slowly been building up a list of ways the site could 
 
 ---
 <!-- learnings -->
-Like other personal projects I’ve done in the past, llllyrics was motivated by a need. I saw something that could be better and decided to make it for myself. This drove me not only to build the website in the first place, but also to continue to iterate on it after the first version and again after the second.
+As with other personal projects I’ve done in the past, llllyrics was motivated by a need. I saw something that could be better and decided to make it for myself. This drove me not only to build the website in the first place, but also to continue to iterate on it after the first version and again after the second.
 
 The majority of the insights for improvement were gained from just regularly using the site. It's for this reason I believe that to design a great product, you must use it yourself. At its best, it's one you love to use.

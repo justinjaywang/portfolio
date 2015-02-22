@@ -1,7 +1,7 @@
 title: Ipsum
 date: 2008-02-10 14:50:36
+updated: 2008-02-10
 ongoing:
-published:
 thumbnail:
 description: This is just ipsum stuff.
 color: rgb(213,136,0)

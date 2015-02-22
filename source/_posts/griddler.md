@@ -1,6 +1,6 @@
 title: Griddler
 date: 2013-04
-published:
+updated: 2013-04
 thumbnail: splash.gif
 description: A word game for iOS and Android.
 color:
