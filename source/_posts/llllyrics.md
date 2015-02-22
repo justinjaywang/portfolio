@@ -1,7 +1,7 @@
 title: llllyrics
 date: 2014-11
 published:
-thumbnail: edit.gif
+thumbnail: v2-edit-autocomplete.png
 description: Collaboratively edited lyrics.
 color: rgb(127,149,255)
 vertical_layout: 1
@@ -63,9 +63,9 @@ About a year went by, and I had slowly been building up a list of ways the site 
 
 <img class="default" src="loading.gif">
 
-*Search query URLs*. URLs make the web uniquely powerful—it's how you bookmark or share a particular page. It was a shame that in the last version, there was no dedicated URL for a particular search result. I fixed this in version 2 by rewriting the URL as you type to include the search query. In effect, there's now "browse" functionality, and at no extra cost (e.g., the URL to view songs by the artist Radiohead is `llllyrics.com/?q=artist:Radiohead`).
+*Search query URLs*. URLs make the web uniquely powerful—they allow you to bookmark a page or share it with someone. It was a shame, then, that in the last version, there was no dedicated URL for a particular set of search results. I fixed this in version 2 by rewriting the query portion of the URL as you type. So, the URL to view songs by the artist Radiohead would be `llllyrics.com/?q=artist:Radiohead`. In effect, there's now "browse" functionality, and at no extra cost.
 
-*Back-end refactor*. By this time, AngularJS had gone some major upgrades and I decided to switch to the latest version to take advantage of all the features. Doing so required a lot of code refactoring and reorganization (in fact, everything was written again from scratch), but it was worth it to do things right. I also added automated tasks with [Gulp](http://gulpjs.com/). Browse the [source code](https://github.com/justinjaywang/llllyrics) for more details.
+*Back-end refactor*. By this time, AngularJS had gone some major upgrades and I decided to switch to the latest version to take advantage of all the features. Doing so required a lot of code refactoring and reorganization (in fact, everything was written again from scratch), but it was worth it to do things right. I also added automated tasks with [gulp](http://gulpjs.com/). Browse the [source code](https://github.com/justinjaywang/llllyrics) for more details.
 
 *Caching*. Speed was one of the original tenets, yet I wasn't happy with the performance. I improved speed in the newer iteration of llllyrics by using a cached version of the data most of the time, only refreshing the cache when a song has been added or updated.
 
