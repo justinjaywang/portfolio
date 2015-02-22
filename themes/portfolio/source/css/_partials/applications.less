@@ -127,6 +127,17 @@ img {
   .margin-center();
 }
 
+// images
+.bordered {
+  .img-bordered();
+}
+.rounded {
+  .img-rounded();
+}
+.shadowed {
+  .img-shadowed();
+}
+
 // nav
 .nav {
   color: @color--nav;
@@ -197,6 +208,21 @@ img {
 }
 .projectPreview-readingTime {
   letter-spacing: @letter-spacing--projectPreview-readingTime;
+}
+// : specific projects
+.projectPreview[data-project-title="llllyrics"] img {
+  .img-bordered();
+  .img-rounded();
+}
+.projectPreview[data-project-title="Screambox"] img,
+.projectPreview[data-project-title="Our Friend Leo"] img {
+  .img-shadowed();
+  .img-rounded();
+}
+.projectPreview[data-project-title="Monograms"] img,
+.projectPreview[data-project-title="BARE"] img {
+  .opacity(0.8);
+  width: 100%;
 }
 
 // projects
@@ -330,7 +356,6 @@ img {
   float: left;
   max-width: 50%;
   margin-right: @container-gutter;
-  margin-bottom: (@line-height * 1);
 }
 .project-figure-caption {
   color: @color--project-figure-caption;
@@ -342,6 +367,7 @@ img {
   padding: 0 @padding-left--project-figure-caption;
 }
 .project-figure--left .project-figure-caption {
+  margin-bottom: (@line-height * 1);
   text-align: left;
 }
 
@@ -371,6 +397,11 @@ img {
     padding-left: @container-gutter;
     padding-right: @container-gutter;
   }
+  .bordered.wide,
+  .bordered.full {
+    .img-bordered-top-bottom();
+    border-radius: 0;
+  }
 }
 // : small screens and smaller
 @media (max-width: @width-screen-sm-max) {
@@ -391,24 +422,6 @@ img {
   }
 }
 
-// project-specific
-.projectPreview[data-project-title="llllyrics"] figure,
-.projectPreview[data-project-title="Collistive"] figure {
-  .img-bordered-top-bottom();
-}
-.projectPreview[data-project-title="Screambox"] img {
-  .img-shadowed();
-  .img-rounded();
-}
-.projectPreview[data-project-title="Our Friend Leo"] img {
-  .img-shadowed();
-  .img-rounded();
-}
-.projectPreview[data-project-title="Monograms"] img,
-.projectPreview[data-project-title="BARE"] img {
-  .opacity(0.8);
-  width: 100%;
-}
 
 // miscellaneous
 #projectColor {

@@ -2,12 +2,15 @@
   <% if (project.thumbnail && project.vertical_layout) { %>
   <figure class="projectPreview-thumbnail projectPreview-thumbnail--wide">
     <div class="projectPreview-container--wide">
-      <img src="<%- url_for(project.path) + project.thumbnail %>">
+      <% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %>
+        <img src="<%- url_for(project.path) + project.thumbnail %>">
+      <% if (project.reading_time) { %></a><% } %>
     </div>
   </figure>
+
   <% } %>
   <div class="projectPreview-container">
-    <% if (project.thumbnail && !project.vertical_layout) { %><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure><% } %><% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %><section class="projectPreview-text">
+    <% if (project.thumbnail && !project.vertical_layout) { %><% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure><% if (project.reading_time) { %></a><% } %><% } %><% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %><section class="projectPreview-text">
       <% if (project.title) { %>
       <h2 class="projectPreview-title"><%= project.title %></h2>
       <% } %>
@@ -27,3 +30,5 @@
     </section><% if (project.reading_time) { %></a><% } %>
   </div>
 </article>
+
+<!-- TO DO: fix all these ifs -->
