@@ -1,7 +1,7 @@
 title: {{ title }}
 date:
+updated:
 ongoing:
-published:
 thumbnail:
 description:
 color:
