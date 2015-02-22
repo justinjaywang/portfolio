@@ -1,5 +1,10 @@
 <main class="page-main page-main--index">
-<% page.posts.each(function(post){ %>
+<% var posts = get_posts({
+  orderby: 'updated',
+  order: -1,
+  count: 0
+}); %>
+<% posts.each(function(post){ %>
   <%- partial('_partials/projectPreview', {project: post}) %>
 <% }) %>
 </main>
