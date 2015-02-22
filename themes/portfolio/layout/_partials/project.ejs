@@ -1,12 +1,6 @@
 <article class="project" data-project-id="<%= project._id %>">
-  <header class="project-header container--narrow">
-    <!--<% if (project.title) { %>
-    <h1 class="project-title"><%= project.title %></h1>
-    <% } %>-->
-  </header>
   <section class="project-content">
     <%- project.content %>
   </section>
-  <!--<%- partial('project-footer') %>-->
   <span id="projectColor"><% if (project.color) { %><%= project.color %><% } else { %>inherit<% } %></span>
 </article>
