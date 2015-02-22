@@ -15,12 +15,21 @@ tags:
 
 # Monograms
 
+<!-- intro -->
+- Drawing monograms for my initials has really been a lifelong project.
+- sketchbooks full of logos
+
+<!-- 2011 decided to vectorize -->
+
+<!-- learnings -->
+
+---
 <!-- <img class="default" src="2014--2.svg" alt="" /> -->
 
 Ever since I was little, I've loved sketching out logos. Especially ones with the letters of my initials. Ones I could use for my personal brand. I kid you not, I used to sign some of my artwork with it. Clever logos, with hidden symbols in the whitespace. It's like fitting pieces of a puzzle together.
 
 <!-- ![](2014--5.svg) -->
-<img class="left" src="2014--5.svg" alt="Using negative space." />
+<!-- <img class="left" src="2014--5.svg" alt="Using negative space." /> -->
 
 As a project in the summer of 2011, I put a bunch into vector form in Illustrator. In 2014, I revived the project with new ideas and decided to continue to make logos. I find that, even with the restriction of using each of the letters, there are countless possibilities. Creativity is opened up by restriction.
 
