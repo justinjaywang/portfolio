@@ -32,13 +32,6 @@
 @color--projectPreview-description: @color-gray;
 @color--projectPreview-meta:        @color-gray-dark;
 @color--img-border:                 @color-gray-lightest;
-// screen widths
-@width-screen-sm-min: 480px;
-@width-screen-md-min: 680px;
-@width-screen-lg-min: 1080px;
-@width-screen-xs-max: (@width-screen-sm-min - 1);
-@width-screen-sm-max: (@width-screen-md-min - 1);
-@width-screen-md-max: (@width-screen-lg-min - 1);
 
 // sizing
 @size-tera:         3;
@@ -162,12 +155,20 @@
 @letter-spacing--projectPreview-readingTime: @letter-spacing-tighter;
 @letter-spacing--projectPreview-date:        @letter-spacing-loose;
 
+// screen widths
+@width-screen-sm-min: 480px;
+@width-screen-md-min: 720px;
+@width-screen-lg-min: 1080px; // width of wide images
+@width-screen-xs-max: (@width-screen-sm-min - 1);
+@width-screen-sm-max: (@width-screen-md-min - 1);
+@width-screen-md-max: (@width-screen-lg-min - 1);
+
 // layout
 @container-gutter:             1rem;
 @container-gutter-px:          (unit(@container-gutter) * @font-size-px-base);
-@max-width--container--narrow: @width-screen-md-min;
+@max-width--container--narrow: 37rem; // a comfortable measure
 @max-width--container--wide:   (@width-screen-lg-min - @container-gutter-px * 2);
-@max-width--container--index:  (@max-width--container--narrow + 200px);
+@max-width--container--index:  (@width-screen-lg-min - @container-gutter-px * 12);
 
 // spacing
 // : utility
