@@ -51,6 +51,12 @@ body {
 .container--full {
   &:extend(.container);
 }
+.container--index {
+  &:extend(.container);
+  &:extend(.container--padded);
+  // max-width: @max-width--container--wide;
+  max-width: (@max-width--container--index);
+}
 
 // typography
 a {
@@ -137,9 +143,6 @@ img {
 .rounded {
   .img-rounded();
 }
-.shadowed {
-  .img-shadowed();
-}
 
 // nav
 .nav {
@@ -157,6 +160,8 @@ img {
 .nav-link {
   color: @color--nav-link;
   padding: @padding-top--nav @padding-left--nav;
+  margin-top: @margin-top--nav;
+  margin-bottom: @margin-top--nav;
   display: inline-block;
 }
 
@@ -168,7 +173,7 @@ img {
   margin-bottom: @margin-bottom--projectPreview-thumbnail--wide;
 }
 .projectPreview-container--wide {
-  &:extend(.container--wide);
+  &:extend(.container--index);
 }
 .projectPreview-container {
   &:extend(.container--narrow);
@@ -213,13 +218,13 @@ img {
   letter-spacing: @letter-spacing--projectPreview-readingTime;
 }
 // : specific projects
-.projectPreview[data-project-title="llllyrics"] img {
+.projectPreview[data-project-title="llllyrics"] img,
+// .projectPreview[data-project-title="Our Friend Leo"] img,
+.projectPreview[data-project-title="Collistive"] img {
   .img-bordered();
   .img-rounded();
 }
-.projectPreview[data-project-title="Screambox"] img,
-.projectPreview[data-project-title="Our Friend Leo"] img {
-  .img-shadowed();
+.projectPreview[data-project-title="Screambox"] img {
   .img-rounded();
 }
 .projectPreview[data-project-title="Monograms"] img,
@@ -283,6 +288,7 @@ img {
   font-size: @font-size--drop-cap;
   font-weight: @font-weight--drop-cap;
   line-height: @line-height--drop-cap;
+  text-transform: uppercase;
   float: left;
   margin-left: @margin-left--drop-cap;
   margin-bottom: @margin-bottom--drop-cap;
@@ -300,7 +306,7 @@ img {
 .project-content > blockquote > p {
   padding-left: @padding-left--blockquote;
   margin-left: @margin-left--blockquote;
-  box-shadow: @box-shadow--blockquote;
+  .box-shadow(@box-shadow--blockquote);
   clear: both;
   font-style: italic;
 }
@@ -385,10 +391,6 @@ img {
   .container--wide {
     max-width: 100%;
   }
-  .projectPreview-thumbnail--wide {
-    padding-left: @container-gutter;
-    padding-right: @container-gutter;
-  }
   .bordered.wide,
   .bordered.full {
     .img-bordered-top-bottom();
@@ -414,8 +416,8 @@ img {
   }
 }
 
-
 // miscellaneous
-#projectColor {
-  display: none;
-}
+// #projectColor {
+//   display: none;
+// }
+// TO DO: remove if unused

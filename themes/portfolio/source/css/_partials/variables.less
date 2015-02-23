@@ -1,20 +1,21 @@
 // colors
 // : variables
-@color-gray-darker:   rgba(0,0,0,0.72);
-@color-gray-dark:     rgba(0,0,0,0.48);
-@color-gray:          rgba(0,0,0,0.36);
-@color-gray-light:    rgba(0,0,0,0.24);
-@color-gray-lighter:  rgba(0,0,0,0.12);
-@color-gray-lightest: rgba(0,0,0,0.06);
-@color-white:         rgb(255,255,255);
-@color-temp:          rgb(127,149,255); // TEMP
+@color-gray-darker:    rgba(0,0,0,0.72);
+@color-gray-dark:      rgba(0,0,0,0.48);
+@color-gray:           rgba(0,0,0,0.36);
+@color-gray-semilight: rgba(0,0,0,0.24);
+@color-gray-light:     rgba(0,0,0,0.18);
+@color-gray-lighter:   rgba(0,0,0,0.12);
+@color-gray-lightest:  rgba(0,0,0,0.06);
+@color-white:          rgb(255,255,255);
+@color-temp:           rgb(127,149,255); // TEMP
 // : applications
 @background-color--body:            @color-white;
 @color--body:                       @color-gray-darker;
 @color--a:                          inherit;
 @color--h1:                         inherit;
 @color--h2:                         inherit;
-@color--h3:                         @color-gray-light;
+@color--h3:                         @color-gray-semilight;
 @background-color--code:            @color-gray-lightest;
 @color--pre-subdued:                @color-gray;
 @color--pre-normal:                 @color-gray-darker;
@@ -30,8 +31,7 @@
 @color--nav-link:                   inherit;
 @color--projectPreview-description: @color-gray;
 @color--projectPreview-meta:        @color-gray-dark;
-@color--img-shadow:                 rgba(0,0,0,0.18);
-@color--img-border:                 rgba(0,0,0,0.06);
+@color--img-border:                 @color-gray-lightest;
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 680px;
@@ -167,6 +167,7 @@
 @container-gutter-px:          (unit(@container-gutter) * @font-size-px-base);
 @max-width--container--narrow: @width-screen-md-min;
 @max-width--container--wide:   (@width-screen-lg-min - @container-gutter-px * 2);
+@max-width--container--index:  (@max-width--container--narrow + 200px);
 
 // spacing
 // : utility
@@ -176,14 +177,15 @@
 @computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
 @line-height:                @computed-line-height--body;
 // : applications
-@padding-top--nav:                              (@container-gutter * @size-small);
-@padding-left--nav:                             @container-gutter;
-@computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2));
-@margin-top--page-main:                         ((@line-height * 4) - @computed-header-height);
-@margin-top--page-main--index:                  ((@line-height * 6) - @computed-header-height);
-@margin-bottom--page-main:                      (@line-height * 6);
+@padding-top--nav:                              (@container-gutter * 1);
+@padding-left--nav:                             (@container-gutter * 1);
+@margin-top--nav:                               (@container-gutter * 1);
+@computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2) + (@margin-top--nav * 2));
+@margin-top--page-main:                         ((@line-height * 6) - @computed-header-height);
+@margin-top--page-main--index:                  ((@line-height * 8) - @computed-header-height);
+@margin-bottom--page-main:                      ((@line-height * 10) - @computed-header-height);
 @projectPreview-gutter:                         (@container-gutter * 2);
-@margin-bottom--projectPreview:                 (@line-height * 12);
+@margin-bottom--projectPreview:                 (@line-height * 8);
 @margin-bottom--projectPreview-thumbnail--wide: (@line-height * 1);
 @margin-bottom--projectPreview-title:           ((@line-height * @line-height-loose) - @computed-line-height--h2);
 @margin-top--projectPreview-meta:               (@line-height * 0.5);

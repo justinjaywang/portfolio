@@ -47,11 +47,11 @@
 //   white-space: nowrap;
 // }
 
-// // drop shadows
-// .box-shadow(@shadow) {
-//   -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
-//           box-shadow: @shadow;
-// }
+// drop shadows
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
+          box-shadow: @shadow;
+}
 
 // box sizing
 .box-sizing(@boxmodel) {
@@ -120,9 +120,6 @@
 // image helpers
 .img-rounded(@r: @border-radius--img-rounded) {
   border-radius: @r;
-}
-.img-shadowed(@shadow: @color--img-shadow) {
-  box-shadow: 0 1px 8px @shadow;
 }
 .img-bordered-top-bottom(@border: @color--img-border) {
   border-top: 1px solid @border;

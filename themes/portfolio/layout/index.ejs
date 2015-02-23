@@ -1,7 +1,17 @@
 <main class="page-main page-main--index">
+  <!-- TEMP -->
+  <!--
+  <div class="container--narrow about-blurb">
+    <p>Hello, my name is Justin. I'm a designer in California.</p><span>more</span>
+  </div>
+  -->
+  <div class="container--narrow temp"><!-- TEMP -->
+    <!-- <h1>Justin Wang</h1><br><br> -->
+    <h5 class="temp-gray"><span class="temp-black">Justin Wang</span> is a designer in California.</h5>
+  </div>
 <% var posts = get_posts({
-  // query: {featured: 1},
-  orderby: 'date',
+  query: {featured: 1},
+  orderby: 'updated',
   order: -1,
   count: 0
 }); %>
