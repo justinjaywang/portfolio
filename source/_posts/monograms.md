@@ -21,4 +21,4 @@ Though restricted to the use of the three letterforms, JJW, there are limitless 
 
 I've been inspired by corporate logos, baseball cap insignias, puzzles, math, and Japanese art motifs.
 
-###### *View [monograms](http://monograms.justinjaywang.com)*.
+###### *View all [monograms](http://monograms.justinjaywang.com)*.
