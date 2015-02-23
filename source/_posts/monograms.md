@@ -1,6 +1,6 @@
 title: Monograms
 date: 2011
-updated: 2014-11
+updated: 2011
 ongoing: 1
 thumbnail: 2011--2.svg
 description: A bunch of JJW logos.
