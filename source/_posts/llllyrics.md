@@ -28,13 +28,13 @@ For the minimum viable product (MVP), I focused only on the features that were a
 
 *Discover*. Visitors to lyrics sites are often one-off, spontaneously looking to find lyrics to a particular song they've just heard or are listening to at the moment. Given this, the interface was designed to be entirely search-focused. No browse latest or view popular. Right away, just type elements of the song you’re looking for into the huge search field in the middle of the screen.
 
-<img class="wide bordered rounded" src="v1-search.png" alt="Search page, version 1.">
+<img class="wide bordered rounded" src="v1-search.png" alt="Search page, version 1">
 
 *View*. On the view page especially, readability was a priority. This meant good typography (appropriate font choice, size, leading, and contrast) as well as providing the right context for viewing (a clean page that minimizes the visual weight of elements that can detract from the reading experience).
 
 *Add or edit*. The edit page doesn’t look like a typical web form. Instead, it was made to look just like the view page. This way, when you see a mistake, you can quickly and seamlessly correct it, then go back to viewing the song.
 
-<img class="wide bordered rounded" src="v1-edit.png" alt="Edit page, version 1.">
+<img class="wide bordered rounded" src="v1-edit.png" alt="Edit page, version 1">
 
 ### Version 1.1: improvements (late 2013)
 
@@ -54,8 +54,8 @@ A year went by, and I had slowly been building up a list of ways the site could 
 
 *Aesthetic refinements*. Typography: leading was tightened, letter-spacing of headlines was decreased, and font size was reduced across the board. Colors: the bright green and blue accent colors of the previous version were consolidated into a softer shade of blue; the background of the page changed from light gray to white. Decorative elements, like icons, the search field underline, and section separators were eliminated, giving a much cleaner feel.
 
-<img class="wide bordered rounded" src="v2-search.png" alt="Search page, version 2.">
-<img class="wide bordered rounded" src="v2-edit.png" alt="Edit page, version 2.">
+<img class="wide bordered rounded" src="v2-search.png" alt="Search page, version 2">
+<img class="wide bordered rounded" src="v2-edit.png" alt="Edit page, version 2">
 
 *Loading indicator*. In the previous version, there was no indication that the page was loading or querying the database. Just a blank page, which was confusing. Naturally, I decided to add a loading indicator.
 
@@ -73,4 +73,4 @@ As with other personal projects I’ve done in the past, llllyrics was motivated
 
 The majority of the insights for improvement were gained from just regularly using the site. It's for this reason I believe that to design a great product, you must use it yourself. At its best, it's one you love to use.
 
-###### *Visit [llllyrics.com](http://llllyrics.com)*.
+###### *Visit [llllyrics](http://llllyrics.com)*.

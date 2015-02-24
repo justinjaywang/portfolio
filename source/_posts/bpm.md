@@ -27,7 +27,7 @@ The first interface concept displayed just the tempo in the center of the screen
 
 The concept also featured a background colormap that would change according to the tempo.
 
-<img class="default" src="v1.png" alt="First concept, with tempo markings and colormap.">
+<img class="default" src="v1.png" alt="First concept, with tempo markings and colormap">
 
 I coded a proof of concept to test the interaction.
 
@@ -47,7 +47,7 @@ I kept the ability to tap to toggle play and pause, and also added visual differ
 
 With such a typographically-driven interface, I knew how important the choice of font was.
 
-<img class="left" src="kerning.png" alt="Custom (green) and original (red) versions of Helvetica Neue Light.">
+<img class="left" src="kerning.png" alt="Custom (green) and original (red) versions of Helvetica Neue Light">
 
 Trying out numerous typefaces in mockups and code, I kept returning to my first instinct of Helvetica Neue Light. It's consistent with the iOS platform, relatively neutral, and still very beautiful to look at.
 
@@ -67,13 +67,13 @@ While I ultimately had to nix the idea of changing background hue according to t
 
 In the final version, you can long-press anywhere on the screen to switch between the themes.
 
-<img class="wide" src="themes.png" alt="Final concept, with themes.">
+<img class="wide" src="themes.png" alt="Final concept, with themes">
 
 ### Branding
 
 Iconography was a challenge, since the app interface doesn't have any visual elements, other than the typography.
 
-<img class="left" src="app-icon.png" alt="Final app icon.">
+<img class="left" src="app-icon.png" alt="Final app icon">
 
 The interface does, however, strongly feature color, which is an important part of the app's brand.
 
