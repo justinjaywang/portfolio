@@ -32,6 +32,7 @@
 @color--projectPreview-description: @color-gray;
 @color--projectPreview-meta:        @color-gray-dark;
 @color--img-border:                 @color-gray-lightest;
+@color--credit:                     @color-gray-semilight;
 
 // sizing
 @size-tera:         3;
@@ -92,7 +93,8 @@
 @font-size--projectPreview-meta:    @size-em-small;
 @font-size--projectPreview-date:    @size-rem-smaller;
 @font-size--drop-cap:               @size-em-tera;
-@font-size--tombstone:              @size-em-small;
+@font-size--tombstone:              @size-em-base;
+@font-size--credit:                 @size-rem-smallest;
 // : font-family-variables
 @font-family-sans-serif:     "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -107,6 +109,7 @@
 @font-family--first-line:                 @font-family-sans-serif;
 @font-family--projectPreview-description: @font-family-serif;
 @font-family--drop-cap:                   @font-family-sans-serif-alt;
+@font-family--tombstone:                  @font-family-sans-serif;
 // : font-weight-variables
 @font-weight-bold:      700;
 @font-weight-normal:    400;
@@ -215,7 +218,7 @@
 @margin-left--blockquote:                       (@padding-left--list - @container-gutter - @padding-left--blockquote);
 @margin-left--drop-cap:                         -0.06em;
 @margin-bottom--drop-cap:                       -0.5em;
-@padding-right--drop-cap:                       0.1em;
+@padding-right--drop-cap:                       0.08em;
 @margin-left--tombstone:                        0.25em;
 
 // miscellaneous
@@ -226,5 +229,5 @@
 @box-shadow--blockquote:         inset 3px 0 @color--box-shadow--blockquote;
 @y--underline:                   (@font-size--p * @line-height--underline);
 @content--tombstone:             '◼';
-@top--tombstone:                 0.04em;
+@top--tombstone:                 0.1em;
 @border-radius--img-rounded:     2px;

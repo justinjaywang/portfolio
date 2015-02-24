@@ -143,6 +143,13 @@ img {
 .rounded {
   .img-rounded();
 }
+.faded {
+  .img-faded();
+}
+.credit {
+  color: @color--credit;
+  font-size: @font-size--credit;
+}
 
 // nav
 .nav {
@@ -229,7 +236,7 @@ img {
 }
 .projectPreview[data-project-title="Monograms"] img,
 .projectPreview[data-project-title="BARE"] img {
-  .opacity(0.8);
+  .img-faded();
   width: 100%;
 }
 
@@ -296,6 +303,7 @@ img {
 }
 .project-content > p:last-of-type:not(:nth-of-type(-n+2)) {
   &:after {
+    font-family: @font-family--tombstone;
     font-size: @font-size--tombstone;
     content: @content--tombstone;
     margin-left: @margin-left--tombstone;
@@ -416,6 +424,9 @@ img {
   }
 }
 
+.u-fillWidth {
+  width: 100%;
+}
 // miscellaneous
 // #projectColor {
 //   display: none;
