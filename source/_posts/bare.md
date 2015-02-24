@@ -14,4 +14,16 @@ tags:
 
 # BARE
 
+<!-- motivation -->
+
+- BARE was looking for a new identity.
+- Wanted something that said art, lifestyle, not just fashion.
+- also something more flexible, that could be used as an icon
+- more recognizable, iconic
+- old logo was joked about that it looked like the Sears logo. It was true.
+
+<!-- old logo -->
+
+<!-- new logo -->
+
 - visit [BARE's website](http://www.baremagazine.org/)

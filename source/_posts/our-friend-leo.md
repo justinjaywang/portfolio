@@ -13,3 +13,13 @@ tags:
 ---
 
 # Our Friend Leo
+
+<!-- intro to Maker Program -->
+The Maker Program at Duncan/Channon in the summer of 2012...
+
+<!-- my roles -->
+
+- Arduino software
+- fabrication of hardware at machine shop
+- branding and graphics
+- website design and development

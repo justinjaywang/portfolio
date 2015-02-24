@@ -14,4 +14,16 @@ tags:
 
 # Collistive
 
-Collistive was a project for *Web-based Product Development*, a course at UC Berkeley.
+<!-- intro to class -->
+In my last year at Berkeley, I got the opportunity to take
+
+<!-- initial concepts -->
+
+- crowdsourced checklists concept
+- self-expression vs. utility
+
+<!-- final prototype and launch -->
+
+Collistive crowdsources the most popular items in a list. People can upvote or downvote items, add new items to an existing list, or start a new list. Launched in alpha in the spring of 2012, as a prototype for *Web-Based Product Development* at UC Berkeley.
+
+###### *Collaborators: Gene Pang, Genevieve Wang, Edmund Ye*.
