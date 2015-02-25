@@ -226,7 +226,7 @@ img {
 }
 // : specific projects
 .projectPreview[data-project-title="llllyrics"] img,
-// .projectPreview[data-project-title="Our Friend Leo"] img,
+.projectPreview[data-project-title="Our Friend Leo"] img,
 .projectPreview[data-project-title="Collistive"] img {
   .img-bordered();
   .img-rounded();
@@ -283,12 +283,6 @@ img {
 .project-content > h1 + p:first-of-type {
   margin-top: @margin-top--project-content-p-first-of-type + @margin-bottom--project-content-h1 + (@line-height * 1);
 }
-.project-content > h2 + p:first-of-type {
-  margin-top: @margin-top--project-content-p-first-of-type + @margin-bottom--project-content-h2;
-}
-.project-content > h3 + p:first-of-type {
-  margin-top: @margin-top--project-content-p-first-of-type + @margin-bottom--project-content-h3;
-}
 .project-content > p:first-of-type::first-letter,
 .project-content > hr + p::first-letter {
   font-family: @font-family--drop-cap;
@@ -301,7 +295,7 @@ img {
   margin-bottom: @margin-bottom--drop-cap;
   padding-right: @padding-right--drop-cap;
 }
-.project-content > p:last-of-type:not(:nth-child(-n+2)) {
+.project-content > p:last-of-type {
   &:after {
     font-family: @font-family--tombstone;
     font-size: @font-size--tombstone;
@@ -310,6 +304,9 @@ img {
     position: relative;
     top: @top--tombstone;
   }
+}
+.project-content > h6 {
+  font-style: italic;
 }
 .project-content > blockquote > p {
   padding-left: @padding-left--blockquote;
@@ -351,6 +348,9 @@ img {
 }
 .project-figure--full {
   &:extend(.container--full);
+}
+.project-figure--full img {
+  width: 100%;
 }
 .project-content > *:not(.project-figure) + .project-figure--default {
   margin-top: (@line-height * 2);
