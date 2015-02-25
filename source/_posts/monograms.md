@@ -25,4 +25,4 @@ Though restricted to the use of the three letterforms, *JJW*, there are limitles
 
 For this project, I've been inspired by corporate logos, baseball cap insignias, puzzles, math, and Japanese art motifs.
 
-###### *View all [monograms](http://monograms.justinjaywang.com)*.
+###### View all [monograms](http://monograms.justinjaywang.com).

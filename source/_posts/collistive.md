@@ -18,5 +18,4 @@ tags:
 <img class="wide bordered rounded" src="list.png" alt="">
 <img class="wide bordered rounded" src="who-we-are.png" alt="">
 
----
-Created in the spring of 2012 for the course *Web-Based Product Development* at UC Berkeley, with Gene Pang, Genevieve Wang, and Edmund Ye.
+Collistive is a website that crowdsources the most popular items in a list. People can upvote or downvote items, add new items, or start a new list. Created for *Web-Based Product Development* at UC Berkeley in Spring 2012, with Gene Pang, Genevieve Wang, and Edmund Ye.

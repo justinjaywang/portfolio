@@ -1,11 +1,11 @@
 title: Our Friend Leo
 date: 2012-08
 updated: 2012-08
-thumbnail: diagram.png
+thumbnail: website.png
 description: Software, hardware, and website for a tweeting guitar.
 color:
 vertical_layout: 0
-reading_time: 5
+reading_time: 1
 featured:
 categories:
 tags:
@@ -14,12 +14,8 @@ tags:
 
 # Our Friend Leo
 
-<!-- intro to Maker Program -->
-The Maker Program at Duncan/Channon in the summer of 2012...
+<img class="wide bordered rounded" src="website-large.png" alt="">
 
-<!-- my roles -->
+Our Friend Leo was born from an eight week collaborative exploration of human-object relationships. In an effort to enhance the formerly one-way love affair musicians have with their instruments, Leo exists as a proof-of-concept that the special relationships we have with things can actually be reciprocated by the objects of our affections.
 
-- Arduino software
-- fabrication of hardware at machine shop
-- branding and graphics
-- website design and development
+###### Developed by the Makers at [Duncan/Channon](http://www.duncanchannon.com/). Watch the [video](https://vimeo.com/46912648).

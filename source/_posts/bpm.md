@@ -90,4 +90,4 @@ Often, though, having fewer features and options can lead to a more focused and 
 
 I started this project with a clear vision for what I wanted the product to be. Technical challenges arose, but the design integrity was never compromised. I always found a way to engineer it in the end, and it resulted in a product that I love to use. For that, I'm very proud.
 
-###### *Download BPM on the [App Store](https://itunes.apple.com/us/app/bpm-metronome/id668502976)*.
+###### Download BPM on the [App Store](https://itunes.apple.com/us/app/bpm-metronome/id668502976).
