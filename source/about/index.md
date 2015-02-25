@@ -3,11 +3,12 @@ title: About
 
 # About
 
-Hello, I'm Justin, a designer from California. My favorite thing in the world is to create things—products, experiences, visual identities—that are elegant and delightful. The rest of my favorite things include music, taking [pictures](http://ihardlyknowher.com/justinjaywang), nature, playing sports, and cooking.
 
-Until recently, I designed and developed apps at [Vertigo](http://vertigo.com/). I also interned in the [Duncan/Channon](http://www.duncanchannon.com/) Makers Program, a laboratory for new ideas. I graduated with a BS/MS from [UC Berkeley](http://www.berkeley.edu/), with a focus on human-centered design.
+I am Justin, a designer from California. One of my greatest joys in life is creating things—products, experiences, visual identities—that are elegant and delightful. I also like music, taking [pictures](http://ihardlyknowher.com/justinjaywang), nature, playing sports, and cooking.
 
-- <a href="mailto:hello@justinjaywang.com">Email</a>
+Until recently, I designed and developed apps at [Vertigo](http://vertigo.com/). Prior to that, I studied engineering at [UC Berkeley](http://www.berkeley.edu/), focusing on human-centered design.
+
+- <a href="mailto:hi@justinjaywang.com">Email</a>
 - [Twitter](http://twitter.com/justinjaywang)
 - [GitHub](https://github.com/justinjaywang)
 - [Facebook](https://www.facebook.com/justinjaywang)
