@@ -7,4 +7,4 @@ public/
 .deploy/
 _meta/
 source/_posts/**/temp/
-source/_drafts/
+source/_drafts/**/temp/
