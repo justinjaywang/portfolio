@@ -307,6 +307,9 @@ img {
 }
 .project-content > h6 {
   font-style: italic;
+  & em {
+    font-style: normal;
+  }
 }
 .project-content > blockquote > p {
   padding-left: @padding-left--blockquote;
@@ -314,9 +317,9 @@ img {
   .box-shadow(@box-shadow--blockquote);
   clear: both;
   font-style: italic;
-}
-.project-content > blockquote > p em {
-  font-style: normal;
+  & em {
+    font-style: normal;
+  }
 }
 .project-content > ol,
 .project-content > ul {
