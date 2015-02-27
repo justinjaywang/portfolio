@@ -8,6 +8,7 @@
 }
 html {
   font-size: @font-size--html;
+  .user-select(none);
 }
 body {
   height: 100%;
@@ -240,6 +241,9 @@ img {
 }
 
 // projects
+.project-content {
+  .user-select(text);
+}
 .project-content a {
   .underline(@y--underline);
   .underline-color(@color--underline);
