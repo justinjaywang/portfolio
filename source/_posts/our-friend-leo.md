@@ -1,7 +1,7 @@
 title: Our Friend Leo
 date: 2012-08
 updated: 2012-08
-thumbnail: website.png
+thumbnail: website.jpg
 description: Software, hardware, and website for a tweeting guitar.
 color:
 vertical_layout: 0
@@ -18,5 +18,5 @@ Our Friend Leo was born from an eight week collaborative exploration of human-ob
 
 ###### Developed by the Makers at [Duncan/Channon](http://www.duncanchannon.com/). Watch the [video](http://player.vimeo.com/video/46912648).
 
-<img class="wide bordered rounded" src="website-large.png" alt="">
+<img class="wide bordered rounded" src="website.jpg" alt="">
 
