@@ -15,9 +15,9 @@ tags:
 
 # Monograms
 
-Creating monograms has really been a lifelong project. I've been sketching weird symbols and logos based off my intials since as far back as I can remember. I even signed my artwork with whichever latest monogram I was into at the time.
+Creating monograms has really been a lifelong project for me. I've been sketching weird symbols and logos based off my intials since as far back as I can remember. I even signed my artwork with whichever latest monogram I was into at the time.
 
-Though restricted to the use of the three letterforms, *JJW*, there are limitless ways they can be arranged, interwoven, and manipulated to fit into a single graphic. Each monogram explores a different idea—negative space, shape, dimensionality—in one color, in order to be the simplest expression of that idea.
+Though restricted to the letterforms, JJW, there are limitless ways they can be arranged, interwoven, and manipulated to fit into a single graphic. Each monogram explores a different idea, be it the use negative space, symmetry, shape, or dimensionality. They're depicted in one color in order to be the simplest expression of that idea.
 
 ![](2015--2.svg)
 ![](2014--5.svg)
