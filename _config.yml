@@ -5,9 +5,9 @@
 # Site
 title: Justin Wang
 subtitle:
-description: Portfolio of Justin Wang
+description: Portfolio
 author: Justin Wang
-email: hello@justinjaywang.com
+email: hi@justinjaywang.com
 language: en-US
 
 # URL
@@ -85,7 +85,7 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: https://github.com/justinjaywang/portfolio.git
-  branch: gh-pages
-  message: updated site {{ now('YYYY-MM-DD HH:mm:ss') }}
+  type:
+  repo:
+  branch:
+  message:
