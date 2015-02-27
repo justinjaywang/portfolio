@@ -2,33 +2,23 @@
   <% if (project.thumbnail && project.vertical_layout) { %>
   <figure class="projectPreview-thumbnail projectPreview-thumbnail--wide">
     <div class="projectPreview-container--wide">
-      <% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %>
+      <a class="projectPreview-link" href="<%- url_for(project.path) %>">
         <img src="<%- url_for(project.path) + project.thumbnail %>">
-      <% if (project.reading_time) { %></a><% } %>
+      </a>
     </div>
   </figure>
 
   <% } %>
   <div class="projectPreview-container">
-    <% if (project.thumbnail && !project.vertical_layout) { %><% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure><% if (project.reading_time) { %></a><% } %><% } %><% if (project.reading_time) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><% } %><section class="projectPreview-text">
-      <% if (project.title) { %>
+    <% if (project.thumbnail && !project.vertical_layout) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure></a><% } %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><section class="projectPreview-text">
       <h2 class="projectPreview-title"><%= project.title %></h2>
-      <% } %>
       <% if (project.description) { %>
       <p class="projectPreview-description"><%= project.description %></p>
       <% } %>
       <ul class="projectPreview-meta">
-        <% if (project.date) { %>
-        <li class="projectPreview-date">
-          <%- partial('project-date', {date_format: config.date_format, project: project}) %>
-        </li>
-        <% } %>
-        <% if (project.reading_time) { %>
+        <%- partial('project-date', {date_format: config.date_format, project: project}) %>
         <li class="projectPreview-readingTime"><%= project.reading_time %> min read</li>
-        <% } %>
       </ul>
-    </section><% if (project.reading_time) { %></a><% } %>
+    </section></a>
   </div>
 </article>
-
-<!-- TO DO: fix all these ifs -->
