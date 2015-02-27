@@ -19,9 +19,9 @@ The Live Extra suite of apps allows you to watch NBC Sports coverage of live eve
 <img class="default bordered rounded" src="app-map-1.png" alt="Initial app map">
 <img class="default bordered rounded" src="app-map-2.png" alt="Revised app map, to account for Olympics content">
 
-<img class="default bordered rounded" src="hub-featured-1.png" alt="Landing hub, variation 1">
-<img class="default bordered rounded" src="hub-featured-2.png" alt="Landing hub, variation 2">
-<img class="default bordered rounded" src="hub-featured-3.png" alt="Landing hub, variation 3">
+<img class="default bordered rounded" src="hub-featured-1.jpg" alt="Landing hub, variation 1">
+<img class="default bordered rounded" src="hub-featured-2.jpg" alt="Landing hub, variation 2">
+<img class="default bordered rounded" src="hub-featured-3.jpg" alt="Landing hub, variation 3">
 
 ### Windows Store app
 
