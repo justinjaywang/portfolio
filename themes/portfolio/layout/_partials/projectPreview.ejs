@@ -15,7 +15,9 @@
       <p class="projectPreview-description"><%= project.description %></p>
       <% } %>
       <ul class="projectPreview-meta">
-        <%- partial('project-date', {date_format: config.date_format, project: project}) %>
+        <li class="projectPreview-date">
+          <%- partial('project-date', {date_format: config.date_format, project: project}) %>
+        </li>
         <li class="projectPreview-readingTime"><%= project.reading_time %> min read</li>
       </ul>
     </section></a>
