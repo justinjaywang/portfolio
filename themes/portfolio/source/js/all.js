@@ -31,15 +31,5 @@
       }
     });
   });
-  
-  $(window).on('load pageshow', function() {
-    // colorize per project
-    var color = $(document.getElementById('projectColor')).html();
-    if (color) {
-      $(document).find('.colorize').each(function () {
-        $(this).css('color', color);
-      });
-    }
-  });
 
 }(jQuery);
