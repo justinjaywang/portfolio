@@ -1,7 +1,7 @@
 title: Screambox
 date: 2014-04
 updated: 2014-04
-thumbnail: home.png
+thumbnail: home.jpg
 description: A home for horror movies.
 color:
 vertical_layout:
@@ -14,6 +14,8 @@ tags:
 
 # Screambox
 
-A website for horror. I worked on UX design and also front-end development.
+Screambox is an on-demand video service for horror movies. The website launched in beta in the summer of 2014.
 
-Visit [website](https://www.screambox.com/)
+###### Visit [Screambox](https://www.screambox.com/).
+
+<img class="wide rounded" src="home.jpg" alt="">
