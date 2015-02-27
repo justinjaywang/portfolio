@@ -52,7 +52,11 @@ A year went by, and I had slowly been building up a list of ways the site could 
 
 *Sticky header*. Whereas in version 1 the controls—home, edit, save, cancel—are placed sporadically throughout the page, in version 2, they've been moved to the header, where they follow a consistent system: the home link is top-left and contextual actions are top-right. The header bar is affixed to the top of the page when you need it (when scrolling up or at the bottom of the page) and disappears when you don't (when scrolling down).
 
-*Aesthetic refinements*. Typography: leading was tightened, letter-spacing of headlines was decreased, and font size was reduced across the board. Colors: the bright green and blue accent colors of the previous version were consolidated into a softer shade of blue; the background of the page changed from light gray to white. Decorative elements, like icons, the search field underline, and section separators were eliminated, giving a much cleaner feel.
+*Aesthetic refinements*. 
+
+- Typography was refined: leading was tightened, letter-spacing of headlines was decreased, and font size was reduced across the board.
+- Consolidation of colors: the bright green and blue accents were changed to periwinkle blue, and the background color of the page changed from light gray to white.
+- Decorative elements, like icons, the search field underline, and section separators were eliminated, giving a much cleaner feel.
 
 <img class="wide bordered rounded" src="v2-search.png" alt="Search page, version 2">
 <img class="wide bordered rounded" src="v2-edit.png" alt="Edit page, version 2">
