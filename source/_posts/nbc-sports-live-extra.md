@@ -27,10 +27,7 @@ The Live Extra suite of apps allows you to watch NBC Sports coverage of live eve
 
 <img class="wide" src="tablet-nbc-olympics.png" alt="">
 <img class="wide" src="tablet-nbc-sports.png" alt="">
-<img class="default rounded" src="w8-home-navbar.png" alt="">
-<img class="default rounded" src="w8-sports.png" alt="">
-<img class="default rounded" src="w8-sport-home.png" alt="">
-<img class="default rounded" src="w8-video-overlay.png" alt="">
+<img class="wide" src="tablet-navbar.png" alt="">
 
 ### Windows Phone 8 app
 
