@@ -1,8 +1,8 @@
 title: NBC Sports Live Extra
 date: 2013-12
 updated: 2013-12
-thumbnail: tablet.png
-description: Video on demand for Windows and Windows Phone 8.
+thumbnail: tablet-nbc-olympics.png
+description: Video on demand for Windows Store and Windows Phone 8.
 color:
 vertical_layout: 1
 reading_time: 1
@@ -14,5 +14,27 @@ tags:
 
 # NBC Sports Live Extra
 
-- [Windows 8 app on the store](http://apps.microsoft.com/windows/en-us/app/nbc-sports-live-extra/e15ed754-98ec-4ab5-9285-b9eddc3e9251)
-- [WP8 app on the store](http://www.windowsphone.com/en-us/store/app/nbc-sports-live-extra/2bfb700d-7703-45ac-818e-677857b3b849)
+The Live Extra suite of apps allows you to watch NBC Sports coverage of live events and highlights from NBC and NBC Sports Network. The NBC Sports Live Extra apps for Windows Store and Windows Phone 8 were released in early 2014, just in time for the Winter Olympics in Sochi.
+
+<img class="default bordered rounded" src="app-map-1.png" alt="Initial app map">
+<img class="default bordered rounded" src="app-map-2.png" alt="Revised app map, to account for Olympics content">
+
+<img class="default bordered rounded" src="hub-featured-1.png" alt="Landing hub, variation 1">
+<img class="default bordered rounded" src="hub-featured-2.png" alt="Landing hub, variation 2">
+<img class="default bordered rounded" src="hub-featured-3.png" alt="Landing hub, variation 3">
+
+### Windows Store app
+
+<img class="wide" src="tablet-nbc-olympics.png" alt="">
+<img class="wide" src="tablet-nbc-sports.png" alt="">
+<img class="default rounded" src="w8-home-navbar.png" alt="">
+<img class="default rounded" src="w8-sports.png" alt="">
+<img class="default rounded" src="w8-sport-home.png" alt="">
+<img class="default rounded" src="w8-video-overlay.png" alt="">
+
+### Windows Phone 8 app
+
+<img class="default" src="wp8-featured.png" alt="">
+<img class="default" src="wp8-live.png" alt="">
+<img class="default" src="wp8-menu.png" alt="">
+<img class="default" src="wp8-video.png" alt="">

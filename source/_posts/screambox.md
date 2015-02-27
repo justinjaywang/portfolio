@@ -14,4 +14,6 @@ tags:
 
 # Screambox
 
+A website for horror. I worked on UX design and also front-end development.
+
 Visit [website](https://www.screambox.com/)

@@ -14,7 +14,7 @@ tags:
 
 # Griddler
 
-My first project at Vertigo was Griddler, a word game for iOS and Android that demoed the capabilities of [Google Cloud Platform](https://cloud.google.com/). The source code would later be published on GitHub to be used as reference for developers.
+Griddler is a word game for iOS and Android that was created to demonstrate the capabilities of [Google Cloud Platform](https://cloud.google.com/). The source code would later be published on GitHub to be used as reference for developers.
 
 Given the parameters around gameplay, [Nina Nocetti](https://twitter.com/nibimono) and I created a comprehensive set of wireframes, visuals, and branding and worked closely with developers to get the designs implemented.
 
