@@ -19,4 +19,3 @@ Our Friend Leo was born from an eight week collaborative exploration of human-ob
 ###### Developed by the Makers at [Duncan/Channon](http://www.duncanchannon.com/). Watch the [video](http://player.vimeo.com/video/46912648).
 
 <img class="wide bordered rounded" src="website.png" alt="">
-
