@@ -1,7 +1,7 @@
 title: Screambox
 date: 2014-04
 updated: 2014-04
-thumbnail: home.jpg
+thumbnail: home.png
 description: A home for horror movies.
 color:
 vertical_layout:
@@ -18,4 +18,4 @@ Screambox is an on-demand video service for horror movies. The website launched 
 
 ###### Visit [Screambox](https://www.screambox.com/).
 
-<img class="wide rounded" src="home.jpg" alt="">
+<img class="wide rounded" src="home.png" alt="">
