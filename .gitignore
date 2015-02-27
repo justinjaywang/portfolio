@@ -6,5 +6,4 @@ debug.log
 public/
 .deploy/
 _meta/
-source/_posts/**/temp/
-source/_drafts/**/temp/
+source/**/**/_temp/
