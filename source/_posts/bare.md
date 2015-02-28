@@ -30,4 +30,4 @@ The mark was designed with the ability to be used with a variety of overlay text
 <img class="default u-fillWidth" src="poster.jpg" alt="<span class='creditCaption'>On a poster on a tree</span><span class='credit'>BARE Blog</span>">
 
 ---
-Since its adoption, the logo has built up equity and recognition, helping to grow BARE as a brand. As its designer, it's been rewarding to see. Now, succeeding generations of BARE designers are utilizing the logo in new and creative ways, and I'm excited for what they'll come up with next.
+Since its adoption, the logo has built up equity and recognition, helping to grow BARE as a brand. As its designer, it's been rewarding to see. Each semester, succeeding generations of BARE designers are utilizing the logo in new and creative ways, and I'm excited for what they'll come up with next.
