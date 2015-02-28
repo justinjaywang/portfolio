@@ -2,7 +2,7 @@ title: BARE
 date: 2012-10
 updated: 2012-10
 thumbnail: new-logo.svg
-description: Magazine logo.
+description: Magazine rebrand.
 color:
 vertical_layout:
 reading_time: 2
@@ -30,4 +30,4 @@ The mark was designed with the ability to be used with a variety of overlay text
 <img class="default u-fillWidth" src="poster.jpg" alt="On a poster. <span class='credit'>BARE Blog</span>">
 
 ---
-Since its adoption, the logo has built equity and recognition, helping to grow BARE as a brand. As its designer, it's been fun to see. I'm inspired by all the creative ways that succeeding generations of BARE designers have been utilizing the logo, and I'm excited to see what they'll come up with next.
+Since its adoption, the logo has built up equity and recognition, helping to grow BARE as a brand. As its designer, it's been rewarding to see. Now, succeeding generations of BARE designers are utilizing the logo in new and creative ways, and I'm excited for what they'll come up with next.
