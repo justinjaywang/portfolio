@@ -25,9 +25,9 @@ The new logo has two versions: a stylized B and a full version with "BARE" acros
 
 The mark was designed with the ability to be used with a variety of overlay textures, as seen on their [Street Style blog](http://www.barestreetstyle.org/). It also scales down well to icon applications, and is more instantly identifiable.
 
-<img class="default u-fillWidth" src="magazines.jpg" alt="The new logo, as seen on magazine covers. <span class='credit'>@baremagazine</span>">
-<img class="default u-fillWidth" src="flyers.jpg" alt="On advertising flyers. <span class='credit'>@baremagazine</span>">
-<img class="default u-fillWidth" src="poster.jpg" alt="On a poster. <span class='credit'>BARE Blog</span>">
+<img class="default u-fillWidth" src="magazines.jpg" alt="<span class='creditCaption'>The BARE logo on magazine covers</span><span class='credit'>@baremagazine</span>">
+<img class="default u-fillWidth" src="flyers.jpg" alt="<span class='creditCaption'>On advertising flyers</span><span class='credit'>@baremagazine</span>">
+<img class="default u-fillWidth" src="poster.jpg" alt="<span class='creditCaption'>On a poster on a tree</span><span class='credit'>BARE Blog</span>">
 
 ---
 Since its adoption, the logo has built up equity and recognition, helping to grow BARE as a brand. As its designer, it's been rewarding to see. Now, succeeding generations of BARE designers are utilizing the logo in new and creative ways, and I'm excited for what they'll come up with next.

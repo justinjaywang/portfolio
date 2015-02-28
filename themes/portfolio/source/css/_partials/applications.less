@@ -146,9 +146,15 @@ img {
 .faded {
   .img-faded();
 }
+.creditCaption {
+  margin-right: @margin-right--creditCaption;
+}
 .credit {
   color: @color--credit;
   font-size: @font-size--credit;
+  &:before {
+    content: @content--credit;
+  }
 }
 
 // nav
