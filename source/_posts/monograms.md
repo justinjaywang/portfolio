@@ -2,7 +2,7 @@ title: Monograms
 date: 2011-08
 updated: 2015-01
 ongoing: 1
-thumbnail: temp/thumbnail.svg
+thumbnail: thumbnail.svg
 description: An exploration of JJW logos.
 color: rgba(0,0,0,0.8)
 vertical_layout: 0

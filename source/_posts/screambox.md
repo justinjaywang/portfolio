@@ -1,7 +1,7 @@
 title: Screambox
 date: 2014-04
 updated: 2014-04
-thumbnail: temp/thumbnail.png
+thumbnail: thumbnail.png
 description: A home for horror movies.
 color:
 vertical_layout:

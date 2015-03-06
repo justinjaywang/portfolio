@@ -1,7 +1,7 @@
 title: BARE
 date: 2012-10
 updated: 2012-10
-thumbnail: temp/avatar.png
+thumbnail: thumbnail.png
 description: Rebrand for a magazine.
 color:
 vertical_layout:
