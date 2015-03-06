@@ -22,7 +22,7 @@
 @color--pre-em:                     @color-gray-darker;
 @color--pre-strong:                 @color-gray-darker;
 @color--project-content-list-item:  @color-gray;
-@color--border-top--hr:             @color-gray-lighter;
+@color--hr:                         @color-gray-lighter;
 @color--box-shadow--blockquote:     @color-gray-lighter;
 @color--underline:                  @color-gray-light;
 @color--project-figure-caption:     @color-gray;
@@ -36,7 +36,7 @@
 @color--projectPreview-description: @color-gray;
 @color--projectPreview-meta:        @color-gray-dark;
 @color--img-border:                 rgba(0,0,0,0.09);
-@color--credit:                     @color-gray-light;
+@color--credit:                     @color-gray-semilight;
 
 // sizing
 @size-tera:         3;
@@ -100,7 +100,7 @@
 @font-size--filter-item:             @size-rem-smaller;
 @font-size--drop-cap:                @size-em-tera;
 @font-size--tombstone:               @size-em-base;
-@font-size--credit:                  @size-rem-smallest;
+@font-size--credit:                  @size-rem-smaller;
 // : font-family-variables
 @font-family-sans-serif:     "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -192,9 +192,9 @@
 @computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
 @line-height:                @computed-line-height--body;
 // : applications
-@padding-top--nav:                              (@container-gutter * 1);
+@padding-top--nav:                              (@container-gutter * 2);
 @padding-left--nav:                             (@container-gutter * 1);
-@margin-top--nav:                               (@container-gutter * 1);
+@margin-top--nav:                               (@container-gutter * 0);
 @computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2) + (@margin-top--nav * 2));
 @margin-top--page-main:                         ((@line-height * 6) - @computed-header-height);
 @margin-top--page-main--index:                  ((@line-height * 6) - @computed-header-height);
@@ -243,15 +243,16 @@
 @margin-right--creditCaption:                   @size-em-nano;
 
 // miscellaneous
-@text-align--project-content-h1: center;
-@width--hr:                      5em;
-@margin-top--hr:                 (@line-height * 2);
-@border-top--hr:                 1px solid @color--border-top--hr;
-@box-shadow--blockquote:         inset 3px 0 @color--box-shadow--blockquote;
-@y--underline:                   (@font-size--p * @line-height--underline);
-@content--credit:                '';
-@content--tombstone:             '◼';
-@top--tombstone:                 0.1em;
-@border-radius--img-rounded:     2px;
-@border-width--filter:           2px;
-@content--tag:                   '#';
+@text-align--project-content-h1:    center;
+@width--hr:                         5em;
+@margin-top--hr:                    (@line-height * 2);
+@border-top--hr:                    1px solid @color--hr;
+@box-shadow--blockquote:            inset 3px 0 @color--box-shadow--blockquote;
+@y--underline:                      (@font-size--p * @line-height--underline);
+@content--credit:                   '';
+@content--tombstone:                '◼';
+@top--tombstone:                    0.1em;
+@border-radius--img-rounded:        2px;
+@border-radius--projectCard-figure: 2px;
+@border-width--filter:              2px;
+@content--tag:                      '#';
