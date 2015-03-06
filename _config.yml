@@ -5,7 +5,7 @@
 # Site
 title: Justin Wang
 subtitle:
-description: Portfolio
+description: Portfolio of Justin Wang.
 author: Justin Wang
 email: hi@justinjaywang.com
 language: en-US
@@ -50,7 +50,7 @@ tag_map:
 ## 0: Fully Disable
 archive: 1
 category: 0
-tag: 0
+tag: 1
 
 # Server
 ## Hexo uses Connect as a server
