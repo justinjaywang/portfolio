@@ -7,10 +7,12 @@ description: A bunch of JJW logos.
 color: rgba(0,0,0,0.8)
 vertical_layout: 0
 reading_time: 1
+public: 1
 featured: 1
 categories:
 tags:
 - personal
+- visual
 ---
 
 # Monograms

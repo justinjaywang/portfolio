@@ -6,10 +6,13 @@ description: A home for horror movies.
 color:
 vertical_layout:
 reading_time: 1
+public: 0
 featured:
 categories:
 tags:
 - professional
+- ux
+- dev
 ---
 
 # Screambox

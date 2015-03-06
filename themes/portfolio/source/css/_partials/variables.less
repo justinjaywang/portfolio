@@ -26,8 +26,13 @@
 @color--box-shadow--blockquote:     @color-gray-lighter;
 @color--underline:                  @color-gray-light;
 @color--project-figure-caption:     @color-gray;
-@color--nav:                        @color-gray;
+@color--nav:                        @color-gray-dark;
 @color--nav-link:                   inherit;
+@color--filter-item:                @color-gray-semilight;
+@color--filter-link--active:        @color-gray-dark;
+@color--tag:                        @color-gray-light;
+@color--projectCard-readingTime:    @color-gray-dark;
+@color--projectCard-description:    @color-gray;
 @color--projectPreview-description: @color-gray;
 @color--projectPreview-meta:        @color-gray-dark;
 @color--img-border:                 rgba(0,0,0,0.09);
@@ -79,21 +84,23 @@
 @font-size-px-base:    18.5px;
 @font-size-px-base-sm: 16.5px;
 // : font-size-applications
-@font-size--html:                   @font-size-px-base;
-@font-size--html-sm:                @font-size-px-base-sm;
-@font-size--body:                   @size-em-base;
-@font-size--h1:                     @size-em-giga;
-@font-size--h2:                     @size-em-mega;
-@font-size--h3:                     @size-em-mega;
-@font-size--p:                      @size-em-base;
-@font-size--code:                   @size-em-smaller;
-@font-size--project-figure-caption: @size-em-smaller;
-@font-size--nav:                    @size-em-base;
-@font-size--projectPreview-meta:    @size-em-small;
-@font-size--projectPreview-date:    @size-rem-smaller;
-@font-size--drop-cap:               @size-em-tera;
-@font-size--tombstone:              @size-em-base;
-@font-size--credit:                 @size-rem-smallest;
+@font-size--html:                    @font-size-px-base;
+@font-size--html-sm:                 @font-size-px-base-sm;
+@font-size--body:                    @size-em-base;
+@font-size--h1:                      @size-em-giga;
+@font-size--h2:                      @size-em-mega;
+@font-size--h3:                      @size-em-mega;
+@font-size--p:                       @size-em-base;
+@font-size--code:                    @size-em-smaller;
+@font-size--project-figure-caption:  @size-em-smaller;
+@font-size--nav:                     @size-em-base;
+@font-size--projectPreview-meta:     @size-em-small;
+@font-size--projectPreview-date:     @size-rem-smaller;
+@font-size--projectCard-readingTime: @size-rem-small;
+@font-size--filter-item:             @size-rem-smaller;
+@font-size--drop-cap:                @size-em-tera;
+@font-size--tombstone:               @size-em-base;
+@font-size--credit:                  @size-rem-smallest;
 // : font-family-variables
 @font-family-sans-serif:     "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -106,6 +113,7 @@
 @font-family--project-content-text:       @font-family-serif;
 @font-family--strong:                     @font-family-sans-serif;
 @font-family--first-line:                 @font-family-sans-serif;
+@font-family--projectCard-description:    @font-family-serif;
 @font-family--projectPreview-description: @font-family-serif;
 @font-family--drop-cap:                   @font-family-sans-serif-alt;
 @font-family--tombstone:                  @font-family-sans-serif;
@@ -126,6 +134,8 @@
 @font-weight--project-figure-caption: @font-weight-bold;
 @font-weight--nav:                    @font-weight-bold;
 @font-weight--projectPreview-date:    @font-weight-bold;
+@font-weight--tag:                    @font-weight-normal;
+@font-weight--filter-item:            @font-weight-bold;
 @font-weight--drop-cap:               @font-weight-normal;
 // : font-style applications
 @font-style--pre-em: italic;
@@ -147,7 +157,7 @@
 @letter-spacing-tight:   -0.007em;
 @letter-spacing-base:    0;
 @letter-spacing-loose:   0.02em;
-@letter-spacing-looser:  0.04em;
+@letter-spacing-looser:  0.06em;
 // : letter-spacing-applications
 @letter-spacing--body:                       @letter-spacing-base;
 @letter-spacing--headings:                   @letter-spacing-base;
@@ -155,12 +165,14 @@
 @letter-spacing--h2:                         @letter-spacing-tighter;
 @letter-spacing--h3:                         @letter-spacing-tighter;
 @letter-spacing--projectPreview-readingTime: @letter-spacing-tighter;
+@letter-spacing--projectCard-readingTime:    @letter-spacing-tighter;
 @letter-spacing--projectPreview-date:        @letter-spacing-loose;
+@letter-spacing--filter-item:                @letter-spacing-looser;
 
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 720px;
-@width-screen-lg-min: 1080px; // width of wide images
+@width-screen-lg-min: 960px; // width of wide images
 @width-screen-xs-max: (@width-screen-sm-min - 1);
 @width-screen-sm-max: (@width-screen-md-min - 1);
 @width-screen-md-max: (@width-screen-lg-min - 1);
@@ -185,13 +197,22 @@
 @margin-top--nav:                               (@container-gutter * 1);
 @computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2) + (@margin-top--nav * 2));
 @margin-top--page-main:                         ((@line-height * 6) - @computed-header-height);
-@margin-top--page-main--index:                  ((@line-height * 8) - @computed-header-height);
+@margin-top--page-main--index:                  ((@line-height * 6) - @computed-header-height);
 @margin-bottom--page-main:                      ((@line-height * 10) - @computed-header-height);
 @projectPreview-gutter:                         (@container-gutter * 2);
+@projectCard-gutter:                            (@container-gutter * 2);
+@margin-bottom--filter:                         (@line-height * 1);
+@margin-right--filter-item:                     @size-em-larger;
+@padding-top--filter-link:                      (@line-height * 0.5);
+@padding-top--projectCard:                      (@line-height * 1.5);
+@width--projectCard-figure:                     (@line-height * 5);
 @margin-bottom--projectPreview:                 (@line-height * 8);
 @margin-bottom--projectPreview-thumbnail--wide: (@line-height * 1);
+// @margin-bottom--projectCard-title:              ((@line-height * 1.6) - @computed-line-height--h2);
+@margin-bottom--projectCard-title:              0;
 @margin-bottom--projectPreview-title:           ((@line-height * @line-height-loose) - @computed-line-height--h2);
 @margin-top--projectPreview-meta:               (@line-height * 0.5);
+@margin-top--projectCard-readingTime:           (@line-height * 0.75);
 @margin-right--projectPreview-meta-item:        @size-em-micro;
 @margin-bottom--project-content-text:           @line-height;
 @margin-top--project-figure-caption:            @size-rem-nano;
@@ -232,3 +253,5 @@
 @content--tombstone:             '◼';
 @top--tombstone:                 0.1em;
 @border-radius--img-rounded:     2px;
+@border-width--filter:           2px;
+@content--tag:                   '#';

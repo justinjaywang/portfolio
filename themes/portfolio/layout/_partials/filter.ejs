@@ -1,0 +1,13 @@
+<ul class="filter-list">
+  <li class="filter-item">
+    <a class="filter-link<% if (active == 'index') { %> active<% }%>" href="<%= config.root %>">Featured</a>
+  </li><!--<li class="filter-item">
+    <a class="filter-link<% if (active == 'visual') { %> active<% }%>" href="<%= config.root + config.tag_dir + '/visual' %>"><span class="tag">Visual</span><a>
+  </li><li class="filter-item">
+    <a class="filter-link<% if (active == 'ux') { %> active<% }%>" href="<%= config.root + config.tag_dir + '/ux' %>"><span class="tag">UX</span><a>
+  </li><li class="filter-item">
+    <a class="filter-link<% if (active == 'dev') { %> active<% }%>" href="<%= config.root + config.tag_dir + '/dev' %>"><span class="tag">Dev</span><a>
+  </li>--><li class="filter-item">
+    <a class="filter-link<% if (active == 'archive') { %> active<% }%>" href="<%= config.root + config.archive_dir %>">All</a>
+  </li>
+</ul>

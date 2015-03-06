@@ -1,0 +1,34 @@
+<!-- <section class="projectPreviewTemp" data-project-title="<%= project.title %>" style="text-align: left; background-color: <% if (project.color) { %><%= project.color %><% } else { %>#ddd<% } %>; padding: 6em 0; color: white;"> -->
+<article class="projectCard" data-project-title="<%= project.title %>" style="text-align: left; padding: 2em 0;">
+  <div class="container--narrow">
+    <a class="" href="<%- url_for(project.path) %>">
+      <div style="width:80%; display: inline-block; vertical-align: middle; padding-right: 1rem;">
+        <h2 class="projectPreview-title"><%= project.title %></h2>
+        <p class="projectPreview-description"><%= project.description %></p>
+        <ul class="projectPreview-meta">
+          <li class="projectPreview-date"><%- partial('project-date', {date_format: config.date_format, project: project}) %></li><li class="projectPreview-readingTime"><%= project.reading_time %> min read</li>
+        </ul>
+      </div><div style="background-position: center; background-image: url(<%- url_for(project.path) + project.thumbnail %>); background-size: cover; height: 0; width: 20%; padding-bottom: 20%; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 1px; margin-bottom: 0rem; display: inline-block; vertical-align: middle;"></div>
+    </a>
+  </div>
+  <!--<% if (project.thumbnail && project.vertical_layout) { %>
+  <figure class="projectPreview-thumbnail projectPreview-thumbnail--wide">
+    <div class="projectPreview-container--wide">
+      <a class="projectPreview-link" href="<%- url_for(project.path) %>">
+        <img src="<%- url_for(project.path) + project.thumbnail %>">
+      </a>
+    </div>
+  </figure>
+  <% } %>
+  <div class="projectPreview-container">
+    <% if (project.thumbnail && !project.vertical_layout) { %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><figure class="projectPreview-thumbnail"><img src="<%- url_for(project.path) + project.thumbnail %>"></figure></a><% } %><a class="projectPreview-link" href="<%- url_for(project.path) %>"><section class="projectPreview-text">
+      <h2 class="projectPreview-title"><%= project.title %></h2>
+      <% if (project.description) { %>
+      <p class="projectPreview-description"><%= project.description %></p>
+      <% } %>
+      <ul class="projectPreview-meta">
+        <li class="projectPreview-date"><%- partial('project-date', {date_format: config.date_format, project: project}) %></li><li class="projectPreview-readingTime"><%= project.reading_time %> min read</li>
+      </ul>
+    </section></a>
+  </div>-->
+</article>

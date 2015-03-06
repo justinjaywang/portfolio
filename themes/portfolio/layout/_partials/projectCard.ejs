@@ -1,0 +1,7 @@
+<a class="projectCard" href="<%- url_for(project.path) %>" data-project-title="<%= project.title %>">
+  <section class="projectCard-text">
+    <h2 class="projectCard-title"><%= project.title %></h2>
+    <p class="projectCard-description"><%= project.description %></p>
+    <h6 class="projectCard-readingTime"><%= project.reading_time %> min read</h6>
+  </section><% if (project.thumbnail) { %><figure class="projectCard-figure" style="background-image: url(<%- url_for(project.path) + project.thumbnail %>)"></figure><% } %>
+</a>

@@ -52,11 +52,11 @@ body {
 .container--full {
   &:extend(.container);
 }
-.container--index {
-  &:extend(.container);
-  &:extend(.container--padded);
-  max-width: (@max-width--container--index);
-}
+// .container--index {
+//   &:extend(.container);
+//   &:extend(.container--padded);
+//   max-width: (@max-width--container--index);
+// }
 
 // typography
 a {
@@ -178,75 +178,175 @@ img {
   display: inline-block;
 }
 
-// project previews
-.projectPreview:not(:last-child) {
-  margin-bottom: @margin-bottom--projectPreview;
-}
-.projectPreview-thumbnail--wide {
-  margin-bottom: @margin-bottom--projectPreview-thumbnail--wide;
-}
-.projectPreview-container--wide {
-  &:extend(.container--index);
-}
-.projectPreview-container {
-  &:extend(.container--narrow);
-}
-.projectPreview-container > * {
-  width: calc(~"50%" - (@projectPreview-gutter / 2));
-  display: inline-block;
-  vertical-align: middle;
-}
-.projectPreview-container > *:nth-child(1) {
-  margin-right: (@projectPreview-gutter / 2);
-}
-.projectPreview-container > *:nth-child(2) {
-  margin-left: (@projectPreview-gutter / 2);
-}
-.projectPreview-title {
-  margin-bottom: @margin-bottom--projectPreview-title;
-}
-.projectPreview-description {
-  font-family: @font-family--projectPreview-description;
-  color: @color--projectPreview-description;
-}
-.projectPreview-meta {
-  color: @color--projectPreview-meta;
-  font-size: @font-size--projectPreview-meta;
-  margin-top: @margin-top--projectPreview-meta;
+//// project previews
+// .projectPreview:not(:last-child) {
+//   margin-bottom: @margin-bottom--projectPreview;
+// }
+// .projectPreview-thumbnail--wide {
+//   margin-bottom: @margin-bottom--projectPreview-thumbnail--wide;
+// }
+// .projectPreview-container--wide {
+//   &:extend(.container--index);
+// }
+// .projectPreview-container {
+//   &:extend(.container--narrow);
+// }
+// .projectPreview-container > * {
+//   width: calc(~"50%" - (@projectPreview-gutter / 2));
+//   display: inline-block;
+//   vertical-align: middle;
+// }
+// .projectPreview-container > *:nth-child(1) {
+//   margin-right: (@projectPreview-gutter / 2);
+// }
+// .projectPreview-container > *:nth-child(2) {
+//   margin-left: (@projectPreview-gutter / 2);
+// }
+// .projectPreview-title {
+//   margin-bottom: @margin-bottom--projectPreview-title;
+// }
+// .projectPreview-description {
+//   font-family: @font-family--projectPreview-description;
+//   color: @color--projectPreview-description;
+// }
+// .projectPreview-meta {
+//   color: @color--projectPreview-meta;
+//   font-size: @font-size--projectPreview-meta;
+//   margin-top: @margin-top--projectPreview-meta;
+//   list-style: none;
+// }
+// .projectPreview-meta > * {
+//   display: inline-block;
+// }
+// .projectPreview-meta > *:not(:last-child) {
+//   margin-right: @margin-right--projectPreview-meta-item;
+// }
+// .projectPreview-date {
+//   font-weight: @font-weight--projectPreview-date;
+//   text-transform: uppercase;
+//   font-size: @font-size--projectPreview-date;
+//   letter-spacing: @letter-spacing--projectPreview-date;
+// }
+// .projectPreview-readingTime {
+//   letter-spacing: @letter-spacing--projectPreview-readingTime;
+// }
+// // : specific projects
+// .projectPreview[data-project-title="llllyrics"] img,
+// .projectPreview[data-project-title="Our Friend Leo"] img,
+// .projectPreview[data-project-title="Collistive"] img {
+//   .img-bordered();
+//   .img-rounded();
+// }
+// .projectPreview[data-project-title="Screambox"] img {
+//   .img-rounded();
+// }
+// .projectPreview[data-project-title="Monograms"] img,
+// .projectPreview[data-project-title="BARE"] img {
+//   .img-faded();
+//   width: 100%;
+// }
+
+// filter
+.filter-list {
   list-style: none;
+  // border-top: @border-width--filter solid @color-gray-lighter; // TEMP
+  margin-bottom: @margin-bottom--filter;
 }
-.projectPreview-meta > * {
-  display: inline-block;
-}
-.projectPreview-meta > *:not(:last-child) {
-  margin-right: @margin-right--projectPreview-meta-item;
-}
-.projectPreview-date {
-  font-weight: @font-weight--projectPreview-date;
+.filter-item {
+  color: @color--filter-item;
+  font-size: @font-size--filter-item;
+  font-weight: @font-weight--filter-item;
+  letter-spacing: @letter-spacing--filter-item;
   text-transform: uppercase;
-  font-size: @font-size--projectPreview-date;
-  letter-spacing: @letter-spacing--projectPreview-date;
+  display: inline-block;
+  margin-right: @margin-right--filter-item;
 }
-.projectPreview-readingTime {
-  letter-spacing: @letter-spacing--projectPreview-readingTime;
+.filter-item:last-child {
+  margin-right: 0;
 }
-// : specific projects
-.projectPreview[data-project-title="llllyrics"] img,
-.projectPreview[data-project-title="Our Friend Leo"] img,
-.projectPreview[data-project-title="Collistive"] img {
-  .img-bordered();
-  .img-rounded();
+.filter-link {
+  margin-top: (@border-width--filter * -1);
+  display: inline-block;
+  padding: @padding-top--filter-link 0;
+  border-top: @border-width--filter solid transparent;
+  border-bottom: @border-width--filter solid transparent;
 }
-.projectPreview[data-project-title="Screambox"] img {
-  .img-rounded();
+.filter-link.active {
+  color: @color--filter-link--active;
+  border-bottom-color: @color--filter-link--active;
 }
-.projectPreview[data-project-title="Monograms"] img,
-.projectPreview[data-project-title="BARE"] img {
-  .img-faded();
-  width: 100%;
+.tag:before {
+  content: @content--tag;
+  font-weight: @font-weight--tag;
+}
+.filter-link:not(.active) .tag:before {
+  color: @color--tag;
 }
 
-// projects
+// project cards
+.projectCard {
+  display: block;
+  // margin: 2em 0;
+  padding: @padding-top--projectCard 0;
+  // clear: both;
+  // width: 100%;
+}
+.projectCard:not(:last-child) {
+  border-bottom: 1px solid @color-gray-lightest; // TEMP
+}
+.projectCard > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.projectCard-text {
+  // width: 80%;
+  width: calc(~"100%" - (@width--projectCard-figure));
+  // width: 50%;
+  padding-right: @projectCard-gutter;
+  // padding-left: @projectCard-gutter;
+  // width: 100%;
+  // float: left;
+}
+.projectCard-figure {
+  background-color: @color-white; // TEMP; placeholder background
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: @width--projectCard-figure;
+  // width: 50%;
+  height: @width--projectCard-figure; // TEMP
+  // padding-bottom: 50%;
+  // margin-bottom: 1rem;
+  border: 1px solid @color--img-border;
+  // float: right;
+  // border-radius: 0px;
+  // margin-bottom: 0rem; 
+  // min-height: 200px;
+  // min-width: 200px;
+}
+.projectCard-title {
+  margin-bottom: @margin-bottom--projectCard-title;
+}
+.projectCard-description {
+  color: @color--projectCard-description;
+  font-family: @font-family--projectCard-description;
+}
+.projectCard-readingTime {
+  color: @color--projectCard-readingTime;
+  font-size: @font-size--projectCard-readingTime;
+  margin-top: @margin-top--projectCard-readingTime;
+  letter-spacing: @letter-spacing--projectCard-readingTime;
+}
+// TEMP
+.page-main--index {
+  &:extend(.container--narrow);
+}
+
+// .page-header {
+//   visibility: hidden;
+// }
+
+// project content
 .project-content {
   .user-select(text);
 }

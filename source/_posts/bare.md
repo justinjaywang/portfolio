@@ -1,15 +1,17 @@
 title: BARE
 date: 2012-10
 updated: 2012-10
-thumbnail: new-logo.svg
+thumbnail: magazines.jpg
 description: Magazine rebrand.
 color:
 vertical_layout:
 reading_time: 2
+public: 1
 featured: 0
 categories:
 tags:
 - school
+- visual
 ---
 
 # BARE

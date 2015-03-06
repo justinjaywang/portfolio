@@ -6,10 +6,13 @@ description: Software, hardware, and website for a tweeting guitar.
 color:
 vertical_layout: 0
 reading_time: 1
+public: 0
 featured:
 categories:
 tags:
 - professional
+- visual
+- dev
 ---
 
 # Our Friend Leo

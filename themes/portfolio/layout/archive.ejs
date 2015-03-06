@@ -1,11 +1,13 @@
 <main class="page-main page-main--index">
-<% var posts = get_posts({
-  orderby: 'updated',
-  order: -1,
-  count: 0
-}); %>
-<% posts.each(function(post){ %>
-  <%- partial('_partials/projectPreview', {project: post}) %>
-<% }) %>
+  <%- partial('_partials/filter', {active: 'archive'}) %>
+  <% var posts = get_posts({
+    // query: {public: 1},
+    orderby: 'updated',
+    order: -1,
+    count: 0
+  }); %>
+  <% posts.each(function(post){ %>
+    <%- partial('_partials/projectCard', {project: post}) %>
+  <% }) %>
 </main>
 <%- partial('_partials/page-footer', {isIndex: true}) %>

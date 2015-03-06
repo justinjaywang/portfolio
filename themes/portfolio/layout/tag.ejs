@@ -1,7 +1,7 @@
 <main class="page-main page-main--index">
-  <%- partial('_partials/filter', {active: 'index'}) %>
+  <%- partial('_partials/filter', {active: page.tag}) %>
   <% var posts = get_posts({
-    query: {public: 1, featured: 1},
+    query: {public: 1, tags: page.tag},
     orderby: 'updated',
     order: -1,
     count: 0

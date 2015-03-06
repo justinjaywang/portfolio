@@ -3,13 +3,17 @@ date: 2013-07-14
 updated: 2013-07-14
 thumbnail: themes.png
 description: A metronome for iPhone.
-color: rgb(0,191,184)
+color: rgb(176,235,233)
 vertical_layout: 1
 reading_time: 5
+public: 1
 featured: 1
 categories:
 tags:
 - personal
+- visual
+- ux
+- dev
 ---
 
 # BPM

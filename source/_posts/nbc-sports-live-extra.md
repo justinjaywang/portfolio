@@ -2,14 +2,18 @@ title: NBC Sports Live Extra
 date: 2013-12
 updated: 2013-12
 thumbnail: tablet-nbc-olympics.png
-description: Video on demand for Windows Store and Windows Phone 8.
+description: Video apps for Windows Store and Windows Phone 8.
 color:
 vertical_layout: 1
 reading_time: 1
+public: 0
 featured:
 categories:
 tags:
 - professional
+- visual
+- ux
+- dev
 ---
 
 # NBC Sports Live Extra
