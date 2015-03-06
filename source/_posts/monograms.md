@@ -1,14 +1,14 @@
 title: Monograms
-date: 2011
-updated: 2011
+date: 2011-08
+updated: 2015-01
 ongoing: 1
-thumbnail: 2011--2--thumbnail.svg
-description: A bunch of JJW logos.
+thumbnail: temp/thumbnail.svg
+description: An exploration of JJW logos.
 color: rgba(0,0,0,0.8)
 vertical_layout: 0
 reading_time: 1
 public: 1
-featured: 1
+featured: 0
 categories:
 tags:
 - personal

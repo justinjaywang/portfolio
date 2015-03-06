@@ -1,7 +1,7 @@
 title: llllyrics
 date: 2014-11
 updated: 2014-12
-thumbnail: thumbnail.png
+thumbnail: temp/thumbnail.png
 description: Collaboratively edited lyrics.
 color: rgb(127,149,255)
 vertical_layout: 1
@@ -38,7 +38,7 @@ For the minimum viable product (MVP), I focused only on the features that were a
 
 *Add or edit*. The edit page doesn’t look like a typical web form. Instead, it was made to look just like the view page. This way, when you see a mistake, you can quickly and seamlessly correct it, then go back to viewing the song.
 
-<img class="wide bordered rounded" src="v1-edit.png" alt="Edit page, version 1">
+<img class="wide bordered rounded" src="v1-edit.gif" alt="Edit page, version 1">
 
 ### Version 1.1: improvements (late 2013)
 
@@ -63,7 +63,7 @@ A year went by, and I had slowly been building up a list of ways the site could 
 - Decorative elements, like icons, the search field underline, and section separators were eliminated, giving a much cleaner feel.
 
 <img class="wide bordered rounded" src="v2-search.png" alt="Search page, version 2">
-<img class="wide bordered rounded" src="v2-edit.png" alt="Edit page, version 2">
+<img class="wide bordered rounded" src="v2-edit.gif" alt="Edit page, version 2">
 
 *Loading indicator*. In the previous version, there was no indication that the page was loading or querying the database. Just a blank page, which was confusing. Naturally, I decided to add a loading indicator.
 
