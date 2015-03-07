@@ -19,6 +19,6 @@ tags:
 
 Screambox is an on-demand video service for horror movies. The website launched in beta in the summer of 2014.
 
-###### Visit [Screambox](https://www.screambox.com/).
+###### View [Screambox](https://www.screambox.com/).
 
 <img class="wide rounded" src="home.png" alt="">

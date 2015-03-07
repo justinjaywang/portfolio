@@ -80,4 +80,4 @@ As with other personal projects I’ve done in the past, llllyrics was motivated
 
 The majority of the insights for improvement were gained from just regularly using the site. It's for this reason I believe that to design a great product, you must use it yourself. At its best, it's one you love to use.
 
-###### Visit [llllyrics](http://llllyrics.com).
+###### View [llllyrics](http://llllyrics.com).

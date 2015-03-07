@@ -21,9 +21,9 @@ Creating monograms has really been a lifelong project for me. I've been sketchin
 
 Though restricted to the letterforms, JJW, there are limitless ways they can be arranged, interwoven, and manipulated to fit into a single graphic. Each monogram explores a different idea, be it the use negative space, symmetry, shape, or dimensionality. They're depicted in one color in order to be the simplest expression of that idea.
 
-![](2015--2.svg)
-![](2014--5.svg)
-![](2014--2.svg)
+<img class="faded" src="2015--2.svg" alt="">
+<img class="faded" src="2014--5.svg" alt="">
+<img class="faded" src="2014--2.svg" alt="">
 
 For this project, I've been inspired by corporate logos, baseball cap insignias, puzzles, math, and Japanese art motifs.
 
