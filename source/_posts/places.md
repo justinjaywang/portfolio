@@ -3,7 +3,7 @@ date: 2015-03
 updated: 2015-03
 ongoing: 1
 thumbnail: thumbnail.png
-description: Foot selfies blog.
+description: Foot selfie blog.
 color:
 vertical_layout:
 reading_time: 1
@@ -17,7 +17,7 @@ tags:
 
 # Places
 
-Places is a foot selfies blog. Each picture captures a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
+Places is a foot selfie blog. Each picture captures a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
 
 ###### View [Places](http://places.justinjaywang.com/).
 
