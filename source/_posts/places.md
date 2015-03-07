@@ -17,7 +17,7 @@ tags:
 
 # Places
 
-Taking pictures of my feet reminds me to be present and aware of my context. It's a snapshot of a moment in time—where I am, what I'm doing, and who I'm with.
+Places is a foot selfies blog. Each picture is personal snapshot of a given moment in my life—where I am, what I'm doing, and who I'm with.
 
 ###### View [Places](http://places.justinjaywang.com/).
 
