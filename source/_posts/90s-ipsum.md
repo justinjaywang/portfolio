@@ -16,9 +16,9 @@ tags:
 
 # 90s Ipsum
 
-Though it's gotten its fair share of criticism, [lorem ipsum](http://en.wikipedia.org/wiki/Lorem_ipsum) text is still needed by designers and developers in many instances. Where do you go when you need filler text in a pinch?
+Though it's gotten its fair share of criticism, [lorem ipsum](http://en.wikipedia.org/wiki/Lorem_ipsum) text is still helpful to designers and developers in many instances. Where do you go when you need filler text in a pinch?
 
-There are a [ton](http://ipsum-generators.com/) of ipsum generators out there, and not without reason—they're fun, and relatively easy to make. But for all their creativity, few websites make it easy to copy text to your clipboard. `⌘`+`A` selects a bunch of crap you don't need. And since the text often runs longer than the page height, you're forced to manually highlight the text and scroll down while continuing to hold the selection.
+There are a [ton](http://ipsum-generators.com/) of ipsum generators out there, and for good reason—they're fun, and relatively easy to make. But for all their creativity, few websites make it easy to copy text to your clipboard. `⌘`+`A` selects a bunch of crap you don't need. And since the text often runs longer than the page height, you're forced to manually highlight the text and scroll down while continuing to hold the selection.
 
 I created 90s Ipsum (with PHP, fittingly), wanting a better (and better looking) ipsum tool. In version 1, I utilized the [ZeroClipboard](http://zeroclipboard.org/) JavaScript library to achieve "click to copy" functionality: you can click anywhere in the text and the paragraphs are copied to your clipboard.
 
