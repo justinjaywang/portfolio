@@ -17,7 +17,7 @@ tags:
 
 # Places
 
-Places is my foot selfie blog, which focuses on the geometry or texture of the ground on which I'm standing. Each photo is a snapshot of a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
+Places is a foot selfie blog, which focuses on the geometry or texture of the ground on which I'm standing. Each photo is a snapshot of a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
 
 ###### View [Places](http://places.justinjaywang.com/).
 
