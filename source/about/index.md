@@ -9,4 +9,5 @@ I recently designed and developed apps at [Vertigo](http://vertigo.com/). In the
 
 - [Twitter](http://twitter.com/justinjaywang)
 - [GitHub](https://github.com/justinjaywang)
+- [Flickr](https://www.flickr.com/photos/justinjaywang)
 - <a href="mailto:hi@justinjaywang.com">Email</a>
