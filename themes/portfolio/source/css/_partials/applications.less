@@ -370,17 +370,20 @@ img {
 .project-content > h1 + p:first-of-type {
   margin-top: @margin-top--project-content-p-first-of-type + @margin-bottom--project-content-h1 + (@line-height * 1);
 }
-.project-content > p:first-of-type::first-letter,
-.project-content > hr + p::first-letter {
-  font-family: @font-family--drop-cap;
-  font-size: @font-size--drop-cap;
-  font-weight: @font-weight--drop-cap;
-  line-height: @line-height--drop-cap;
-  text-transform: uppercase;
-  float: left;
-  margin-left: @margin-left--drop-cap;
-  margin-bottom: @margin-bottom--drop-cap;
-  padding-right: @padding-right--drop-cap;
+// .project-content > p:first-of-type::first-letter,
+// .project-content > hr + p::first-letter {
+//   font-family: @font-family--drop-cap;
+//   font-size: @font-size--drop-cap;
+//   font-weight: @font-weight--drop-cap;
+//   line-height: @line-height--drop-cap;
+//   text-transform: uppercase;
+//   float: left;
+//   margin-left: @margin-left--drop-cap;
+//   margin-bottom: @margin-bottom--drop-cap;
+//   padding-right: @padding-right--drop-cap;
+// }
+.project-content > p .lead-in {
+  &:extend(strong);
 }
 .project-content > p:last-of-type {
   &:after {
