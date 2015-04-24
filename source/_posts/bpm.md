@@ -18,7 +18,7 @@ tags:
 
 # BPM
 
-The apps I love are both functional and beautiful. *Functional* in that they are useful in performing a task. *Beautiful* in terms of aesthetics and elegance in user experience. When designed right, these digital tools can truly be a joy to use.
+<span class="lead-in">The apps I love</span> are both functional and beautiful. *Functional* in that they are useful in performing a task. *Beautiful* in terms of aesthetics and elegance in user experience. When designed right, these digital tools can truly be a joy to use.
 
 I'd been searching for years for a metronome app that provided this kind of experience, with no luck. I craved something simpler, aesthetically and functionally, than what was out there. So I set out to create my own, with a couple of goals in mind:
 
@@ -41,7 +41,7 @@ But, this concept also had one major drawback—setting the tempo. Blindly swipi
 
 ---
 
-The problem was a lack of visual cues to indicate how far to swipe for a certain tempo. With a picker, however, tempo numbers could be laid out spatially and selecting one would cease to be a guessing game.
+<span class="lead-in">The problem</span> was a lack of visual cues to indicate how far to swipe for a certain tempo. With a picker, however, tempo numbers could be laid out spatially and selecting one would cease to be a guessing game.
 
 The final interface functions as a picker, but was implemented using a scrolling table view so I could style it the way I wanted (the default picker control allows for very little customization).
 
@@ -63,7 +63,7 @@ It turns out Apple was using a custom version of Helvetica Neue Light that solve
 
 Just as I had eschewed graphical skeuomorphs in the interface, I wanted to avoid using aural skeuomorphs—sound clips that simply replicate an analog *tick*. Instead, I focused solely on the aesthetics of the sound. And I had a very particular *beep* in mind.
 
-I knew the choice of sound would play a huge role in a user's experience with (and ultimately their emotional connection to) the app. When I couldn't find the sound I was looking for, I recorded my own, using a Roland TR-808 digital instrument in GarageBand. I then edited the audio clip in Audacity for pitch (A440) and amplitude curve.
+I knew the choice of sound would play a huge role in a user's experience with (and ultimately their emotional connection to) the app. When I couldn't find the sound I was looking for, I recorded my own, using a Roland <span class="sc">TR-808</span> digital instrument in GarageBand. I then edited the audio clip in Audacity for pitch (A440) and amplitude curve.
 
 ### Themes
 
@@ -88,10 +88,10 @@ When it came to the name, like other aspects of the app, I wanted to keep it min
 > Scroll to set tempo. Tap anywhere to play. Long press to change theme.
 
 ---
-BPM is a product I designed for myself. Granted, it may not be for every&shy;one. After all, it leaves out meter and beat subdivisions, which are common features of more advanced metronomes.
+<span class="lead-in">BPM</span> is a product I designed for myself. Granted, it may not be for every&shy;one. After all, it leaves out meter and beat subdivisions, which are common features of more advanced metronomes.
 
 Often, though, having fewer features and options can lead to a more focused and elegant experience. I believe this is the case with BPM. *It does one thing, and does it well*.
 
 I started this project with a clear vision for what I wanted the product to be. Technical challenges arose, but the design integrity was never compromised. I always found a way to engineer it in the end, and it resulted in a product that I love to use. For that, I'm very proud.
 
-###### Download BPM on the [App Store](https://itunes.apple.com/us/app/bpm-metronome/id668502976).
+###### View BPM on the [App Store](https://itunes.apple.com/us/app/bpm-metronome/id668502976).

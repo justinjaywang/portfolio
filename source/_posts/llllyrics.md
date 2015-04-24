@@ -18,7 +18,7 @@ tags:
 
 # llllyrics
 
-Lyrics websites are notoriously bad. Anyone who’s ever searched for lyrics online knows this. They’re always slow, full of ads and pop-ups, and look like they were made over a decade ago (most probably were). Worst of all, no care has been put into the typography of the actual lyrics—pretty awful when you consider that, well, they're lyrics sites.
+<span class="lead-in">Lyrics websites</span> are notoriously bad. Anyone who’s ever searched for lyrics online knows this. They’re always slow, full of ads and pop-ups, and look like they were made over a decade ago (most probably were). Worst of all, no care has been put into the typography of the actual lyrics—pretty awful when you consider that, well, they're lyrics sites.
 
 I wanted to build a better lyrics website—one that's fast, easy to use, and values readability.
 
@@ -76,7 +76,7 @@ A year went by, and I had slowly been building up a list of ways the site could 
 *Caching*. Speed was one of the original tenets, yet I wasn't happy with the performance. I improved speed in the newer iteration of llllyrics by using a cached version of the data most of the time, only refreshing the cache when a song has been added or updated.
 
 ---
-As with other personal projects I’ve done in the past, llllyrics was motivated by a need. I saw something that could be better and decided to make it for myself. This drove me not only to build the website in the first place, but also to continue to iterate on it after the first version and again after the second.
+<span class="lead-in">As with other personal projects</span> I’ve done in the past, llllyrics was motivated by a need. I saw something that could be better and decided to make it for myself. This drove me not only to build the website in the first place, but also to continue to iterate on it after the first version and again after the second.
 
 The majority of the insights for improvement were gained from just regularly using the site. It's for this reason I believe that to design a great product, you must use it yourself. At its best, it's one you love to use.
 

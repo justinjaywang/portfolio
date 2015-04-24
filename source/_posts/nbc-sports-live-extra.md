@@ -18,7 +18,7 @@ tags:
 
 # NBC Sports Live Extra
 
-The Live Extra suite of apps allows you to watch NBC Sports coverage of live events and highlights from NBC and NBC Sports Network. The NBC Sports Live Extra apps for Windows Store and Windows Phone 8 were released in early 2014, just in time for the Winter Olympics in Sochi.
+<span class="lead-in">The Live Extra suite of apps</span> allows you to watch NBC Sports coverage of live events and highlights from NBC and NBC Sports Network. The NBC Sports Live Extra apps for Windows Store and Windows Phone 8 were released in early 2014, just in time for the Winter Olympics in Sochi.
 
 <img class="default bordered rounded" src="app-map-1.png" alt="Initial app map">
 <img class="default bordered rounded" src="app-map-2.png" alt="Revised app map, to account for Olympics content">
