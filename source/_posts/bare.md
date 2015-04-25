@@ -25,8 +25,6 @@ The rebrand effort represented BARE's continued expansion into the arts—food, 
 
 The mark was designed with the ability to be used with a variety of overlay textures, as shown on their [Street Style blog](http://www.barestreetstyle.org/). It also scales down well to icon applications, and is more instantly identifiable.
 
-### Examples
-
 <img class="default u-fillWidth" src="magazines.jpg" alt="">
 <img class="default u-fillWidth" src="flyers.jpg" alt="">
 <img class="default u-fillWidth" src="stickers.jpg" alt="">
