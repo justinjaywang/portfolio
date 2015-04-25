@@ -167,13 +167,29 @@ img {
 }
 .nav-item,
 .nav-link {
-  display: block;
+  display: inline-block;
 }
 .nav-link {
   color: @color--nav-link;
   padding: @padding-top--nav @padding-left--nav;
   margin-top: @margin-top--nav;
   margin-bottom: @margin-top--nav;
+}
+.nav-link--title {
+  color: @color--nav-link--title;
+}
+.nav-item--left,
+.nav-item--right {
+  position: absolute;
+}
+.nav-item--left {
+  left: 0;
+}
+.nav-item--right {
+  right: 0;
+}
+#backLink:before {
+  content: @content--backLink;
 }
 
 //// project previews

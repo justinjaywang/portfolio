@@ -1,15 +1,17 @@
 <footer class="page-footer">
   <nav class="nav">
     <ul class="nav-list">
-      <% if (isIndex) { %>
-      <li class="nav-item">
-        <a href="<%= config.root + 'about' %>" class="nav-link"><%= __('About') %></a>
-      </li>
-      <% } else { %>
-      <li class="nav-item">
-        <a href="<%= config.root %>" class="nav-link"><%= __('Home') %></a>
+      <% if (is_post() && !is_archive()) { %>
+      <li class="nav-item nav-item--left">
+        <a href="<%= config.root %>" class="nav-link" id="backLink"><%= __('Back') %></a>
       </li>
       <% } %>
+      <li class="nav-item">
+        <a href="<%= config.root %>" class="nav-link nav-link--title"><%= __('Title') %></a>
+      </li>
+      <li class="nav-item nav-item--right">
+        <a href="<%= config.root + 'about' %>" class="nav-link"><%= __('About') %></a>
+      </li>
     </ul>
   </nav>
 </footer>

@@ -28,8 +28,9 @@
 @color--box-shadow--blockquote:        @color-gray-lighterer;
 @color--underline:                     @color-gray-light;
 @color--project-figure-caption:        @color-gray;
-@color--nav:                           @color-gray-dark;
+@color--nav:                           @color-gray-semilight;
 @color--nav-link:                      inherit;
+@color--nav-link--title:               @color-gray-dark;
 @color--filter-item:                   @color-gray-semilight;
 @color--filter-link--active:           @color-gray-dark;
 @color--tag:                           @color-gray-light;
@@ -196,12 +197,12 @@
 @computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
 @line-height:                @computed-line-height--body;
 // : applications
-@padding-top--nav:                              (@container-gutter * 2);
+@padding-top--nav:                              (@container-gutter * 1);
 @padding-left--nav:                             (@container-gutter * 1);
 @margin-top--nav:                               (@container-gutter * 0);
 @computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2) + (@margin-top--nav * 2));
-@margin-top--page-main:                         ((@line-height * 6) - @computed-header-height);
-@margin-top--page-main--index:                  ((@line-height * 6) - @computed-header-height);
+@margin-top--page-main:                         ((@line-height * 5) - @computed-header-height);
+@margin-top--page-main--index:                  ((@line-height * 5) - @computed-header-height);
 @margin-bottom--page-main:                      ((@line-height * 10) - @computed-header-height);
 @projectPreview-gutter:                         (@container-gutter * 2);
 @projectCard-gutter:                            (@container-gutter * 2);
@@ -261,3 +262,4 @@
 @border-width--filter:              2px;
 @content--tag:                      '#';
 @opacity-duration:                  150ms;
+@content--backLink:                 '← ';

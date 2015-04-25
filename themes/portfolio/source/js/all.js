@@ -1,6 +1,7 @@
 +function ($) {
   'use strict';
 
+  // figure captions
   $('.project-content').each(function (i, projectContent) {
     $(projectContent).find('img').each(function () {
       // (1) wrap imgs in a figure
@@ -30,6 +31,45 @@
         $img.parent().addClass('project-figure--default');
       }
     });
+  });
+
+  // navigation
+  // : variables
+  var body = $('body'),
+    projectLink = $('.projectCard'),
+    backLink = $('#backLink');
+  var arriveDelay = 0,
+    departDelay = 0;
+
+  // : functions
+  var navigate = function(href) {
+    setTimeout(function() {
+      window.location.href = href;
+    }, departDelay);
+  };
+  var navigateBack = function() {
+    setTimeout(function() {
+      history.back();
+    }, departDelay);
+  };
+
+  // : handlers
+  projectLink.click(function(e) {
+    e.preventDefault();
+    var href = $(this).attr('href');
+    if (href) navigate(href);
+    return false;
+  });
+  backLink.click(function(e) {
+    e.preventDefault();
+    var shouldGoBack = (history.length > 1) && (document.referrer.indexOf(window.location.origin) != -1);
+    if (shouldGoBack) {
+      navigateBack();
+    } else {
+      var href = $(this).attr('href');
+      if (href) navigate(href);
+    }
+    return false;
   });
 
 }(jQuery);
