@@ -21,15 +21,15 @@ tags:
 <img class="faded" src="old-logo.png" alt="Before">
 <img class="faded" src="new-logo-wide.svg" alt="After">
 
-The rebrand effort represented BARE's continued expansion into the arts—food, music, and other culture. The new logo has two versions: a stylized B and a full version with "BARE" across the bottom stroke.
+The rebrand effort represented BARE's continued expansion into the arts—food, music, and other culture. The new logo has two versions: (1) a stylized "B" emblem and (2) a full version with "BARE" across the bottom stroke.
 
 The mark was designed with the ability to be used with a variety of overlay textures, as shown on their [Street Style blog](http://www.barestreetstyle.org/). It also scales down well to icon applications, and is more instantly identifiable.
 
-<img class="default u-fillWidth" src="magazines.jpg" alt="The new BARE logo, on magazine covers">
-<img class="default u-fillWidth" src="flyers.jpg" alt="On advertising flyers">
-<img class="default u-fillWidth" src="stickers.jpg" alt="On stickers">
+### Examples
 
-
+<img class="default u-fillWidth" src="magazines.jpg" alt="">
+<img class="default u-fillWidth" src="flyers.jpg" alt="">
+<img class="default u-fillWidth" src="stickers.jpg" alt="">
 
 ---
-<span class="lead-in">Since its adoption</span>, the logo has built up equity and recognition, helping to grow BARE as a brand. As its designer, it's been rewarding to see. Each year, succeeding classes of BARE designers are finding novel ways to utilize the logo, and I look forward to seeing what they'll come up with next.
+<span class="lead-in">Since its adoption</span>, the logo has slowly built up equity and recognition, helping to grow BARE as a brand. With each coming year, new BARE designers are finding even more creative ways that they can utilize the logo. As its designer, it's been fun to see.

@@ -43,7 +43,7 @@ But, this concept also had one major drawback—setting the tempo. Blindly swipi
 
 <span class="lead-in">The problem</span> was a lack of visual cues to indicate how far to swipe for a certain tempo. With a picker, however, tempo numbers could be laid out spatially and selecting one would cease to be a guessing game.
 
-The final interface functions as a picker, but was implemented using a scrolling table view so I could style it the way I wanted (the default picker control allows for very little customization).
+The final interface is functionally a picker, but was it was implemented using a scrolling table view so I could style it the way I wanted (the default picker allows for very little customization).
 
 I kept the ability to tap to toggle play and pause, and also added visual differentiation between the states—now, the picker disappears when the metronome is playing (leaving only the current tempo) and reappears when the metronome is stopped.
 
