@@ -24,6 +24,8 @@ Though restricted to the letterforms, JJW, there are limitless ways they can be 
 <img class="faded" src="2015--2.svg" alt="">
 <img class="faded" src="2014--5.svg" alt="">
 <img class="faded" src="2014--2.svg" alt="">
+<img class="faded" src="2015--9.svg" alt="">
+<img class="faded" src="2011--16.svg" alt="">
 
 For this project, I've been inspired by corporate logos, baseball cap insignias, puzzles, math, and Japanese art motifs.
 
