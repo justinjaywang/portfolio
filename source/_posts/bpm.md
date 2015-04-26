@@ -2,7 +2,7 @@ title: BPM
 date: 2013-07-14
 updated: 2013-07-14
 thumbnail: thumbnail.png
-description: A metronome for iPhone.
+description: A metronome for iPhone
 color: rgb(176,235,233)
 vertical_layout: 1
 reading_time: 5

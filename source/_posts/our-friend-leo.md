@@ -2,7 +2,7 @@ title: Our Friend Leo
 date: 2012-08
 updated: 2012-08
 thumbnail: thumbnail.png
-description: Software, hardware, and website for a tweeting guitar.
+description: Software, hardware, and website for a tweeting guitar
 color:
 vertical_layout: 0
 reading_time: 1

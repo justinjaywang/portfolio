@@ -2,7 +2,7 @@ title: NBC Sports Live Extra
 date: 2013-12
 updated: 2013-12
 thumbnail: thumbnail.png
-description: Video apps for Windows and Windows Phone 8.
+description: Video apps for Windows and Windows Phone 8
 color:
 vertical_layout: 1
 reading_time: 1

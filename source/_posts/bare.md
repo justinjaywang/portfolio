@@ -2,7 +2,7 @@ title: BARE
 date: 2012-10
 updated: 2012-10
 thumbnail: thumbnail.png
-description: Rebrand for a magazine.
+description: Rebrand for a magazine
 color:
 vertical_layout:
 reading_time: 2

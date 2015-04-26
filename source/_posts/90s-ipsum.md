@@ -1,12 +1,12 @@
 title: 90s Ipsum
 date: 2013-02
 updated: 2013-03
-ongoing:
 thumbnail: thumbnail.png
-description: Dope filler text for your design project.
+description: Dope filler text for your design project
 color:
 vertical_layout:
 reading_time: 3
+public: 1
 featured:
 categories:
 tags:

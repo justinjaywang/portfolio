@@ -2,7 +2,7 @@ title: llllyrics
 date: 2014-11
 updated: 2014-12
 thumbnail: thumbnail.png
-description: Collaboratively edited lyrics.
+description: Collaboratively edited lyrics
 color: rgb(127,149,255)
 vertical_layout: 1
 reading_time: 7

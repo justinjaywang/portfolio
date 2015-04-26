@@ -1,23 +1,23 @@
 title: Places
 date: 2015-03
 updated: 2015-03
-ongoing: 1
 thumbnail: thumbnail.png
-description: Personal foot selfie blog.
+description: Foot selfie blog
 color:
 vertical_layout:
 reading_time: 1
+public: 1
 featured:
 categories:
 tags:
-- visual
-- dev
-- personal
+  - visual
+  - dev
+  - personal
 ---
 
 # Places
 
-Places is a foot selfie blog, which focuses on the geometry or texture of the ground on which I'm standing. Each photo is a snapshot of a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
+<span class="lead-in">Places</span> is a personal foot selfie blog built using [Hexo](http://hexo.io/). Each photo is a snapshot of a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
 
 ###### View [Places](http://places.justinjaywang.com/).
 

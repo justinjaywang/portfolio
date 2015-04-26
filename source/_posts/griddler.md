@@ -2,7 +2,7 @@ title: Griddler
 date: 2013-04
 updated: 2013-04
 thumbnail: thumbnail.png
-description: Word game for iOS and Android.
+description: Word game for iOS and Android
 color: rgb(188,224,235)
 vertical_layout:
 reading_time: 1
