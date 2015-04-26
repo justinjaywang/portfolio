@@ -125,9 +125,10 @@
 // : font-weight-variables
 @font-weight-bold:      700;
 @font-weight-normal:    400;
+@font-weight-semilight: 300;
 // : font-weight-applications
 @font-weight--headings:               @font-weight-bold;
-@font-weight--h1:                     @font-weight-bold;
+@font-weight--h1:                     @font-weight-normal;
 @font-weight--h2:                     @font-weight-normal;
 @font-weight--h3:                     @font-weight-normal;
 @font-weight--pre-subdued:            @font-weight-normal;
@@ -166,7 +167,7 @@
 // : letter-spacing-applications
 @letter-spacing--body:                       @letter-spacing-base;
 @letter-spacing--headings:                   @letter-spacing-base;
-@letter-spacing--h1:                         @letter-spacing-tight;
+@letter-spacing--h1:                         @letter-spacing-tighter;
 @letter-spacing--h2:                         @letter-spacing-tighter;
 @letter-spacing--h3:                         @letter-spacing-tighter;
 @letter-spacing--projectPreview-readingTime: @letter-spacing-tighter;
@@ -201,9 +202,9 @@
 @padding-left--nav:                             (@container-gutter * 1);
 @margin-top--nav:                               (@container-gutter * 0);
 @computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2) + (@margin-top--nav * 2));
-@margin-top--page-main:                         ((@line-height * 5) - @computed-header-height);
-@margin-top--page-main--index:                  ((@line-height * 5) - @computed-header-height);
-@margin-bottom--page-main:                      ((@line-height * 9) - @computed-header-height);
+@margin-top--page-main:                         ((@line-height * 6) - @computed-header-height);
+@margin-top--page-main--index:                  ((@line-height * 6) - @computed-header-height);
+@margin-bottom--page-main:                      ((@line-height * 10) - @computed-header-height);
 @projectPreview-gutter:                         (@container-gutter * 2);
 @projectCard-gutter:                            (@container-gutter * 2);
 @margin-bottom--filter:                         (@line-height * 1);
