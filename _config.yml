@@ -16,7 +16,7 @@ url: http://portfolio.justinjaywang.com
 root: /
 permalink: :title/
 tag_dir: tag
-archive_dir: all
+archive_dir: archive
 category_dir: category
 code_dir: downloads/code
 permalink_defaults:
