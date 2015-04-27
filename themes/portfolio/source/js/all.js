@@ -37,7 +37,7 @@
   // : variables
   var body = $('body'),
     projectLink = $('.projectCard'),
-    backLink = $('#backLink');
+    backLink = $('.backNav');
   var arriveDelay = 0,
     departDelay = 0;
 

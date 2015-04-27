@@ -165,16 +165,16 @@ img {
 .nav-list {
   list-style: none;
 }
-.nav-item,
-.nav-link {
+.nav-item {
   display: inline-block;
+  width: 33.3333%;
 }
 .nav-link {
+  display: block;
   color: @color--nav-link;
   padding: @padding-top--nav @padding-left--nav;
   margin-top: @margin-top--nav;
   margin-bottom: @margin-top--nav;
-  // background: red; // TEMP
 }
 .nav-link--title {
   color: @color--nav-link--title;
@@ -185,12 +185,14 @@ img {
 }
 .nav-item--left {
   left: 0;
+  text-align: left;
 }
 .nav-item--right {
   right: 0;
+  text-align: right;
 }
-// #backLink:before {
-//   content: @content--backLink;
+// backnav:before {
+//   content: @content--backNav;
 // }
 
 //// project previews

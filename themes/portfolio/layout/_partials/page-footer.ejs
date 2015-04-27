@@ -3,7 +3,7 @@
     <ul class="nav-list">
       <% if (is_post() && !is_archive()) { %>
       <li class="nav-item nav-item--left">
-        <a href="<%= config.root %>" class="nav-link" id="backLink"><%= __('Back') %></a>
+        <a href="<%= config.root %>" class="nav-link backNav"><%= __('Back') %></a>
       </li>
       <% } %>
       <li class="nav-item">
