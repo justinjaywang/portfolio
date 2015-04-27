@@ -7,7 +7,4 @@ title: About
 
 I recently designed and developed apps at [Vertigo](http://vertigo.com/). In the past, I also interned at [Duncan/Channon](http://www.duncanchannon.com/) and studied engineering at UC Berkeley, with a focus on human-centered design.
 
-- [Twitter](http://twitter.com/justinjaywang)
-- [GitHub](https://github.com/justinjaywang)
-- [Flickr](https://www.flickr.com/photos/justinjaywang)
-- <a href="mailto:hi@justinjaywang.com">Email</a>
+You can connect with me on [Twitter](http://twitter.com/justinjaywang), [GitHub](https://github.com/justinjaywang), [Flickr](https://www.flickr.com/photos/justinjaywang), or [Facebook](https://www.facebook.com/justinjaywang). You can also <a href="mailto:hi@justinjaywang.com">email</a> me.
