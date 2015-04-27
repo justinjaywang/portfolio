@@ -19,7 +19,7 @@ categories:
 
 # Active Classrooms
 
-Learning in school used to be fun.
+<span class="lead-in">Learning in school</span> used to be fun.
 
 Don't remember? Think back. Way back. Maybe as far back as Kindergarten. The classroom was a place where you would learn things by creating, being active, and interacting with others. It was an environment where individuality and divergent thinking were nurtured.
 
@@ -77,6 +77,6 @@ We presented our idea and prototype to our classmates, instructors, and industry
 
 This course was one of the most worthwhile that I took during my time in school. A Mechanical Engineering course, nominally, but far different than others you'd find in the department.
 
-The idea at the heart of Active Classrooms—that learning should be active, hands-on, and divergent—was mirrored in the course itself and how it was taught. It was inspiring and liberating.
+The idea at the heart of Active Classrooms—that learning should be active, hands-on, and divergent—was mirrored in the course itself; it was inspiring and liberating.
 
 As a team, we challenged ourselves to think outside the box throughout the entire process in order to come up with a solution that was truly different. While assessing needs, we looked beyond what was explicitly said (chairs are uncomfortable) to the actual meaning behind it (students are forced to sit for long periods of time). And while generating novel concepts, we used the unique metaphor of a playground to drive our thinking.
