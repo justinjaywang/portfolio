@@ -17,7 +17,7 @@ tags:
 
 # Places
 
-<span class="lead-in">Places</span> is a personal foot selfie blog built using [Hexo](http://hexo.io/). Each photo is a snapshot of a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
+<span class="lead-in">Places</span> is a foot selfie blog, built using [Hexo](http://hexo.io/). Each photo is a snapshot of a distinct moment in my life—where I am, who I'm with, what the weather was like, and even how I was feeling at the time.
 
 ###### View [Places](http://places.justinjaywang.com/).
 
