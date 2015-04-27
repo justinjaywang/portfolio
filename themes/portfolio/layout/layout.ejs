@@ -2,8 +2,7 @@
 <html>
 <%- partial('_partials/head') %>
 <body>
-  <!--<%- partial('_partials/page-header', null, {cache: !config.relative_link}) %>-->
-  <%- partial('_partials/page-header') %>
+  <%- partial('_partials/page-header', {isSticky: false}) %>
   <%- body %>
   <%- partial('_partials/scripts') %>
 </body>

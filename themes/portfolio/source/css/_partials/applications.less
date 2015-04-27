@@ -11,9 +11,6 @@ html {
   .user-select(none);
 }
 body {
-  height: 100%;
-  width: 100%;
-  position: relative;
   color: @color--body;
   background-color: @background-color--body;
   font-family: @font-family--body;
@@ -24,6 +21,7 @@ body {
   .font-smoothing(antialiased);
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  z-index: @z-index--body;
 }
 .container {
   width: 100%;
@@ -156,6 +154,24 @@ img {
 }
 
 // nav
+.page-header {
+  background-color: @background-color--page-header;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: @z-index--page-header;
+}
+.stickyHeader.isTransitioned {
+  .transition-transform(@transition-duration--stickyHeader);
+}
+.stickyHeader.isAffixed {
+  position: fixed;
+  box-shadow: 0 0 1px @color--box-shadow--stickyHeader;
+  .translate3d(0, (ceil(@computed-header-height)*-1), 0);
+}
+.stickyHeader.isAffixed.isShown {
+  .translate3d(0, 0, 0);
+}
 .nav {
   color: @color--nav;
   font-size: @font-size--nav;
@@ -167,7 +183,6 @@ img {
 }
 .nav-item {
   display: inline-block;
-  width: 33.3333%;
 }
 .nav-link {
   display: block;
@@ -182,6 +197,7 @@ img {
 .nav-item--left,
 .nav-item--right {
   position: absolute;
+  width: 25%;
 }
 .nav-item--left {
   left: 0;

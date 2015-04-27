@@ -12,6 +12,7 @@
 @color-white:            rgb(255,255,255);
 // : applications
 @background-color--body:               @color-white;
+@background-color--page-header:        fade(@background-color--body, 95%);
 @color--body:                          @color-gray-darker;
 @color--a:                             inherit;
 @color--h1:                            inherit;
@@ -43,6 +44,7 @@
 @color--img-border:                    @color-gray-lighterer;
 // @color--credit:                        @color-gray-semilight;
 @color--tombstone:                     @color-gray-semilight;
+@color--box-shadow--stickyHeader:      @color-gray-semilight;
 
 // sizing
 @size-tera:         3;
@@ -176,6 +178,15 @@
 @letter-spacing--projectPreview-date:        @letter-spacing-loose;
 @letter-spacing--filter-item:                @letter-spacing-looser;
 
+// z-index
+// : variables
+@z-index-1:  100;
+@z-index-2:  200;
+@z-index-3:  300;
+// : applications
+@z-index--body:        @z-index-1;
+@z-index--page-header: @z-index-3;
+
 // screen widths
 @width-screen-sm-min: 480px;
 @width-screen-md-min: 720px;
@@ -199,12 +210,12 @@
 @computed-line-height--h3:   unit((unit(@font-size--h3) * @line-height--h3), rem);
 @line-height:                @computed-line-height--body;
 // : applications
-@padding-top--nav:                              (@container-gutter * 1);
+@padding-top--nav:                              (@container-gutter * @size-smallest);
 @padding-left--nav:                             (@container-gutter * 1);
 @margin-top--nav:                               (@container-gutter * 0);
 @computed-header-height:                        ((@font-size--nav * @line-height--body) + (@padding-top--nav * 2) + (@margin-top--nav * 2));
-@margin-top--page-main:                         ((@line-height * 5) - @computed-header-height);
-@margin-top--page-main--index:                  ((@line-height * 5) - @computed-header-height);
+@margin-top--page-main:                         ((@line-height * 7) - @computed-header-height);
+@margin-top--page-main--index:                  ((@line-height * 7) - @computed-header-height);
 @margin-bottom--page-main:                      ((@line-height * 9) - @computed-header-height);
 @projectPreview-gutter:                         (@container-gutter * 2);
 @projectCard-gutter:                            (@container-gutter * 2);
@@ -265,3 +276,4 @@
 @content--tag:                      '#';
 @opacity-duration:                  150ms;
 // @content--backNav:                  '';
+@transition-duration--stickyHeader: 250ms;

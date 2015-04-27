@@ -79,12 +79,18 @@
 //        -o-transform: translate(@x, @y);
 //           transform: translate(@x, @y);
 // }
-// .transition-transform(@transition) {
-//   -webkit-transition: -webkit-transform @transition;
-//      -moz-transition: -moz-transform @transition;
-//        -o-transition: -o-transform @transition;
-//           transition: transform @transition;
-// }
+.translate3d(@x; @y; @z) {
+  -webkit-transform: translate3d(@x, @y, @z);
+      -ms-transform: translate3d(@x, @y, @z); // IE9 only
+       -o-transform: translate3d(@x, @y, @z);
+          transform: translate3d(@x, @y, @z);
+}
+.transition-transform(@transition) {
+  -webkit-transition: -webkit-transform @transition;
+     -moz-transition: -moz-transform @transition;
+       -o-transition: -o-transform @transition;
+          transition: transform @transition;
+}
 
 // user select
 .user-select(@select) {

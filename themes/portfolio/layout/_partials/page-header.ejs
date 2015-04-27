@@ -1,4 +1,4 @@
-<header class="page-header">
+<header class="page-header<% if (is_post() && !is_archive()) { %> stickyHeader<% } %>">
   <nav class="nav">
     <ul class="nav-list">
       <% if (is_post() && !is_archive()) { %>
