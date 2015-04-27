@@ -40,7 +40,7 @@ For us, these statements highlighted one important fact: learning in schools had
 
 Rather than focus directly on what people said they wanted (more comfortable chairs), we wondered if we could address the underlying issue and concentrate instead on building a product that encourages regular movement. Then, students wouldn't be sitting for long periods of time.
 
-We identified the most important things product needs:
+We identified the most important product needs:
 
 1. *Stimulate learning*. People learn better when active and free to move around.
 2. *Facilitate collaboration and communication*. The added value of the classroom environment is interacting with other students.
@@ -56,7 +56,7 @@ The team went through multiple rounds of concept generation. Through benchmarkin
 
 ### Final concept
 
-Based on feedback and guided by our product needs, we ultimately pursued a concept of modular furniture—multi-functional pieces that can be stacked and arranged to build a variety of learning environments. Aided by low-fidelity prototypes, we to refined the concept even further to add handles and a detachable whiteboard that doubles as a cover.
+Based on feedback and guided by our product needs, we ultimately pursued a concept of modular furniture—multi-functional pieces that can be stacked and arranged to build a variety of learning environments. Aided by low-fidelity prototypes, we refined the concept even further to add handles and a detachable whiteboard that doubles as a cover.
 
 <img class="default" src="photoshoot-1.jpg" alt="">
 <img class="default" src="photoshoot-2.jpg" alt="">
@@ -66,7 +66,7 @@ The final prototype was constructed from plywood, whiteboard sheets, and cabinet
 
 Other benefits include mobility (they are light and have carrying handles), storage capacity, and personal whiteboards that allow you to quickly and visually share ideas.
 
-Rethinking classroom furniture meant rethinking the way we learn too. Why should students be relegated to sitting and listening to a lecturer for the entire class period? We believed there was a better way to learn, where students are actively engaged, collaborating, and are able to create their own ideas. Learning can be (and has always been) fun. Our product supports this notion.
+Rethinking classroom furniture meant rethinking the way we learn too. Why should students be relegated to sitting and listening to a lecturer for the entire class period? We believed there was a better way to learn, where students are actively engaged, collaborating, and able to create their own ideas. Learning can be (and has always been) fun. Our product supports this notion.
 
 We presented our idea and prototype to our classmates, instructors, and industry guests at the end of the semester, using the slogan:
 
@@ -75,7 +75,7 @@ We presented our idea and prototype to our classmates, instructors, and industry
 ---
 ### Final thoughts
 
-This course was one the most worthwhile I took during my time in school. A Mechanical Engineering course, nominally, but far different than others you'd find in the department.
+This course was one of the most worthwhile that I took during my time in school. A Mechanical Engineering course, nominally, but far different than others you'd find in the department.
 
 The idea at the heart of Active Classrooms—that learning should be active, hands-on, and divergent—was mirrored in the course itself and how it was taught. It was inspiring and liberating.
 
