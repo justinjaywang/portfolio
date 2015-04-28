@@ -29,7 +29,7 @@
 @color--box-shadow--blockquote:        @color-gray-lighterer;
 @color--underline:                     @color-gray-light;
 @color--project-figure-caption:        @color-gray;
-@color--nav:                           @color-gray-semilight;
+@color--nav:                           @color-gray;
 @color--nav-link:                      inherit;
 @color--nav-link--title:               @color-gray-dark;
 @color--filter-item:                   @color-gray-semilight;
@@ -141,7 +141,8 @@
 @font-weight--pre-strong:             @font-weight-bold;
 @font-weight--first-line:             @font-weight-bold;
 @font-weight--project-figure-caption: @font-weight-bold;
-@font-weight--nav:                    @font-weight-bold;
+@font-weight--nav:                    @font-weight-normal;
+@font-weight--nav-link--title:        @font-weight-bold;
 @font-weight--projectPreview-date:    @font-weight-bold;
 @font-weight--tag:                    @font-weight-normal;
 @font-weight--filter-item:            @font-weight-bold;
@@ -163,7 +164,7 @@
 // @line-height--drop-cap:               1.08;
 // : letter-spacing-variables
 @letter-spacing-tighter: -0.028em;
-@letter-spacing-tight:   -0.007em;
+@letter-spacing-tight:   -0.014em;
 @letter-spacing-base:    0;
 @letter-spacing-loose:   0.02em;
 @letter-spacing-looser:  0.072em;
@@ -173,10 +174,12 @@
 @letter-spacing--h1:                         @letter-spacing-tighter;
 @letter-spacing--h2:                         @letter-spacing-tighter;
 @letter-spacing--h3:                         @letter-spacing-tighter;
-@letter-spacing--projectPreview-readingTime: @letter-spacing-tighter;
-@letter-spacing--projectCard-readingTime:    @letter-spacing-tighter;
+@letter-spacing--projectPreview-readingTime: @letter-spacing-tight;
+@letter-spacing--projectCard-readingTime:    @letter-spacing-tight;
 @letter-spacing--projectPreview-date:        @letter-spacing-loose;
 @letter-spacing--filter-item:                @letter-spacing-looser;
+@letter-spacing--nav:                        @letter-spacing-tight;
+@letter-spacing--nav-link--title:            @letter-spacing-base;
 
 // z-index
 // : variables
