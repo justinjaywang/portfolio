@@ -1,3 +1,1 @@
-# Portfolio
-
-WIP
+Some projects I've done
