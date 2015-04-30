@@ -34,6 +34,7 @@
 @color--nav-link--title:               @color-gray-dark;
 @color--filter-item:                   @color-gray-semilight;
 @color--filter-link--active:           @color-gray-dark;
+@color--box-shadow--filter-list:       @color-gray-lightest;
 @color--tag:                           @color-gray-light;
 @color--border-projectCard:            @color-gray-lightest;
 @color--projectCard-readingTime:       @color-gray-dark;
@@ -113,7 +114,7 @@
 @font-family-sans-serif:     "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:          "PT Serif", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:      Consolas, Monaco, "Andale Mono", monospace;
-// @font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif-alt: "PT Sans Caption", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 // : font-family-applications
 @font-family--body:                       @font-family-sans-serif;
 @font-family--headings:                   @font-family-sans-serif;
@@ -125,6 +126,7 @@
 @font-family--projectPreview-description: @font-family-serif;
 // @font-family--drop-cap:                   @font-family-sans-serif-alt;
 @font-family--tombstone:                  @font-family-sans-serif;
+@font-family--filter-item:                @font-family-sans-serif;
 // : font-weight-variables
 @font-weight-bold:      700;
 @font-weight-normal:    400;
@@ -222,7 +224,7 @@
 @margin-bottom--page-main:                      ((@line-height * 9) - @computed-header-height);
 @projectPreview-gutter:                         (@container-gutter * 2);
 @projectCard-gutter:                            (@container-gutter * 2);
-@margin-bottom--filter:                         (@line-height * 1);
+@margin-bottom--filter:                         (@line-height * 0.5);
 @margin-right--filter-item:                     @size-em-largest;
 @padding-top--filter-link:                      (@line-height * 0.5);
 @padding-top--projectCard:                      (@line-height * 1.5);
@@ -275,7 +277,7 @@
 @top--tombstone:                    0; //0.1em;
 @border-radius--img-rounded:        2px;
 @border-radius--projectCard-figure: 2px;
-@border-width--filter:              2px;
+@border-width--filter:              1px;
 @content--tag:                      '#';
 @opacity-duration:                  150ms;
 // @content--backNav:                  '';
