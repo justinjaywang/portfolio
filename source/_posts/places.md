@@ -21,6 +21,6 @@ tags:
 
 ###### View [Places](http://places.justinjaywang.com/).
 
-<img class="wide rounded" src="2014-10-22.png" alt="">
-<img class="wide rounded" src="2014-02-15.png" alt="">
 <img class="wide rounded" src="2013-01-10.png" alt="">
+<img class="wide rounded" src="2014-02-15.png" alt="">
+<img class="wide rounded" src="2014-10-22.png" alt="">
