@@ -1,15 +1,16 @@
 // colors
 // : variables
-@color-gray-darker:      rgba(0,0,0,0.72);
-@color-gray-dark:        rgba(0,0,0,0.48);
-@color-gray:             rgba(0,0,0,0.36);
-@color-gray-semilight:   rgba(0,0,0,0.24);
-@color-gray-light:       rgba(0,0,0,0.18);
-@color-gray-lighter:     rgba(0,0,0,0.12);
-@color-gray-lighterer:   rgba(0,0,0,0.09);
-@color-gray-lightest:    rgba(0,0,0,0.06);
-@color-gray-lightestest: rgba(0,0,0,0.04);
 @color-white:            rgb(255,255,255);
+@color-base:             #00273D;
+@color-gray-darker:      fade(desaturate(@color-base, 60%), 72%);
+@color-gray-dark:        fade(desaturate(@color-base, 36%), 48%);
+@color-gray:             fade(desaturate(@color-base, 12%), 36%);
+@color-gray-semilight:   fade(desaturate(@color-base,  0%), 24%);
+@color-gray-light:       fade(desaturate(@color-base,  0%), 18%);
+@color-gray-lighter:     fade(desaturate(@color-base,  0%), 12%);
+@color-gray-lighterer:   fade(desaturate(@color-base,  0%),  9%);
+@color-gray-lightest:    fade(desaturate(@color-base,  0%),  6%);
+
 // : applications
 @background-color--body:               @color-white;
 @background-color--page-header:        fade(@background-color--body, 95%);
@@ -29,7 +30,7 @@
 @color--box-shadow--blockquote:        @color-gray-lighterer;
 @color--underline:                     @color-gray-light;
 @color--project-figure-caption:        @color-gray;
-@color--nav:                           @color-gray-light;
+@color--nav:                           @color-gray-semilight;
 @color--nav-link:                      inherit;
 @color--nav-link--title:               @color-gray-dark;
 @color--filter-item:                   @color-gray-semilight;
@@ -39,13 +40,13 @@
 @color--border-projectCard:            @color-gray-lightest;
 @color--projectCard-readingTime:       @color-gray-dark;
 @color--projectCard-description:       @color-gray;
-@background-color--projectCard-figure: @color-gray-lightestest;
+@background-color--projectCard-figure: @color-gray-lightest;
 @color--projectPreview-description:    @color-gray;
 @color--projectPreview-meta:           @color-gray-dark;
 @color--img-border:                    @color-gray-lighterer;
 // @color--credit:                        @color-gray-semilight;
 @color--tombstone:                     @color-gray-semilight;
-@color--box-shadow--stickyHeader:      @color-gray-light;
+@color--box-shadow--stickyHeader:      @color-gray-semilight;
 
 // sizing
 @size-tera:         3;
