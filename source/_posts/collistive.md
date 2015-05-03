@@ -1,16 +1,16 @@
 title: Collistive
 date: 2012-04
 updated: 2012-04
-thumbnail: temp/thumbnail.png
-description: Crowdsourced lists.
+thumbnail: thumbnail.png
+description: Crowdsourced lists
 color: "#08c"
 vertical_layout: 0
 reading_time: 1
+public: 1
+featured: 0
+categories:
 tags:
   - school
-ongoing:
-featured:
-categories:
 ---
 
 # Collistive
@@ -19,6 +19,6 @@ categories:
 
 Built for a product development course at UC Berkeley in 2012, with Gene Pang, Genevieve Wang, and Edmund Ye. My role was in design and front-end development.
 
-<img class="wide bordered rounded" src="homepage.png" alt="Browse page">
-<img class="wide bordered rounded" src="list.png" alt="List page">
-<img class="wide bordered rounded" src="who-we-are.png" alt="About the team">
+<img class="wide bordered rounded" src="homepage.png" alt="">
+<img class="wide bordered rounded" src="list.png" alt="">
+<img class="wide bordered rounded" src="who-we-are.png" alt="">
