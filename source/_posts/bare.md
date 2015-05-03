@@ -7,7 +7,7 @@ color:
 vertical_layout:
 reading_time: 2
 public: 1
-featured: 1
+featured: 0
 categories:
 tags:
 - school
