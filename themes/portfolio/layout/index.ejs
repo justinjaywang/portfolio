@@ -2,7 +2,7 @@
   <%- partial('_partials/filter', {active: 'index'}) %>
   <% var posts = get_posts({
     query: {public: 1, featured: 1},
-    orderby: 'updated',
+    orderby: 'date',
     order: -1,
     count: 0
   }); %>
